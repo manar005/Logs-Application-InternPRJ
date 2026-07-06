@@ -1,0 +1,6002 @@
+[
+  {
+    "Timestamp": "2026-06-02T08:10:24Z",
+    "UserPrincipalName": "kai.vasquez@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United Kingdom",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-02T08:12:33Z",
+    "UserPrincipalName": "jordan.vasquez@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-02T08:36:33Z",
+    "UserPrincipalName": "reese.johnson@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-02T10:06:13Z",
+    "UserPrincipalName": "jesse.foster@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-02T10:40:31Z",
+    "UserPrincipalName": "skyler.o'brien@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-02T11:41:00Z",
+    "UserPrincipalName": "frankie.johnson@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-02T12:12:02Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-02T12:38:56Z",
+    "UserPrincipalName": "jesse.bennett@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-02T13:39:17Z",
+    "UserPrincipalName": "micah.hughes@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-02T14:23:06Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-02T14:47:08Z",
+    "UserPrincipalName": "avery.bennett@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United Kingdom",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-02T14:59:25Z",
+    "UserPrincipalName": "elliot.roberts@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-02T15:57:39Z",
+    "UserPrincipalName": "reese.young@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-02T16:18:46Z",
+    "UserPrincipalName": "avery.young@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "Germany",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-02T16:27:14Z",
+    "UserPrincipalName": "lane.campbell@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-02T16:30:11Z",
+    "UserPrincipalName": "harper.upton@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Germany",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-02T16:52:00Z",
+    "UserPrincipalName": "jamie.singh@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-02T17:06:27Z",
+    "UserPrincipalName": "finley.foster@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-02T17:27:05Z",
+    "UserPrincipalName": "drew.hughes@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-02T18:21:59Z",
+    "UserPrincipalName": "jamie.vasquez@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United States",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-02T18:25:25Z",
+    "UserPrincipalName": "reese.foster@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Germany",
+    "Device": "LAPTOP-SALES-04",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-03T08:14:48Z",
+    "UserPrincipalName": "micah.hughes@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-03T09:42:14Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-03T10:08:40Z",
+    "UserPrincipalName": "frankie.johnson@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United Kingdom",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-03T10:36:36Z",
+    "UserPrincipalName": "alex.davis@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-03T11:04:32Z",
+    "UserPrincipalName": "elliot.roberts@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-03T11:54:51Z",
+    "UserPrincipalName": "jamie.singh@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-03T12:08:29Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-03T13:31:50Z",
+    "UserPrincipalName": "jesse.bennett@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-03T15:13:37Z",
+    "UserPrincipalName": "harper.upton@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Germany",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-03T16:16:24Z",
+    "UserPrincipalName": "lane.upton@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-03T16:58:50Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-03T17:11:24Z",
+    "UserPrincipalName": "finley.foster@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-03T18:20:06Z",
+    "UserPrincipalName": "reese.johnson@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-03T18:49:09Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-04T08:40:04Z",
+    "UserPrincipalName": "alex.davis@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-04T09:48:47Z",
+    "UserPrincipalName": "avery.bennett@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-04T09:53:17Z",
+    "UserPrincipalName": "micah.hughes@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-04T10:07:02Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-04T11:07:11Z",
+    "UserPrincipalName": "finley.foster@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-04T11:34:53Z",
+    "UserPrincipalName": "reese.johnson@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United Kingdom",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-04T13:13:26Z",
+    "UserPrincipalName": "jesse.bennett@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-04T13:31:28Z",
+    "UserPrincipalName": "jamie.singh@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-04T13:32:05Z",
+    "UserPrincipalName": "frankie.johnson@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-04T13:51:20Z",
+    "UserPrincipalName": "elliot.roberts@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-04T14:20:01Z",
+    "UserPrincipalName": "skyler.o'brien@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-04T15:10:34Z",
+    "UserPrincipalName": "jordan.vasquez@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-04T15:21:22Z",
+    "UserPrincipalName": "jamie.vasquez@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United States",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-04T15:28:22Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-04T15:41:35Z",
+    "UserPrincipalName": "jesse.foster@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-04T16:04:36Z",
+    "UserPrincipalName": "drew.hughes@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-04T17:25:34Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-04T18:09:01Z",
+    "UserPrincipalName": "harper.upton@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Germany",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-04T18:09:19Z",
+    "UserPrincipalName": "avery.young@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Canada",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-04T18:19:38Z",
+    "UserPrincipalName": "lane.upton@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-04T18:27:17Z",
+    "UserPrincipalName": "lane.campbell@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United Kingdom",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-05T08:42:03Z",
+    "UserPrincipalName": "avery.bennett@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-05T08:44:50Z",
+    "UserPrincipalName": "jamie.singh@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-05T11:12:13Z",
+    "UserPrincipalName": "finley.foster@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-05T11:39:55Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Germany",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-05T11:48:39Z",
+    "UserPrincipalName": "jamie.vasquez@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United States",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-05T12:44:42Z",
+    "UserPrincipalName": "avery.young@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Canada",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-05T12:56:54Z",
+    "UserPrincipalName": "jesse.foster@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-05T13:33:14Z",
+    "UserPrincipalName": "frankie.johnson@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-05T14:17:35Z",
+    "UserPrincipalName": "micah.hughes@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-05T14:24:26Z",
+    "UserPrincipalName": "avery.young@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Canada",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-05T15:11:43Z",
+    "UserPrincipalName": "lane.upton@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-05T15:37:36Z",
+    "UserPrincipalName": "kai.vasquez@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "United Kingdom",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-05T15:45:59Z",
+    "UserPrincipalName": "lane.campbell@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-05T16:25:05Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-05T18:11:32Z",
+    "UserPrincipalName": "jesse.bennett@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-05T18:23:48Z",
+    "UserPrincipalName": "skyler.o'brien@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-05T18:39:53Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-05T18:47:35Z",
+    "UserPrincipalName": "reese.foster@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Germany",
+    "Device": "LAPTOP-SALES-04",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-06T08:32:14Z",
+    "UserPrincipalName": "kai.vasquez@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United Kingdom",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-06T08:57:10Z",
+    "UserPrincipalName": "finley.foster@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-06T08:59:40Z",
+    "UserPrincipalName": "lane.upton@democorp.com",
+    "IPAddress": "142.250.80.10",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-06T09:24:42Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-06T09:27:42Z",
+    "UserPrincipalName": "lane.campbell@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-06T10:07:08Z",
+    "UserPrincipalName": "alex.davis@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United States",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-06T10:53:52Z",
+    "UserPrincipalName": "jordan.vasquez@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-06T12:53:24Z",
+    "UserPrincipalName": "jamie.singh@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-06T12:56:46Z",
+    "UserPrincipalName": "harper.upton@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-06T13:22:53Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-06T13:52:03Z",
+    "UserPrincipalName": "reese.young@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-06T14:13:29Z",
+    "UserPrincipalName": "jesse.bennett@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-06T14:58:37Z",
+    "UserPrincipalName": "avery.bennett@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-06T15:02:04Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-06T15:45:42Z",
+    "UserPrincipalName": "avery.young@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Canada",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-06T15:51:36Z",
+    "UserPrincipalName": "micah.hughes@democorp.com",
+    "IPAddress": "142.250.80.10",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-06T15:55:10Z",
+    "UserPrincipalName": "frankie.johnson@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-06T17:01:55Z",
+    "UserPrincipalName": "skyler.o'brien@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-06T17:30:59Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "142.250.80.10",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-06T17:32:08Z",
+    "UserPrincipalName": "jesse.foster@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-06T17:39:40Z",
+    "UserPrincipalName": "jamie.vasquez@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "United States",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-06T17:46:36Z",
+    "UserPrincipalName": "reese.foster@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-06T18:01:06Z",
+    "UserPrincipalName": "reese.johnson@democorp.com",
+    "IPAddress": "142.250.80.10",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-07T08:34:12Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-07T09:18:07Z",
+    "UserPrincipalName": "kai.vasquez@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United Kingdom",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-07T09:26:28Z",
+    "UserPrincipalName": "drew.hughes@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-07T09:49:32Z",
+    "UserPrincipalName": "finley.foster@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-07T10:39:27Z",
+    "UserPrincipalName": "jamie.singh@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-07T11:01:43Z",
+    "UserPrincipalName": "frankie.johnson@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-07T11:10:58Z",
+    "UserPrincipalName": "lane.campbell@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-07T11:14:44Z",
+    "UserPrincipalName": "frankie.johnson@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-07T11:44:43Z",
+    "UserPrincipalName": "alex.davis@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-07T11:46:01Z",
+    "UserPrincipalName": "lane.upton@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United Kingdom",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-07T11:48:49Z",
+    "UserPrincipalName": "jamie.vasquez@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Canada",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-07T12:39:38Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-07T13:26:36Z",
+    "UserPrincipalName": "harper.upton@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-07T14:56:40Z",
+    "UserPrincipalName": "skyler.o'brien@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-07T15:21:15Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-07T15:21:40Z",
+    "UserPrincipalName": "elliot.roberts@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-07T16:12:22Z",
+    "UserPrincipalName": "jesse.foster@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-07T17:19:10Z",
+    "UserPrincipalName": "avery.young@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "Canada",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-07T17:33:21Z",
+    "UserPrincipalName": "micah.hughes@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-07T18:05:58Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-07T18:24:33Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-07T18:37:37Z",
+    "UserPrincipalName": "reese.young@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-07T18:53:01Z",
+    "UserPrincipalName": "drew.hughes@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-08T08:15:02Z",
+    "UserPrincipalName": "jordan.vasquez@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-08T09:18:01Z",
+    "UserPrincipalName": "drew.hughes@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-08T10:55:30Z",
+    "UserPrincipalName": "jamie.singh@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-08T11:21:46Z",
+    "UserPrincipalName": "harper.upton@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-08T11:41:14Z",
+    "UserPrincipalName": "reese.johnson@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United Kingdom",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-08T12:12:09Z",
+    "UserPrincipalName": "lane.upton@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-08T12:40:20Z",
+    "UserPrincipalName": "reese.foster@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United States",
+    "Device": "LAPTOP-SALES-04",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-08T12:54:10Z",
+    "UserPrincipalName": "micah.hughes@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-08T12:58:26Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-08T13:17:46Z",
+    "UserPrincipalName": "avery.young@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Canada",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-08T15:16:13Z",
+    "UserPrincipalName": "jamie.vasquez@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Canada",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-08T15:48:33Z",
+    "UserPrincipalName": "lane.campbell@democorp.com",
+    "IPAddress": "142.250.80.10",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-08T16:25:08Z",
+    "UserPrincipalName": "avery.bennett@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-08T16:25:40Z",
+    "UserPrincipalName": "elliot.roberts@democorp.com",
+    "IPAddress": "142.250.80.10",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-08T16:41:38Z",
+    "UserPrincipalName": "skyler.o'brien@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-08T17:25:42Z",
+    "UserPrincipalName": "finley.foster@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-08T17:51:19Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-08T18:00:30Z",
+    "UserPrincipalName": "frankie.johnson@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-09T08:16:28Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-09T08:50:44Z",
+    "UserPrincipalName": "frankie.johnson@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-09T08:53:24Z",
+    "UserPrincipalName": "jamie.singh@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-09T09:24:35Z",
+    "UserPrincipalName": "reese.johnson@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-09T09:41:34Z",
+    "UserPrincipalName": "lane.campbell@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-09T11:51:12Z",
+    "UserPrincipalName": "avery.bennett@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Germany",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-09T14:16:24Z",
+    "UserPrincipalName": "jesse.foster@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-09T15:54:07Z",
+    "UserPrincipalName": "kai.vasquez@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-09T16:36:57Z",
+    "UserPrincipalName": "lane.upton@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-09T17:43:44Z",
+    "UserPrincipalName": "finley.foster@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-09T17:48:06Z",
+    "UserPrincipalName": "alex.davis@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United States",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-09T17:56:15Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Germany",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-09T18:06:05Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-09T18:09:53Z",
+    "UserPrincipalName": "harper.upton@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Germany",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-09T18:40:38Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T08:05:17Z",
+    "UserPrincipalName": "avery.young@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Canada",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T08:48:14Z",
+    "UserPrincipalName": "reese.young@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T09:21:10Z",
+    "UserPrincipalName": "alex.davis@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T09:46:00Z",
+    "UserPrincipalName": "avery.bennett@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T10:10:46Z",
+    "UserPrincipalName": "frankie.johnson@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T10:11:15Z",
+    "UserPrincipalName": "lane.upton@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T10:11:46Z",
+    "UserPrincipalName": "micah.hughes@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T11:40:51Z",
+    "UserPrincipalName": "harper.upton@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Germany",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T13:03:01Z",
+    "UserPrincipalName": "reese.johnson@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United Kingdom",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T13:04:23Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T13:10:40Z",
+    "UserPrincipalName": "reese.foster@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "United States",
+    "Device": "LAPTOP-SALES-04",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T13:28:00Z",
+    "UserPrincipalName": "finley.foster@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T13:34:24Z",
+    "UserPrincipalName": "drew.hughes@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T13:38:39Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T14:10:03Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T15:00:21Z",
+    "UserPrincipalName": "elliot.roberts@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T15:34:50Z",
+    "UserPrincipalName": "jordan.vasquez@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T15:46:26Z",
+    "UserPrincipalName": "avery.bennett@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T16:19:11Z",
+    "UserPrincipalName": "jesse.bennett@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T17:14:01Z",
+    "UserPrincipalName": "skyler.o'brien@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T17:14:10Z",
+    "UserPrincipalName": "lane.campbell@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United Kingdom",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T17:14:40Z",
+    "UserPrincipalName": "jesse.foster@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T17:25:54Z",
+    "UserPrincipalName": "micah.hughes@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T17:36:09Z",
+    "UserPrincipalName": "kai.vasquez@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "United Kingdom",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T17:50:22Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-10T18:14:10Z",
+    "UserPrincipalName": "jamie.singh@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-11T09:00:03Z",
+    "UserPrincipalName": "kai.vasquez@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United States",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-11T09:10:28Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-11T10:05:57Z",
+    "UserPrincipalName": "reese.foster@democorp.com",
+    "IPAddress": "142.250.80.10",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-11T11:18:16Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-11T14:32:03Z",
+    "UserPrincipalName": "finley.foster@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-11T15:17:14Z",
+    "UserPrincipalName": "jesse.bennett@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-11T15:19:29Z",
+    "UserPrincipalName": "harper.upton@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-11T15:35:47Z",
+    "UserPrincipalName": "avery.bennett@democorp.com",
+    "IPAddress": "142.250.80.10",
+    "Country": "United Kingdom",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-11T16:08:40Z",
+    "UserPrincipalName": "reese.johnson@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-11T16:26:44Z",
+    "UserPrincipalName": "avery.young@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "Germany",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-11T17:02:13Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-11T18:05:37Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United States",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-12T08:15:02Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-12T09:31:29Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-12T09:49:57Z",
+    "UserPrincipalName": "finley.foster@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-12T10:16:49Z",
+    "UserPrincipalName": "jamie.vasquez@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United States",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-12T10:31:22Z",
+    "UserPrincipalName": "micah.hughes@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "Germany",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-12T11:51:33Z",
+    "UserPrincipalName": "reese.foster@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Germany",
+    "Device": "LAPTOP-SALES-04",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-12T12:20:05Z",
+    "UserPrincipalName": "frankie.johnson@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United Kingdom",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-12T12:52:04Z",
+    "UserPrincipalName": "jesse.bennett@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-12T13:40:53Z",
+    "UserPrincipalName": "skyler.o'brien@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United States",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-12T14:17:33Z",
+    "UserPrincipalName": "finley.foster@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-12T15:39:38Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United Kingdom",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-12T16:48:50Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-12T16:51:58Z",
+    "UserPrincipalName": "avery.young@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "Canada",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-12T17:15:29Z",
+    "UserPrincipalName": "drew.hughes@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-13T08:13:30Z",
+    "UserPrincipalName": "elliot.roberts@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-13T08:25:40Z",
+    "UserPrincipalName": "frankie.johnson@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-13T08:27:12Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "142.250.80.10",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-13T09:01:37Z",
+    "UserPrincipalName": "jordan.vasquez@democorp.com",
+    "IPAddress": "142.250.80.10",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-13T10:15:17Z",
+    "UserPrincipalName": "jesse.bennett@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-13T10:48:07Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-13T10:58:26Z",
+    "UserPrincipalName": "jamie.vasquez@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United States",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-13T12:05:41Z",
+    "UserPrincipalName": "kai.vasquez@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United States",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-13T12:49:44Z",
+    "UserPrincipalName": "reese.young@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-13T13:52:07Z",
+    "UserPrincipalName": "jamie.singh@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-13T14:05:46Z",
+    "UserPrincipalName": "avery.young@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Canada",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-13T14:18:41Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-13T14:32:18Z",
+    "UserPrincipalName": "avery.bennett@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United Kingdom",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-13T14:49:52Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-13T14:55:53Z",
+    "UserPrincipalName": "drew.hughes@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-13T16:34:39Z",
+    "UserPrincipalName": "skyler.o'brien@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-13T16:36:00Z",
+    "UserPrincipalName": "jesse.foster@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-13T18:38:04Z",
+    "UserPrincipalName": "reese.johnson@democorp.com",
+    "IPAddress": "142.250.80.10",
+    "Country": "United Kingdom",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-13T18:56:19Z",
+    "UserPrincipalName": "reese.young@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-14T08:28:16Z",
+    "UserPrincipalName": "jordan.vasquez@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-14T09:22:22Z",
+    "UserPrincipalName": "lane.campbell@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-14T09:36:06Z",
+    "UserPrincipalName": "elliot.roberts@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-14T10:12:52Z",
+    "UserPrincipalName": "micah.hughes@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-14T10:20:53Z",
+    "UserPrincipalName": "avery.young@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Germany",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-14T10:32:24Z",
+    "UserPrincipalName": "skyler.o'brien@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Canada",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-14T10:39:08Z",
+    "UserPrincipalName": "reese.young@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-14T11:13:51Z",
+    "UserPrincipalName": "kai.vasquez@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United States",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-14T12:14:34Z",
+    "UserPrincipalName": "reese.johnson@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "United Kingdom",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-14T12:38:34Z",
+    "UserPrincipalName": "reese.foster@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Germany",
+    "Device": "LAPTOP-SALES-04",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-14T12:42:55Z",
+    "UserPrincipalName": "drew.hughes@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-14T13:54:04Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-14T14:40:11Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-14T15:31:10Z",
+    "UserPrincipalName": "jamie.vasquez@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Canada",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-14T15:31:20Z",
+    "UserPrincipalName": "alex.davis@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "United States",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-14T15:34:13Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-14T15:37:27Z",
+    "UserPrincipalName": "finley.foster@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-14T16:32:07Z",
+    "UserPrincipalName": "jesse.bennett@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-14T16:52:48Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-14T17:37:05Z",
+    "UserPrincipalName": "harper.upton@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-14T18:08:44Z",
+    "UserPrincipalName": "avery.bennett@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United Kingdom",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-14T18:25:31Z",
+    "UserPrincipalName": "frankie.johnson@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Canada",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-14T18:34:44Z",
+    "UserPrincipalName": "lane.upton@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-14T18:50:56Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-14T18:52:06Z",
+    "UserPrincipalName": "jamie.singh@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-15T09:00:19Z",
+    "UserPrincipalName": "reese.young@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-15T09:10:27Z",
+    "UserPrincipalName": "frankie.johnson@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "Canada",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-15T09:52:54Z",
+    "UserPrincipalName": "jordan.vasquez@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-15T10:22:01Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-15T10:22:19Z",
+    "UserPrincipalName": "jamie.vasquez@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "Canada",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-15T10:41:39Z",
+    "UserPrincipalName": "jesse.foster@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-15T10:43:49Z",
+    "UserPrincipalName": "kai.vasquez@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-15T11:16:42Z",
+    "UserPrincipalName": "jamie.singh@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-15T11:46:40Z",
+    "UserPrincipalName": "avery.young@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Canada",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-15T12:09:24Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "Germany",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-15T12:50:28Z",
+    "UserPrincipalName": "jesse.bennett@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-15T13:18:47Z",
+    "UserPrincipalName": "drew.hughes@democorp.com",
+    "IPAddress": "142.250.80.10",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-15T13:55:24Z",
+    "UserPrincipalName": "avery.bennett@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-15T14:06:00Z",
+    "UserPrincipalName": "harper.upton@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Germany",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-15T14:17:52Z",
+    "UserPrincipalName": "reese.foster@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United States",
+    "Device": "LAPTOP-SALES-04",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-15T14:21:53Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-15T14:24:49Z",
+    "UserPrincipalName": "avery.bennett@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-15T15:37:25Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-15T16:35:32Z",
+    "UserPrincipalName": "lane.upton@democorp.com",
+    "IPAddress": "142.250.80.10",
+    "Country": "United Kingdom",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-15T16:38:40Z",
+    "UserPrincipalName": "reese.johnson@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-15T17:14:28Z",
+    "UserPrincipalName": "finley.foster@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-15T17:33:10Z",
+    "UserPrincipalName": "alex.davis@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-15T18:37:42Z",
+    "UserPrincipalName": "micah.hughes@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-15T18:38:08Z",
+    "UserPrincipalName": "elliot.roberts@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-15T18:43:41Z",
+    "UserPrincipalName": "jesse.foster@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-16T08:05:25Z",
+    "UserPrincipalName": "lane.campbell@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-16T10:06:58Z",
+    "UserPrincipalName": "lane.upton@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-16T10:53:40Z",
+    "UserPrincipalName": "avery.young@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "Germany",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-16T10:58:56Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-16T11:19:43Z",
+    "UserPrincipalName": "reese.foster@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United States",
+    "Device": "LAPTOP-SALES-04",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-16T11:25:58Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-16T11:37:09Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-16T11:47:07Z",
+    "UserPrincipalName": "frankie.johnson@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-16T11:47:09Z",
+    "UserPrincipalName": "jesse.bennett@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-16T12:34:18Z",
+    "UserPrincipalName": "jordan.vasquez@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-16T12:57:34Z",
+    "UserPrincipalName": "micah.hughes@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-16T13:17:50Z",
+    "UserPrincipalName": "reese.young@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-16T14:36:53Z",
+    "UserPrincipalName": "avery.bennett@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "United Kingdom",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-16T15:23:03Z",
+    "UserPrincipalName": "elliot.roberts@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "Canada",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-16T15:48:53Z",
+    "UserPrincipalName": "jamie.vasquez@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Canada",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-16T15:54:27Z",
+    "UserPrincipalName": "harper.upton@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-16T16:26:00Z",
+    "UserPrincipalName": "jordan.vasquez@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-16T16:58:02Z",
+    "UserPrincipalName": "reese.johnson@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-16T16:59:37Z",
+    "UserPrincipalName": "jesse.bennett@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-16T18:03:48Z",
+    "UserPrincipalName": "avery.young@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "Germany",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-16T18:22:19Z",
+    "UserPrincipalName": "finley.foster@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-16T18:35:13Z",
+    "UserPrincipalName": "kai.vasquez@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United States",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-16T18:47:31Z",
+    "UserPrincipalName": "jamie.singh@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-17T08:15:13Z",
+    "UserPrincipalName": "kai.vasquez@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-17T08:15:47Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-17T08:25:16Z",
+    "UserPrincipalName": "jamie.singh@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-17T09:33:28Z",
+    "UserPrincipalName": "elliot.roberts@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-17T09:34:03Z",
+    "UserPrincipalName": "jesse.bennett@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-17T10:17:12Z",
+    "UserPrincipalName": "reese.foster@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "United States",
+    "Device": "LAPTOP-SALES-04",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-17T10:51:29Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-17T12:44:07Z",
+    "UserPrincipalName": "harper.upton@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-17T13:15:19Z",
+    "UserPrincipalName": "alex.davis@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United States",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-17T14:11:48Z",
+    "UserPrincipalName": "jordan.vasquez@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-17T14:11:49Z",
+    "UserPrincipalName": "jesse.foster@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-17T14:24:05Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-17T15:08:32Z",
+    "UserPrincipalName": "reese.johnson@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United Kingdom",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-17T15:09:29Z",
+    "UserPrincipalName": "reese.young@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-17T15:14:34Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-17T15:43:46Z",
+    "UserPrincipalName": "lane.campbell@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-17T16:12:36Z",
+    "UserPrincipalName": "avery.young@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "Canada",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-17T16:18:14Z",
+    "UserPrincipalName": "lane.upton@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-17T16:25:33Z",
+    "UserPrincipalName": "finley.foster@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-17T16:51:42Z",
+    "UserPrincipalName": "jamie.vasquez@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Canada",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-17T17:56:47Z",
+    "UserPrincipalName": "drew.hughes@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-17T18:13:45Z",
+    "UserPrincipalName": "avery.bennett@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-17T18:42:24Z",
+    "UserPrincipalName": "micah.hughes@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-18T08:00:19Z",
+    "UserPrincipalName": "reese.johnson@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United Kingdom",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-18T08:53:25Z",
+    "UserPrincipalName": "lane.upton@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-18T09:12:01Z",
+    "UserPrincipalName": "harper.upton@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "Germany",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-18T09:21:10Z",
+    "UserPrincipalName": "avery.bennett@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-18T09:41:36Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-18T10:00:35Z",
+    "UserPrincipalName": "frankie.johnson@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-18T10:20:59Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-18T11:40:14Z",
+    "UserPrincipalName": "micah.hughes@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-18T12:35:19Z",
+    "UserPrincipalName": "drew.hughes@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-18T12:36:43Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Germany",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-18T12:37:21Z",
+    "UserPrincipalName": "jamie.singh@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-18T13:21:43Z",
+    "UserPrincipalName": "jesse.foster@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-18T13:34:22Z",
+    "UserPrincipalName": "jesse.bennett@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-18T13:42:30Z",
+    "UserPrincipalName": "alex.davis@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-18T13:59:28Z",
+    "UserPrincipalName": "reese.foster@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "Germany",
+    "Device": "LAPTOP-SALES-04",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-18T14:32:20Z",
+    "UserPrincipalName": "jordan.vasquez@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-18T14:57:25Z",
+    "UserPrincipalName": "reese.young@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-18T15:20:30Z",
+    "UserPrincipalName": "finley.foster@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-18T15:41:12Z",
+    "UserPrincipalName": "skyler.o'brien@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "United States",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-18T16:40:46Z",
+    "UserPrincipalName": "lane.campbell@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-18T16:44:17Z",
+    "UserPrincipalName": "kai.vasquez@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United Kingdom",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-18T16:49:39Z",
+    "UserPrincipalName": "jamie.vasquez@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Canada",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-18T18:01:38Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-18T18:34:33Z",
+    "UserPrincipalName": "elliot.roberts@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-19T08:05:02Z",
+    "UserPrincipalName": "alex.davis@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United States",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-19T09:33:09Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-19T10:10:42Z",
+    "UserPrincipalName": "micah.hughes@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-19T10:31:32Z",
+    "UserPrincipalName": "lane.upton@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-19T10:40:19Z",
+    "UserPrincipalName": "jesse.foster@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-19T10:48:23Z",
+    "UserPrincipalName": "kai.vasquez@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "United Kingdom",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-19T11:21:38Z",
+    "UserPrincipalName": "elliot.roberts@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-19T11:55:57Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-19T12:04:24Z",
+    "UserPrincipalName": "drew.hughes@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-19T13:48:25Z",
+    "UserPrincipalName": "reese.young@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-19T15:15:09Z",
+    "UserPrincipalName": "reese.foster@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Germany",
+    "Device": "LAPTOP-SALES-04",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-19T16:29:15Z",
+    "UserPrincipalName": "jordan.vasquez@democorp.com",
+    "IPAddress": "142.250.80.10",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-19T16:40:37Z",
+    "UserPrincipalName": "skyler.o'brien@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-19T16:57:18Z",
+    "UserPrincipalName": "jamie.vasquez@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United States",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-19T17:40:01Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Germany",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-19T18:25:19Z",
+    "UserPrincipalName": "jesse.bennett@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-19T18:43:30Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United States",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-20T08:22:50Z",
+    "UserPrincipalName": "micah.hughes@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Germany",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-20T08:55:41Z",
+    "UserPrincipalName": "reese.johnson@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-20T10:33:23Z",
+    "UserPrincipalName": "reese.young@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-20T10:43:28Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-20T10:53:49Z",
+    "UserPrincipalName": "elliot.roberts@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-20T11:39:18Z",
+    "UserPrincipalName": "kai.vasquez@democorp.com",
+    "IPAddress": "142.250.80.10",
+    "Country": "United States",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-20T12:40:50Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-20T13:24:36Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-20T14:10:44Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-20T15:01:23Z",
+    "UserPrincipalName": "jesse.bennett@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United Kingdom",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-20T15:02:18Z",
+    "UserPrincipalName": "jesse.foster@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-20T15:11:57Z",
+    "UserPrincipalName": "reese.foster@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "United States",
+    "Device": "LAPTOP-SALES-04",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-20T15:33:24Z",
+    "UserPrincipalName": "lane.campbell@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-20T15:57:24Z",
+    "UserPrincipalName": "finley.foster@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-20T16:17:51Z",
+    "UserPrincipalName": "avery.bennett@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-20T16:18:20Z",
+    "UserPrincipalName": "jamie.vasquez@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-20T16:25:52Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-20T16:35:01Z",
+    "UserPrincipalName": "skyler.o'brien@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-20T17:47:48Z",
+    "UserPrincipalName": "harper.upton@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-20T18:10:01Z",
+    "UserPrincipalName": "lane.upton@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-20T18:11:50Z",
+    "UserPrincipalName": "jamie.singh@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-20T18:22:45Z",
+    "UserPrincipalName": "avery.young@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Germany",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-21T08:15:26Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "United States",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-21T08:16:13Z",
+    "UserPrincipalName": "frankie.johnson@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-21T08:26:03Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-21T09:18:54Z",
+    "UserPrincipalName": "jesse.foster@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-21T09:45:54Z",
+    "UserPrincipalName": "jamie.singh@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-21T10:13:21Z",
+    "UserPrincipalName": "avery.young@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Canada",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-21T10:38:24Z",
+    "UserPrincipalName": "jordan.vasquez@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-21T10:46:28Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-21T11:01:20Z",
+    "UserPrincipalName": "jamie.vasquez@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Canada",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-21T11:51:38Z",
+    "UserPrincipalName": "harper.upton@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Germany",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-21T12:41:44Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Germany",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-21T13:43:46Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-21T15:14:34Z",
+    "UserPrincipalName": "micah.hughes@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-21T15:29:49Z",
+    "UserPrincipalName": "lane.upton@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-21T15:44:53Z",
+    "UserPrincipalName": "drew.hughes@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-21T15:57:32Z",
+    "UserPrincipalName": "finley.foster@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-21T16:24:41Z",
+    "UserPrincipalName": "jesse.bennett@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-21T18:58:33Z",
+    "UserPrincipalName": "kai.vasquez@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United States",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-22T09:32:40Z",
+    "UserPrincipalName": "reese.young@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-22T10:51:39Z",
+    "UserPrincipalName": "elliot.roberts@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-22T11:20:38Z",
+    "UserPrincipalName": "jordan.vasquez@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-22T13:36:27Z",
+    "UserPrincipalName": "reese.johnson@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United Kingdom",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-22T13:45:05Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-22T14:33:05Z",
+    "UserPrincipalName": "kai.vasquez@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-22T15:04:30Z",
+    "UserPrincipalName": "avery.bennett@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United Kingdom",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-22T15:43:59Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-22T16:04:19Z",
+    "UserPrincipalName": "finley.foster@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-22T16:33:39Z",
+    "UserPrincipalName": "reese.foster@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Germany",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-22T17:38:32Z",
+    "UserPrincipalName": "drew.hughes@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "Germany",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-22T18:04:11Z",
+    "UserPrincipalName": "jesse.bennett@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-22T18:52:09Z",
+    "UserPrincipalName": "jamie.vasquez@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United States",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-23T08:46:50Z",
+    "UserPrincipalName": "jamie.singh@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-23T09:17:28Z",
+    "UserPrincipalName": "micah.hughes@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-23T09:20:38Z",
+    "UserPrincipalName": "lane.campbell@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-23T09:36:32Z",
+    "UserPrincipalName": "finley.foster@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-23T09:54:41Z",
+    "UserPrincipalName": "reese.foster@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United States",
+    "Device": "LAPTOP-SALES-04",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-23T10:36:42Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Germany",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-23T10:48:16Z",
+    "UserPrincipalName": "jordan.vasquez@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Canada",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-23T12:01:11Z",
+    "UserPrincipalName": "alex.davis@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-23T13:07:48Z",
+    "UserPrincipalName": "lane.upton@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-23T13:09:43Z",
+    "UserPrincipalName": "harper.upton@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-23T13:24:38Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-23T13:51:08Z",
+    "UserPrincipalName": "frankie.johnson@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-23T13:52:29Z",
+    "UserPrincipalName": "reese.young@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-23T15:49:23Z",
+    "UserPrincipalName": "reese.johnson@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-23T15:54:25Z",
+    "UserPrincipalName": "jamie.vasquez@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "Canada",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-23T16:07:22Z",
+    "UserPrincipalName": "avery.bennett@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United Kingdom",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-23T16:13:24Z",
+    "UserPrincipalName": "kai.vasquez@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United States",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-23T17:38:05Z",
+    "UserPrincipalName": "skyler.o'brien@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-23T17:39:43Z",
+    "UserPrincipalName": "jesse.bennett@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-23T18:19:02Z",
+    "UserPrincipalName": "jesse.foster@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-23T18:48:27Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-24T08:19:31Z",
+    "UserPrincipalName": "jamie.singh@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-24T08:19:50Z",
+    "UserPrincipalName": "avery.bennett@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-24T09:28:22Z",
+    "UserPrincipalName": "jesse.bennett@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-24T09:29:23Z",
+    "UserPrincipalName": "lane.upton@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-24T09:43:14Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-24T11:28:28Z",
+    "UserPrincipalName": "finley.foster@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-24T12:42:00Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-24T12:47:55Z",
+    "UserPrincipalName": "jamie.vasquez@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "United States",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-24T12:49:51Z",
+    "UserPrincipalName": "jordan.vasquez@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-24T13:03:25Z",
+    "UserPrincipalName": "reese.johnson@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-24T13:42:47Z",
+    "UserPrincipalName": "drew.hughes@democorp.com",
+    "IPAddress": "142.250.80.10",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-24T13:47:26Z",
+    "UserPrincipalName": "alex.davis@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "United States",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-24T13:49:09Z",
+    "UserPrincipalName": "reese.foster@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Germany",
+    "Device": "LAPTOP-SALES-04",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-24T15:54:19Z",
+    "UserPrincipalName": "frankie.johnson@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-24T16:26:36Z",
+    "UserPrincipalName": "avery.young@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Canada",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-24T16:32:58Z",
+    "UserPrincipalName": "skyler.o'brien@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United States",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-24T17:13:04Z",
+    "UserPrincipalName": "reese.young@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "United Kingdom",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-24T17:22:36Z",
+    "UserPrincipalName": "elliot.roberts@democorp.com",
+    "IPAddress": "142.250.80.10",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-24T17:43:15Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "142.250.80.10",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-24T17:55:43Z",
+    "UserPrincipalName": "lane.campbell@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-24T18:06:53Z",
+    "UserPrincipalName": "jesse.foster@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-24T18:13:41Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-24T18:46:43Z",
+    "UserPrincipalName": "harper.upton@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-24T18:48:46Z",
+    "UserPrincipalName": "micah.hughes@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-24T18:52:29Z",
+    "UserPrincipalName": "kai.vasquez@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "United Kingdom",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-25T08:18:46Z",
+    "UserPrincipalName": "jordan.vasquez@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-25T09:17:49Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-25T10:19:35Z",
+    "UserPrincipalName": "elliot.roberts@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-25T11:29:35Z",
+    "UserPrincipalName": "jesse.bennett@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-25T11:36:24Z",
+    "UserPrincipalName": "micah.hughes@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-25T13:21:35Z",
+    "UserPrincipalName": "skyler.o'brien@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-25T14:05:14Z",
+    "UserPrincipalName": "elliot.roberts@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-25T14:24:42Z",
+    "UserPrincipalName": "reese.young@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-SALES-04",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-25T14:55:41Z",
+    "UserPrincipalName": "finley.foster@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-25T15:40:28Z",
+    "UserPrincipalName": "kai.vasquez@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United States",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-25T15:56:44Z",
+    "UserPrincipalName": "lane.campbell@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-25T15:59:45Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-25T17:21:55Z",
+    "UserPrincipalName": "jamie.vasquez@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United States",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-25T17:44:25Z",
+    "UserPrincipalName": "lane.upton@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-25T18:55:34Z",
+    "UserPrincipalName": "avery.young@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "Canada",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-26T08:10:50Z",
+    "UserPrincipalName": "reese.young@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-26T08:45:34Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-26T09:15:07Z",
+    "UserPrincipalName": "jamie.singh@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-26T09:25:31Z",
+    "UserPrincipalName": "skyler.o'brien@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United States",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-26T10:37:27Z",
+    "UserPrincipalName": "kai.vasquez@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United Kingdom",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-26T10:40:55Z",
+    "UserPrincipalName": "avery.young@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Germany",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-26T11:27:07Z",
+    "UserPrincipalName": "elliot.roberts@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-26T11:43:53Z",
+    "UserPrincipalName": "frankie.johnson@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United Kingdom",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-26T12:42:05Z",
+    "UserPrincipalName": "avery.bennett@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-26T13:20:42Z",
+    "UserPrincipalName": "lane.campbell@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-26T13:38:16Z",
+    "UserPrincipalName": "frankie.johnson@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United Kingdom",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-26T14:17:32Z",
+    "UserPrincipalName": "jordan.vasquez@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-26T15:04:43Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-26T15:28:21Z",
+    "UserPrincipalName": "drew.hughes@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-26T15:44:38Z",
+    "UserPrincipalName": "harper.upton@democorp.com",
+    "IPAddress": "142.250.80.10",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-26T16:24:28Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Germany",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-26T16:38:18Z",
+    "UserPrincipalName": "reese.foster@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United States",
+    "Device": "LAPTOP-SALES-04",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-26T17:02:48Z",
+    "UserPrincipalName": "micah.hughes@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-26T17:39:03Z",
+    "UserPrincipalName": "jesse.foster@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-27T08:15:12Z",
+    "UserPrincipalName": "jesse.foster@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-27T09:15:46Z",
+    "UserPrincipalName": "finley.foster@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-27T09:32:41Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-27T09:49:41Z",
+    "UserPrincipalName": "jesse.foster@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-27T11:29:20Z",
+    "UserPrincipalName": "reese.foster@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "United States",
+    "Device": "LAPTOP-SALES-04",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-27T12:20:54Z",
+    "UserPrincipalName": "reese.young@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-27T12:36:43Z",
+    "UserPrincipalName": "alex.davis@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-27T12:39:51Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-27T12:53:05Z",
+    "UserPrincipalName": "frankie.johnson@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-27T13:30:35Z",
+    "UserPrincipalName": "lane.upton@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-27T13:51:16Z",
+    "UserPrincipalName": "drew.hughes@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "Germany",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-27T15:36:39Z",
+    "UserPrincipalName": "avery.young@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Germany",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-27T15:50:01Z",
+    "UserPrincipalName": "micah.hughes@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-27T17:36:42Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-27T17:38:47Z",
+    "UserPrincipalName": "elliot.roberts@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-27T17:44:53Z",
+    "UserPrincipalName": "jamie.singh@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-27T17:51:07Z",
+    "UserPrincipalName": "kai.vasquez@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United States",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-27T18:07:36Z",
+    "UserPrincipalName": "avery.bennett@democorp.com",
+    "IPAddress": "142.250.80.10",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-27T18:27:08Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-27T18:57:53Z",
+    "UserPrincipalName": "reese.johnson@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-28T02:00:05Z",
+    "UserPrincipalName": "reese.foster@democorp.com",
+    "IPAddress": "203.0.113.45",
+    "Country": "Netherlands",
+    "Device": "UNKNOWN-DEVICE",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "medium",
+    "ScenarioTag": "password_spray"
+  },
+  {
+    "Timestamp": "2026-06-28T02:02:13Z",
+    "UserPrincipalName": "elliot.roberts@democorp.com",
+    "IPAddress": "203.0.113.45",
+    "Country": "Netherlands",
+    "Device": "UNKNOWN-DEVICE",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "medium",
+    "ScenarioTag": "password_spray"
+  },
+  {
+    "Timestamp": "2026-06-28T02:04:16Z",
+    "UserPrincipalName": "frankie.johnson@democorp.com",
+    "IPAddress": "203.0.113.45",
+    "Country": "Netherlands",
+    "Device": "UNKNOWN-DEVICE",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "medium",
+    "ScenarioTag": "password_spray"
+  },
+  {
+    "Timestamp": "2026-06-28T02:06:03Z",
+    "UserPrincipalName": "jesse.bennett@democorp.com",
+    "IPAddress": "203.0.113.45",
+    "Country": "Netherlands",
+    "Device": "UNKNOWN-DEVICE",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "medium",
+    "ScenarioTag": "password_spray"
+  },
+  {
+    "Timestamp": "2026-06-28T02:08:17Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "203.0.113.45",
+    "Country": "Netherlands",
+    "Device": "UNKNOWN-DEVICE",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "medium",
+    "ScenarioTag": "password_spray"
+  },
+  {
+    "Timestamp": "2026-06-28T02:10:02Z",
+    "UserPrincipalName": "kai.vasquez@democorp.com",
+    "IPAddress": "203.0.113.45",
+    "Country": "Netherlands",
+    "Device": "UNKNOWN-DEVICE",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "medium",
+    "ScenarioTag": "password_spray"
+  },
+  {
+    "Timestamp": "2026-06-28T02:12:16Z",
+    "UserPrincipalName": "harper.upton@democorp.com",
+    "IPAddress": "203.0.113.45",
+    "Country": "Netherlands",
+    "Device": "UNKNOWN-DEVICE",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "medium",
+    "ScenarioTag": "password_spray"
+  },
+  {
+    "Timestamp": "2026-06-28T02:14:09Z",
+    "UserPrincipalName": "alex.davis@democorp.com",
+    "IPAddress": "203.0.113.45",
+    "Country": "Netherlands",
+    "Device": "UNKNOWN-DEVICE",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "medium",
+    "ScenarioTag": "password_spray"
+  },
+  {
+    "Timestamp": "2026-06-28T02:16:10Z",
+    "UserPrincipalName": "jamie.singh@democorp.com",
+    "IPAddress": "203.0.113.45",
+    "Country": "Netherlands",
+    "Device": "UNKNOWN-DEVICE",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "medium",
+    "ScenarioTag": "password_spray"
+  },
+  {
+    "Timestamp": "2026-06-28T02:18:30Z",
+    "UserPrincipalName": "jesse.foster@democorp.com",
+    "IPAddress": "203.0.113.45",
+    "Country": "Netherlands",
+    "Device": "UNKNOWN-DEVICE",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "medium",
+    "ScenarioTag": "password_spray"
+  },
+  {
+    "Timestamp": "2026-06-28T02:20:03Z",
+    "UserPrincipalName": "reese.johnson@democorp.com",
+    "IPAddress": "203.0.113.45",
+    "Country": "Netherlands",
+    "Device": "UNKNOWN-DEVICE",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "medium",
+    "ScenarioTag": "password_spray"
+  },
+  {
+    "Timestamp": "2026-06-28T02:22:25Z",
+    "UserPrincipalName": "reese.young@democorp.com",
+    "IPAddress": "203.0.113.45",
+    "Country": "Netherlands",
+    "Device": "UNKNOWN-DEVICE",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "medium",
+    "ScenarioTag": "password_spray"
+  },
+  {
+    "Timestamp": "2026-06-28T02:29:00Z",
+    "UserPrincipalName": "reese.young@democorp.com",
+    "IPAddress": "203.0.113.45",
+    "Country": "Netherlands",
+    "Device": "UNKNOWN-DEVICE",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "high",
+    "ScenarioTag": "password_spray"
+  },
+  {
+    "Timestamp": "2026-06-28T09:08:09Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-28T09:49:27Z",
+    "UserPrincipalName": "alex.davis@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "United States",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-28T10:01:02Z",
+    "UserPrincipalName": "avery.young@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "Germany",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-28T11:17:28Z",
+    "UserPrincipalName": "lane.upton@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-28T12:13:27Z",
+    "UserPrincipalName": "kai.vasquez@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United Kingdom",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-28T13:05:52Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-28T13:34:29Z",
+    "UserPrincipalName": "reese.young@democorp.com",
+    "IPAddress": "142.250.80.10",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-28T14:54:57Z",
+    "UserPrincipalName": "jamie.vasquez@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Canada",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-28T14:56:40Z",
+    "UserPrincipalName": "jesse.foster@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-28T15:08:51Z",
+    "UserPrincipalName": "harper.upton@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-28T15:16:48Z",
+    "UserPrincipalName": "finley.foster@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-28T16:27:53Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Germany",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-28T16:30:50Z",
+    "UserPrincipalName": "micah.hughes@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-28T17:44:01Z",
+    "UserPrincipalName": "reese.foster@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Germany",
+    "Device": "LAPTOP-SALES-04",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-28T18:47:57Z",
+    "UserPrincipalName": "drew.hughes@democorp.com",
+    "IPAddress": "10.0.2.20",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-29T05:35:39Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "203.0.113.99",
+    "Country": "North Korea",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "high",
+    "ScenarioTag": "suspicious_new_country"
+  },
+  {
+    "Timestamp": "2026-06-29T06:35:39Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United States",
+    "Device": "LINUX-KALI-UNKNOWN",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "medium",
+    "ScenarioTag": "suspicious_unknown_device"
+  },
+  {
+    "Timestamp": "2026-06-29T07:35:39Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "198.51.100.77",
+    "Country": "Germany",
+    "Device": "TOR-BROWSER",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "high",
+    "ScenarioTag": "suspicious_tor_exit"
+  },
+  {
+    "Timestamp": "2026-06-29T08:21:49Z",
+    "UserPrincipalName": "reese.foster@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "Germany",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-29T08:35:39Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "192.0.2.88",
+    "Country": "Singapore",
+    "Device": "CHROME-HEADLESS",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "high",
+    "ScenarioTag": "suspicious_vpn_proxy"
+  },
+  {
+    "Timestamp": "2026-06-29T08:57:22Z",
+    "UserPrincipalName": "jamie.singh@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-29T10:37:16Z",
+    "UserPrincipalName": "elliot.roberts@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-29T10:56:26Z",
+    "UserPrincipalName": "jesse.foster@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-29T11:01:42Z",
+    "UserPrincipalName": "lane.upton@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-29T11:12:52Z",
+    "UserPrincipalName": "avery.young@democorp.com",
+    "IPAddress": "142.250.80.10",
+    "Country": "Germany",
+    "Device": "MACBOOK-PRO-M2",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-29T11:17:10Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-29T13:41:32Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-29T13:50:59Z",
+    "UserPrincipalName": "jesse.foster@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-29T14:35:00Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-29T14:39:47Z",
+    "UserPrincipalName": "emery.upton@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-29T14:57:36Z",
+    "UserPrincipalName": "avery.bennett@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United Kingdom",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-29T16:09:27Z",
+    "UserPrincipalName": "jamie.vasquez@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "United States",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-29T17:27:22Z",
+    "UserPrincipalName": "elliot.roberts@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-29T18:46:47Z",
+    "UserPrincipalName": "lane.campbell@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-30T08:29:39Z",
+    "UserPrincipalName": "reese.foster@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United States",
+    "Device": "LAPTOP-SALES-04",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-30T08:43:41Z",
+    "UserPrincipalName": "jamie.singh@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-30T09:15:12Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United States",
+    "Device": "LAPTOP-SALES-04",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-30T09:28:51Z",
+    "UserPrincipalName": "elliot.roberts@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-30T09:56:08Z",
+    "UserPrincipalName": "drew.hughes@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-30T11:10:26Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "Canada",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-30T11:16:25Z",
+    "UserPrincipalName": "jesse.bennett@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-30T12:39:51Z",
+    "UserPrincipalName": "jordan.vasquez@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-30T13:56:04Z",
+    "UserPrincipalName": "harper.upton@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United Kingdom",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-30T14:00:24Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-30T14:42:37Z",
+    "UserPrincipalName": "alex.davis@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-30T16:03:47Z",
+    "UserPrincipalName": "lane.upton@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-30T16:10:03Z",
+    "UserPrincipalName": "lane.campbell@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-30T16:42:45Z",
+    "UserPrincipalName": "jamie.vasquez@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Canada",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-30T18:55:15Z",
+    "UserPrincipalName": "avery.bennett@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-01T08:14:52Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-01T08:43:46Z",
+    "UserPrincipalName": "jordan.vasquez@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-01T08:55:21Z",
+    "UserPrincipalName": "alex.davis@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-01T09:24:06Z",
+    "UserPrincipalName": "reese.johnson@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United Kingdom",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-01T10:29:24Z",
+    "UserPrincipalName": "frankie.johnson@democorp.com",
+    "IPAddress": "98.118.45.22",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-01T10:44:27Z",
+    "UserPrincipalName": "harper.upton@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-01T11:55:06Z",
+    "UserPrincipalName": "avery.singh@democorp.com",
+    "IPAddress": "10.0.1.10",
+    "Country": "United States",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-01T12:15:03Z",
+    "UserPrincipalName": "elliot.roberts@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United States",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-01T12:32:48Z",
+    "UserPrincipalName": "lane.upton@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-01T13:13:41Z",
+    "UserPrincipalName": "micah.hughes@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-01T13:13:42Z",
+    "UserPrincipalName": "jamie.vasquez@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "Canada",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-01T13:25:17Z",
+    "UserPrincipalName": "parker.zimmerman@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United States",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Failure",
+    "RiskLevel": "low",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-01T13:36:12Z",
+    "UserPrincipalName": "avery.bennett@democorp.com",
+    "IPAddress": "172.16.0.5",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-01T14:10:29Z",
+    "UserPrincipalName": "lane.upton@democorp.com",
+    "IPAddress": "10.0.1.12",
+    "Country": "United Kingdom",
+    "Device": "IPHONE-14-PRO",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-01T15:34:07Z",
+    "UserPrincipalName": "jamie.singh@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Canada",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-01T16:16:47Z",
+    "UserPrincipalName": "kai.vasquez@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United Kingdom",
+    "Device": "LAPTOP-IT-03",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-01T16:31:05Z",
+    "UserPrincipalName": "reese.foster@democorp.com",
+    "IPAddress": "10.0.1.11",
+    "Country": "United States",
+    "Device": "LAPTOP-SALES-04",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-01T16:49:08Z",
+    "UserPrincipalName": "avery.young@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "Germany",
+    "Device": "WORKSTATION-SEC-05",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-01T16:58:00Z",
+    "UserPrincipalName": "lane.campbell@democorp.com",
+    "IPAddress": "192.168.1.100",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-01T17:04:24Z",
+    "UserPrincipalName": "skyler.o'brien@democorp.com",
+    "IPAddress": "142.250.80.10",
+    "Country": "United States",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-01T17:27:13Z",
+    "UserPrincipalName": "reese.young@democorp.com",
+    "IPAddress": "24.6.88.55",
+    "Country": "United Kingdom",
+    "Device": "SURFACE-PRO-9",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-01T17:35:14Z",
+    "UserPrincipalName": "jesse.foster@democorp.com",
+    "IPAddress": "73.45.120.10",
+    "Country": "Canada",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-01T18:23:28Z",
+    "UserPrincipalName": "emery.irving@democorp.com",
+    "IPAddress": "172.16.0.6",
+    "Country": "Canada",
+    "Device": "DESKTOP-HR-01",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-01T18:32:38Z",
+    "UserPrincipalName": "drew.hughes@democorp.com",
+    "IPAddress": "81.2.69.100",
+    "Country": "Germany",
+    "Device": "DESKTOP-FIN-02",
+    "AuthenticationResult": "Success",
+    "RiskLevel": "none",
+    "ScenarioTag": "baseline"
+  }
+]

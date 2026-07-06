@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DemoCorp — Identity Security Detection Lab</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <h1>DemoCorp Identity Security Lab</h1>
+    <p class="subtitle">Synthetic cloud identity logs for KQL detection practice</p>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab active" data-tab="signins">Sign-In Logs</button>
+    <button class="tab" data-tab="audit">Audit Logs</button>
+  </nav>
+
+  <!-- Sign-In Logs panel -->
+  <section id="signins-panel" class="panel active">
+    <form id="signin-filters" class="filters">
+      <input type="text" name="user" placeholder="User (UPN)">
+      <input type="text" name="ip" placeholder="IP Address">
+      <input type="text" name="country" placeholder="Country">
+      <select name="result">
+        <option value="">All Results</option>
+        <option value="Success">Success</option>
+        <option value="Failure">Failure</option>
+      </select>
+      <select name="risk">
+        <option value="">All Risk Levels</option>
+        <option value="none">none</option>
+        <option value="low">low</option>
+        <option value="medium">medium</option>
+        <option value="high">high</option>
+      </select>
+      <button type="submit">Search</button>
+      <button type="button" id="signin-export">Export CSV</button>
+      <button type="button" class="secondary" id="signin-clear">Clear</button>
+    </form>
+    <p class="record-count" id="signin-count">Loading...</p>
+    <div class="table-wrap">
+      <table id="signin-table">
+        <thead>
+          <tr>
+            <th>Timestamp</th>
+            <th>UserPrincipalName</th>
+            <th>IPAddress</th>
+            <th>Country</th>
+            <th>Device</th>
+            <th>Result</th>
+            <th>Risk</th>
+            <th>Scenario</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Audit Logs panel -->
+  <section id="audit-panel" class="panel">
+    <form id="audit-filters" class="filters">
+      <input type="text" name="user" placeholder="Actor">
+      <input type="text" name="activity" placeholder="Activity">
+      <input type="text" name="target" placeholder="Target User">
+      <select name="result">
+        <option value="">All Results</option>
+        <option value="Success">Success</option>
+        <option value="Failure">Failure</option>
+      </select>
+      <button type="submit">Search</button>
+      <button type="button" id="audit-export">Export CSV</button>
+      <button type="button" class="secondary" id="audit-clear">Clear</button>
+    </form>
+    <p class="record-count" id="audit-count">Loading...</p>
+    <div class="table-wrap">
+      <table id="audit-table">
+        <thead>
+          <tr>
+            <th>Timestamp</th>
+            <th>Actor</th>
+            <th>Activity</th>
+            <th>TargetUser</th>
+            <th>Result</th>
+            <th>Details</th>
+            <th>Scenario</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <p>Tip: Filter by <code>ScenarioTag</code> values like <code>password_spray</code> or <code>auth_change_attack</code> using the search fields.</p>
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

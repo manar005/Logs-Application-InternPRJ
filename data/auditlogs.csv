@@ -1,0 +1,12 @@
+Timestamp,Actor,Activity,TargetUser,Result,Details,ScenarioTag
+2026-06-06T09:00:00Z,jamie.vasquez@democorp.com,Add member to role,emery.upton@democorp.com,Success,Assigned role 'Security Administrator' during planned security team expansion,baseline
+2026-06-11T09:30:00Z,jamie.vasquez@democorp.com,Add member to role,harper.upton@democorp.com,Success,Assigned role 'User' to Harper Upton during onboarding,baseline
+2026-06-16T14:00:00Z,jordan.vasquez@democorp.com,Authentication method added,jordan.vasquez@democorp.com,Success,User enrolled Microsoft Authenticator app for MFA,baseline
+2026-06-21T11:00:00Z,avery.bennett@democorp.com,Add member to group,reese.johnson@democorp.com,Success,Added user to 'All Employees' security group,baseline
+2026-06-23T10:15:00Z,jamie.vasquez@democorp.com,Reset user password,jesse.bennett@democorp.com,Success,Password reset initiated by IT helpdesk per user request,baseline
+2026-06-29T03:15:00Z,emery.upton@democorp.com,Authentication method added,emery.upton@democorp.com,Success,Added FIDO2 security key from new device,auth_change_attack
+2026-06-29T03:22:00Z,emery.upton@democorp.com,Authentication method removed,emery.upton@democorp.com,Success,Removed Microsoft Authenticator from previous phone,auth_change_attack
+2026-06-29T03:35:00Z,emery.upton@democorp.com,MFA settings changed,emery.upton@democorp.com,Success,Changed default MFA method to SMS (weaker factor),auth_change_attack
+2026-06-29T03:48:00Z,emery.upton@democorp.com,Recovery information updated,emery.upton@democorp.com,Success,Updated recovery email to external address attacker@mail.ru,auth_change_attack
+2026-06-29T04:10:00Z,emery.upton@democorp.com,Add member to role,emery.upton@democorp.com,Success,Assigned role 'Global Administrator' — initiated by non-admin account,privileged_role_self_elevation
+2026-06-29T04:25:00Z,emery.upton@democorp.com,Add member to role,reese.young@democorp.com,Success,Assigned role 'Security Administrator' to accomplice account,privileged_role_accomplice

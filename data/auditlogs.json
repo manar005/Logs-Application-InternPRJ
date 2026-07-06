@@ -1,0 +1,101 @@
+[
+  {
+    "Timestamp": "2026-06-06T09:00:00Z",
+    "Actor": "jamie.vasquez@democorp.com",
+    "Activity": "Add member to role",
+    "TargetUser": "emery.upton@democorp.com",
+    "Result": "Success",
+    "Details": "Assigned role 'Security Administrator' during planned security team expansion",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-11T09:30:00Z",
+    "Actor": "jamie.vasquez@democorp.com",
+    "Activity": "Add member to role",
+    "TargetUser": "harper.upton@democorp.com",
+    "Result": "Success",
+    "Details": "Assigned role 'User' to Harper Upton during onboarding",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-16T14:00:00Z",
+    "Actor": "jordan.vasquez@democorp.com",
+    "Activity": "Authentication method added",
+    "TargetUser": "jordan.vasquez@democorp.com",
+    "Result": "Success",
+    "Details": "User enrolled Microsoft Authenticator app for MFA",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-21T11:00:00Z",
+    "Actor": "avery.bennett@democorp.com",
+    "Activity": "Add member to group",
+    "TargetUser": "reese.johnson@democorp.com",
+    "Result": "Success",
+    "Details": "Added user to 'All Employees' security group",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-23T10:15:00Z",
+    "Actor": "jamie.vasquez@democorp.com",
+    "Activity": "Reset user password",
+    "TargetUser": "jesse.bennett@democorp.com",
+    "Result": "Success",
+    "Details": "Password reset initiated by IT helpdesk per user request",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-29T03:15:00Z",
+    "Actor": "emery.upton@democorp.com",
+    "Activity": "Authentication method added",
+    "TargetUser": "emery.upton@democorp.com",
+    "Result": "Success",
+    "Details": "Added FIDO2 security key from new device",
+    "ScenarioTag": "auth_change_attack"
+  },
+  {
+    "Timestamp": "2026-06-29T03:22:00Z",
+    "Actor": "emery.upton@democorp.com",
+    "Activity": "Authentication method removed",
+    "TargetUser": "emery.upton@democorp.com",
+    "Result": "Success",
+    "Details": "Removed Microsoft Authenticator from previous phone",
+    "ScenarioTag": "auth_change_attack"
+  },
+  {
+    "Timestamp": "2026-06-29T03:35:00Z",
+    "Actor": "emery.upton@democorp.com",
+    "Activity": "MFA settings changed",
+    "TargetUser": "emery.upton@democorp.com",
+    "Result": "Success",
+    "Details": "Changed default MFA method to SMS (weaker factor)",
+    "ScenarioTag": "auth_change_attack"
+  },
+  {
+    "Timestamp": "2026-06-29T03:48:00Z",
+    "Actor": "emery.upton@democorp.com",
+    "Activity": "Recovery information updated",
+    "TargetUser": "emery.upton@democorp.com",
+    "Result": "Success",
+    "Details": "Updated recovery email to external address attacker@mail.ru",
+    "ScenarioTag": "auth_change_attack"
+  },
+  {
+    "Timestamp": "2026-06-29T04:10:00Z",
+    "Actor": "emery.upton@democorp.com",
+    "Activity": "Add member to role",
+    "TargetUser": "emery.upton@democorp.com",
+    "Result": "Success",
+    "Details": "Assigned role 'Global Administrator' \u2014 initiated by non-admin account",
+    "ScenarioTag": "privileged_role_self_elevation"
+  },
+  {
+    "Timestamp": "2026-06-29T04:25:00Z",
+    "Actor": "emery.upton@democorp.com",
+    "Activity": "Add member to role",
+    "TargetUser": "reese.young@democorp.com",
+    "Result": "Success",
+    "Details": "Assigned role 'Security Administrator' to accomplice account",
+    "ScenarioTag": "privileged_role_accomplice"
+  }
+]

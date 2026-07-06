@@ -1,0 +1,291 @@
+[
+  {
+    "display_name": "Reese Johnson",
+    "user_principal_name": "reese.johnson@democorp.com",
+    "department": "Sales",
+    "role": "User",
+    "known_countries": [
+      "United Kingdom",
+      "Canada"
+    ],
+    "primary_device": "DESKTOP-FIN-02",
+    "employee_id": "EMP-1000"
+  },
+  {
+    "display_name": "Jordan Vasquez",
+    "user_principal_name": "jordan.vasquez@democorp.com",
+    "department": "IT",
+    "role": "User",
+    "known_countries": [
+      "Canada"
+    ],
+    "primary_device": "DESKTOP-FIN-02",
+    "employee_id": "EMP-1001"
+  },
+  {
+    "display_name": "Micah Hughes",
+    "user_principal_name": "micah.hughes@democorp.com",
+    "department": "IT",
+    "role": "User",
+    "known_countries": [
+      "Germany"
+    ],
+    "primary_device": "WORKSTATION-SEC-05",
+    "employee_id": "EMP-1002"
+  },
+  {
+    "display_name": "Harper Upton",
+    "user_principal_name": "harper.upton@democorp.com",
+    "department": "Sales",
+    "role": "User",
+    "known_countries": [
+      "United Kingdom",
+      "Germany"
+    ],
+    "primary_device": "IPHONE-14-PRO",
+    "employee_id": "EMP-1003"
+  },
+  {
+    "display_name": "Jamie Vasquez",
+    "user_principal_name": "jamie.vasquez@democorp.com",
+    "department": "Sales",
+    "role": "Global Administrator",
+    "known_countries": [
+      "United States",
+      "Canada"
+    ],
+    "primary_device": "LAPTOP-IT-03",
+    "employee_id": "EMP-1004"
+  },
+  {
+    "display_name": "Reese Young",
+    "user_principal_name": "reese.young@democorp.com",
+    "department": "Finance",
+    "role": "User",
+    "known_countries": [
+      "United Kingdom"
+    ],
+    "primary_device": "SURFACE-PRO-9",
+    "employee_id": "EMP-1005"
+  },
+  {
+    "display_name": "Emery Irving",
+    "user_principal_name": "emery.irving@democorp.com",
+    "department": "Finance",
+    "role": "User",
+    "known_countries": [
+      "Canada"
+    ],
+    "primary_device": "DESKTOP-HR-01",
+    "employee_id": "EMP-1006"
+  },
+  {
+    "display_name": "Avery Bennett",
+    "user_principal_name": "avery.bennett@democorp.com",
+    "department": "IT",
+    "role": "Security Administrator",
+    "known_countries": [
+      "Germany",
+      "United Kingdom"
+    ],
+    "primary_device": "DESKTOP-FIN-02",
+    "employee_id": "EMP-1007"
+  },
+  {
+    "display_name": "Jamie Singh",
+    "user_principal_name": "jamie.singh@democorp.com",
+    "department": "Sales",
+    "role": "User",
+    "known_countries": [
+      "United Kingdom",
+      "Canada"
+    ],
+    "primary_device": "SURFACE-PRO-9",
+    "employee_id": "EMP-1008"
+  },
+  {
+    "display_name": "Emery Upton",
+    "user_principal_name": "emery.upton@democorp.com",
+    "department": "Security",
+    "role": "User",
+    "known_countries": [
+      "United Kingdom",
+      "Germany"
+    ],
+    "primary_device": "LAPTOP-IT-03",
+    "employee_id": "EMP-1009"
+  },
+  {
+    "display_name": "Avery Young",
+    "user_principal_name": "avery.young@democorp.com",
+    "department": "IT",
+    "role": "Security Administrator",
+    "known_countries": [
+      "Germany",
+      "Canada"
+    ],
+    "primary_device": "MACBOOK-PRO-M2",
+    "employee_id": "EMP-1010"
+  },
+  {
+    "display_name": "Drew Hughes",
+    "user_principal_name": "drew.hughes@democorp.com",
+    "department": "Sales",
+    "role": "Security Administrator",
+    "known_countries": [
+      "Germany"
+    ],
+    "primary_device": "DESKTOP-FIN-02",
+    "employee_id": "EMP-1011"
+  },
+  {
+    "display_name": "Jesse Bennett",
+    "user_principal_name": "jesse.bennett@democorp.com",
+    "department": "HR",
+    "role": "User",
+    "known_countries": [
+      "United Kingdom"
+    ],
+    "primary_device": "LAPTOP-IT-03",
+    "employee_id": "EMP-1012"
+  },
+  {
+    "display_name": "Kai Vasquez",
+    "user_principal_name": "kai.vasquez@democorp.com",
+    "department": "IT",
+    "role": "User",
+    "known_countries": [
+      "United States",
+      "United Kingdom"
+    ],
+    "primary_device": "MACBOOK-PRO-M2",
+    "employee_id": "EMP-1013"
+  },
+  {
+    "display_name": "Skyler O'Brien",
+    "user_principal_name": "skyler.o'brien@democorp.com",
+    "department": "Security",
+    "role": "User",
+    "known_countries": [
+      "United States",
+      "Canada"
+    ],
+    "primary_device": "DESKTOP-FIN-02",
+    "employee_id": "EMP-1014"
+  },
+  {
+    "display_name": "Elliot Roberts",
+    "user_principal_name": "elliot.roberts@democorp.com",
+    "department": "IT",
+    "role": "User",
+    "known_countries": [
+      "Canada",
+      "United States"
+    ],
+    "primary_device": "WORKSTATION-SEC-05",
+    "employee_id": "EMP-1015"
+  },
+  {
+    "display_name": "Finley Foster",
+    "user_principal_name": "finley.foster@democorp.com",
+    "department": "HR",
+    "role": "User",
+    "known_countries": [
+      "United States",
+      "Canada"
+    ],
+    "primary_device": "WORKSTATION-SEC-05",
+    "employee_id": "EMP-1016"
+  },
+  {
+    "display_name": "Parker Zimmerman",
+    "user_principal_name": "parker.zimmerman@democorp.com",
+    "department": "Security",
+    "role": "User",
+    "known_countries": [
+      "United States"
+    ],
+    "primary_device": "WORKSTATION-SEC-05",
+    "employee_id": "EMP-1017"
+  },
+  {
+    "display_name": "Lane Upton",
+    "user_principal_name": "lane.upton@democorp.com",
+    "department": "Finance",
+    "role": "Security Administrator",
+    "known_countries": [
+      "United Kingdom"
+    ],
+    "primary_device": "IPHONE-14-PRO",
+    "employee_id": "EMP-1018"
+  },
+  {
+    "display_name": "Jesse Foster",
+    "user_principal_name": "jesse.foster@democorp.com",
+    "department": "Security",
+    "role": "User",
+    "known_countries": [
+      "Canada"
+    ],
+    "primary_device": "SURFACE-PRO-9",
+    "employee_id": "EMP-1019"
+  },
+  {
+    "display_name": "Alex Davis",
+    "user_principal_name": "alex.davis@democorp.com",
+    "department": "Finance",
+    "role": "User",
+    "known_countries": [
+      "Canada",
+      "United States"
+    ],
+    "primary_device": "DESKTOP-HR-01",
+    "employee_id": "EMP-1020"
+  },
+  {
+    "display_name": "Avery Singh",
+    "user_principal_name": "avery.singh@democorp.com",
+    "department": "Finance",
+    "role": "User",
+    "known_countries": [
+      "United States"
+    ],
+    "primary_device": "SURFACE-PRO-9",
+    "employee_id": "EMP-1021"
+  },
+  {
+    "display_name": "Lane Campbell",
+    "user_principal_name": "lane.campbell@democorp.com",
+    "department": "HR",
+    "role": "User",
+    "known_countries": [
+      "United Kingdom"
+    ],
+    "primary_device": "SURFACE-PRO-9",
+    "employee_id": "EMP-1022"
+  },
+  {
+    "display_name": "Reese Foster",
+    "user_principal_name": "reese.foster@democorp.com",
+    "department": "HR",
+    "role": "User",
+    "known_countries": [
+      "Germany",
+      "United States"
+    ],
+    "primary_device": "LAPTOP-SALES-04",
+    "employee_id": "EMP-1023"
+  },
+  {
+    "display_name": "Frankie Johnson",
+    "user_principal_name": "frankie.johnson@democorp.com",
+    "department": "Sales",
+    "role": "User",
+    "known_countries": [
+      "Canada",
+      "United Kingdom"
+    ],
+    "primary_device": "SURFACE-PRO-9",
+    "employee_id": "EMP-1024"
+  }
+]
