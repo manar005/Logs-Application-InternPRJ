@@ -18,6 +18,7 @@ from config import (
     NUM_EMPLOYEES,
     USERS_FILE,
 )
+from user_baseline import assign_baseline_profiles, strip_baseline_for_export
 
 # First names and last names for realistic-looking accounts
 FIRST_NAMES = [
@@ -93,15 +94,16 @@ def generate_users(seed: int = 42) -> list[dict]:
             "employee_id": f"EMP-{1000 + i:04d}",
         })
 
-    return users
+    return assign_baseline_profiles(users, seed)
 
 
 def save_users(users: list[dict], path: str = USERS_FILE) -> None:
     """Write users to JSON and ensure the data directory exists."""
     os.makedirs(os.path.dirname(path), exist_ok=True)
+    export_users = [strip_baseline_for_export(user) for user in users]
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(users, f, indent=2)
-    print(f"Saved {len(users)} users to {path}")
+        json.dump(export_users, f, indent=2)
+    print(f"Saved {len(export_users)} users to {path}")
 
 
 if __name__ == "__main__":

@@ -15,26 +15,28 @@ from datetime import datetime, timedelta
 from config import (
     ATTACKER_IPS,
     DAYS_OF_HISTORY,
-    KNOWN_COUNTRIES,
     SIGNINS_CSV,
     SIGNINS_JSON,
-    SUSPICIOUS_COUNTRIES,
     USERS_FILE,
 )
+from timestamps import format_ts, plan_attack_timeline
+from user_baseline import (
+    assign_baseline_profiles,
+    generate_unfamiliar_device,
+    get_baseline,
+    maybe_apply_off_hours,
+    pick_unfamiliar_country,
+    pick_unfamiliar_ip,
+    random_baseline_signin_timestamp,
+)
 
-# Office IP ranges used for normal employee sign-ins
-OFFICE_IPS = [
-    "10.0.1.10", "10.0.1.11", "10.0.1.12", "10.0.2.20",
-    "172.16.0.5", "172.16.0.6", "192.168.1.100",
+# Violation types mapped to existing ScenarioTag values
+SUSPICIOUS_VIOLATION_ORDER = [
+    "new_country",
+    "unknown_device",
+    "tor_exit",
+    "vpn_proxy",
 ]
-
-# Home/remote IPs for normal remote work
-REMOTE_IPS = [
-    "73.45.120.10", "98.118.45.22", "81.2.69.100",
-    "142.250.80.10", "24.6.88.55",
-]
-
-RISK_LEVELS = ["none", "low", "medium", "high"]
 
 
 def _load_users(path: str = USERS_FILE) -> list[dict]:
@@ -42,13 +44,48 @@ def _load_users(path: str = USERS_FILE) -> list[dict]:
         return json.load(f)
 
 
-def _random_timestamp(base: datetime, day_offset: int, hour_range: tuple[int, int] = (8, 18)) -> str:
-    """Return an ISO timestamp on a given day within business hours."""
-    hour = random.randint(hour_range[0], hour_range[1])
-    minute = random.randint(0, 59)
-    second = random.randint(0, 59)
-    ts = (base - timedelta(days=day_offset)).replace(hour=hour, minute=minute, second=second)
-    return ts.strftime("%Y-%m-%dT%H:%M:%SZ")
+def _ensure_user_baselines(users: list[dict], seed: int) -> list[dict]:
+    if users and "_baseline" not in users[0]:
+        return assign_baseline_profiles(users, seed)
+    return users
+
+
+def _build_suspicious_signin(violation: str, baseline: dict) -> dict:
+    """Build one suspicious sign-in by violating part of the user's baseline."""
+    if violation == "new_country":
+        return {
+            "ip": ATTACKER_IPS["suspicious_country"],
+            "country": pick_unfamiliar_country(baseline["known_countries"]),
+            "device": baseline["primary_device"],
+            "risk": "high",
+            "tag": "suspicious_new_country",
+        }
+
+    if violation == "unknown_device":
+        return {
+            "ip": pick_unfamiliar_ip(baseline["common_ips"]),
+            "country": random.choice(baseline["known_countries"]),
+            "device": generate_unfamiliar_device(baseline["primary_device"]),
+            "risk": "medium",
+            "tag": "suspicious_unknown_device",
+        }
+
+    if violation == "tor_exit":
+        return {
+            "ip": ATTACKER_IPS["tor_exit"],
+            "country": pick_unfamiliar_country(baseline["known_countries"]),
+            "device": generate_unfamiliar_device(baseline["primary_device"]),
+            "risk": "high",
+            "tag": "suspicious_tor_exit",
+        }
+
+    return {
+        "ip": ATTACKER_IPS["vpn_proxy"],
+        "country": pick_unfamiliar_country(baseline["known_countries"]),
+        "device": generate_unfamiliar_device(baseline["primary_device"]),
+        "risk": "high",
+        "tag": "suspicious_vpn_proxy",
+    }
 
 
 def _make_signin(
@@ -74,28 +111,46 @@ def _make_signin(
 
 
 def generate_baseline_signins(users: list[dict], base_date: datetime) -> list[dict]:
-    """Create normal daily sign-in activity for all employees."""
+    """Create normal daily sign-in activity that follows each user's baseline."""
     logs = []
 
     for day in range(DAYS_OF_HISTORY):
-        # Not every user signs in every day
-        active_users = random.sample(users, k=random.randint(len(users) // 2, len(users)))
+        day_date = base_date - timedelta(days=day)
+        is_weekend = day_date.weekday() >= 5
 
-        for user in active_users:
-            country = random.choice(user["known_countries"])
-            device = user["primary_device"] if random.random() > 0.15 else random.choice(
-                [u["primary_device"] for u in users]
-            )
-            ip = random.choice(OFFICE_IPS if random.random() > 0.3 else REMOTE_IPS)
-            ts = _random_timestamp(base_date, day)
+        for user in users:
+            baseline = get_baseline(user)
 
-            logs.append(_make_signin(
-                ts, user, ip, country, device, "Success", "none", "baseline"
-            ))
+            if random.random() < (0.25 if is_weekend else 0.12):
+                continue
 
-            # Occasional typo-style failed login (wrong password once)
-            if random.random() < 0.05:
-                fail_ts = _random_timestamp(base_date, day, (8, 18))
+            sessions = random.choices([1, 2, 3], weights=[0.45, 0.4, 0.15])[0]
+
+            for _ in range(sessions):
+                country = random.choice(baseline["known_countries"])
+                device = baseline["primary_device"]
+                ip = random.choice(baseline["common_ips"])
+                ts = random_baseline_signin_timestamp(
+                    base_date,
+                    day,
+                    baseline["typical_hours"],
+                    is_weekend=is_weekend,
+                )
+
+                logs.append(_make_signin(
+                    ts, user, ip, country, device, "Success", "none", "baseline"
+                ))
+
+            if random.random() < 0.14:
+                country = random.choice(baseline["known_countries"])
+                device = baseline["primary_device"]
+                ip = random.choice(baseline["common_ips"])
+                fail_ts = random_baseline_signin_timestamp(
+                    base_date,
+                    day,
+                    baseline["typical_hours"],
+                    is_weekend=is_weekend,
+                )
                 logs.append(_make_signin(
                     fail_ts, user, ip, country, device, "Failure", "low", "baseline"
                 ))
@@ -103,96 +158,85 @@ def generate_baseline_signins(users: list[dict], base_date: datetime) -> list[di
     return logs
 
 
-def generate_password_spray(users: list[dict], base_date: datetime) -> list[dict]:
+def generate_suspicious_signins(
+    users: list[dict],
+    base_date: datetime,
+    timeline: dict,
+) -> list[dict]:
     """
-    Technique 1: Password Spraying
-    One IP tries many accounts in a short window; optional success at the end.
+    Technique 2: Suspicious Sign-In Activity
+    One or two baseline violations per attack for a randomly selected user.
     """
     logs = []
-    attacker_ip = ATTACKER_IPS["password_spray"]
-    spray_day = 3  # Recent enough to stand out in queries
-    spray_hour = 2  # Off-hours
+    victim = random.choice([u for u in users if u["role"] == "User"])
+    baseline = get_baseline(victim)
 
-    # Target 12 random users (not admins ideally)
-    targets = [u for u in users if u["role"] == "User"]
-    spray_targets = random.sample(targets, k=min(12, len(targets)))
-
-    base_ts = (base_date - timedelta(days=spray_day)).replace(
-        hour=spray_hour, minute=0, second=0
+    indicator_count = random.randint(1, 2)
+    selected_violations = sorted(
+        random.sample(SUSPICIOUS_VIOLATION_ORDER, indicator_count),
+        key=SUSPICIOUS_VIOLATION_ORDER.index,
     )
 
-    for i, user in enumerate(spray_targets):
-        ts = (base_ts + timedelta(minutes=i * 2, seconds=random.randint(0, 30))).strftime(
-            "%Y-%m-%dT%H:%M:%SZ"
+    for slot, violation in enumerate(selected_violations):
+        event = _build_suspicious_signin(violation, baseline)
+        event_time = maybe_apply_off_hours(
+            timeline["suspicious_signin_times"][slot],
+            baseline["typical_hours"],
         )
+        ts = format_ts(event_time)
         logs.append(_make_signin(
-            ts, user, attacker_ip, "Netherlands", "UNKNOWN-DEVICE",
-            "Failure", "medium", "password_spray"
+            ts,
+            victim,
+            event["ip"],
+            event["country"],
+            event["device"],
+            "Success",
+            event["risk"],
+            event["tag"],
         ))
-
-    # Attacker succeeds on one account after the spray
-    victim = spray_targets[-1]
-    success_ts = (base_ts + timedelta(minutes=len(spray_targets) * 2 + 5)).strftime(
-        "%Y-%m-%dT%H:%M:%SZ"
-    )
-    logs.append(_make_signin(
-        success_ts, victim, attacker_ip, "Netherlands", "UNKNOWN-DEVICE",
-        "Success", "high", "password_spray"
-    ))
 
     return logs
 
 
-def generate_suspicious_signins(users: list[dict], base_date: datetime) -> list[dict]:
+def generate_password_spray(
+    users: list[dict],
+    base_date: datetime,
+    timeline: dict,
+) -> list[dict]:
     """
-    Technique 2: Suspicious Sign-In Activity
-    New country, unknown device, TOR exit, VPN/proxy.
+    Technique 1: Password Spraying
+    One IP tries many accounts in a short window; 0–2 accounts may be compromised.
     """
     logs = []
-    victim = random.choice([u for u in users if u["role"] == "User"])
-    day = 2
+    attacker_ip = ATTACKER_IPS["password_spray"]
 
-    scenarios = [
-        # Sign-in from a country the user has never used
-        {
-            "ip": ATTACKER_IPS["suspicious_country"],
-            "country": random.choice(SUSPICIOUS_COUNTRIES),
-            "device": victim["primary_device"],
-            "risk": "high",
-            "tag": "suspicious_new_country",
-        },
-        # Unfamiliar device from a known country
-        {
-            "ip": random.choice(REMOTE_IPS),
-            "country": victim["known_countries"][0],
-            "device": "LINUX-KALI-UNKNOWN",
-            "risk": "medium",
-            "tag": "suspicious_unknown_device",
-        },
-        # TOR exit node
-        {
-            "ip": ATTACKER_IPS["tor_exit"],
-            "country": "Germany",
-            "device": "TOR-BROWSER",
-            "risk": "high",
-            "tag": "suspicious_tor_exit",
-        },
-        # Anonymous proxy / VPN-like IP
-        {
-            "ip": ATTACKER_IPS["vpn_proxy"],
-            "country": "Singapore",
-            "device": "CHROME-HEADLESS",
-            "risk": "high",
-            "tag": "suspicious_vpn_proxy",
-        },
-    ]
+    targets = [u for u in users if u["role"] == "User"]
+    target_count = random.randint(5, min(15, len(targets)))
+    spray_targets = random.sample(targets, k=target_count)
 
-    for i, s in enumerate(scenarios):
-        ts = (base_date - timedelta(days=day, hours=5 - i)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    compromise_count = random.randint(0, 2)
+    compromised_upns = (
+        {u["user_principal_name"] for u in random.sample(spray_targets, compromise_count)}
+        if compromise_count
+        else set()
+    )
+
+    base_ts = timeline["password_spray_start"]
+    elapsed = timedelta(0)
+
+    for user in spray_targets:
+        ts = format_ts(base_ts + elapsed)
+        succeeded = user["user_principal_name"] in compromised_upns
         logs.append(_make_signin(
-            ts, victim, s["ip"], s["country"], s["device"],
-            "Success", s["risk"], s["tag"]
+            ts, user, attacker_ip, "Netherlands", "UNKNOWN-DEVICE",
+            "Success" if succeeded else "Failure",
+            "high" if succeeded else "medium",
+            "password_spray",
         ))
+        elapsed += timedelta(
+            minutes=random.randint(1, 5),
+            seconds=random.randint(5, 55),
+        )
 
     return logs
 
@@ -203,12 +247,14 @@ def generate_all_signins(users: list[dict] | None = None, seed: int = 42) -> lis
     if users is None:
         users = _load_users()
 
+    users = _ensure_user_baselines(users, seed)
     base_date = datetime.utcnow().replace(microsecond=0)
+    timeline = plan_attack_timeline(base_date, seed)
 
     logs = []
     logs.extend(generate_baseline_signins(users, base_date))
-    logs.extend(generate_password_spray(users, base_date))
-    logs.extend(generate_suspicious_signins(users, base_date))
+    logs.extend(generate_password_spray(users, base_date, timeline))
+    logs.extend(generate_suspicious_signins(users, base_date, timeline))
 
     logs.sort(key=lambda x: x["Timestamp"])
     return logs

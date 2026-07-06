@@ -1,12 +1,103 @@
-Timestamp,Actor,Activity,TargetUser,Result,Details,ScenarioTag
-2026-06-06T09:00:00Z,jamie.vasquez@democorp.com,Add member to role,emery.upton@democorp.com,Success,Assigned role 'Security Administrator' during planned security team expansion,baseline
-2026-06-11T09:30:00Z,jamie.vasquez@democorp.com,Add member to role,harper.upton@democorp.com,Success,Assigned role 'User' to Harper Upton during onboarding,baseline
-2026-06-16T14:00:00Z,jordan.vasquez@democorp.com,Authentication method added,jordan.vasquez@democorp.com,Success,User enrolled Microsoft Authenticator app for MFA,baseline
-2026-06-21T11:00:00Z,avery.bennett@democorp.com,Add member to group,reese.johnson@democorp.com,Success,Added user to 'All Employees' security group,baseline
-2026-06-23T10:15:00Z,jamie.vasquez@democorp.com,Reset user password,jesse.bennett@democorp.com,Success,Password reset initiated by IT helpdesk per user request,baseline
-2026-06-29T03:15:00Z,emery.upton@democorp.com,Authentication method added,emery.upton@democorp.com,Success,Added FIDO2 security key from new device,auth_change_attack
-2026-06-29T03:22:00Z,emery.upton@democorp.com,Authentication method removed,emery.upton@democorp.com,Success,Removed Microsoft Authenticator from previous phone,auth_change_attack
-2026-06-29T03:35:00Z,emery.upton@democorp.com,MFA settings changed,emery.upton@democorp.com,Success,Changed default MFA method to SMS (weaker factor),auth_change_attack
-2026-06-29T03:48:00Z,emery.upton@democorp.com,Recovery information updated,emery.upton@democorp.com,Success,Updated recovery email to external address attacker@mail.ru,auth_change_attack
-2026-06-29T04:10:00Z,emery.upton@democorp.com,Add member to role,emery.upton@democorp.com,Success,Assigned role 'Global Administrator' — initiated by non-admin account,privileged_role_self_elevation
-2026-06-29T04:25:00Z,emery.upton@democorp.com,Add member to role,reese.young@democorp.com,Success,Assigned role 'Security Administrator' to accomplice account,privileged_role_accomplice
+Timestamp,Actor,Activity,TargetUser,Result,ModifiedProperty,OldValue,NewValue,RoleName,Details,ScenarioTag
+2026-06-07T19:54:15Z,avery.bennett@democorp.com,Assign license,micah.hughes@democorp.com,Success,License,,Power BI Pro,,Assigned license 'Power BI Pro' to Micah Hughes,baseline
+2026-06-07T20:45:09Z,finley.foster@democorp.com,Update user,parker.zimmerman@democorp.com,Success,Mobile Phone,+44-20-7946-0958,+1-555-0142,,Updated user profile: changed mobile phone per HR request,baseline
+2026-06-07T21:39:42Z,avery.young@democorp.com,MFA enabled,avery.young@democorp.com,Success,MFA Status,Disabled,Enabled,,User completed MFA registration,baseline
+2026-06-07T21:49:30Z,avery.young@democorp.com,Remove member from group,jesse.foster@democorp.com,Success,Group Membership,Security-Operations,,,Removed user from 'Security-Operations' group (role change / offboarding step),baseline
+2026-06-08T11:06:44Z,avery.singh@democorp.com,Authentication method added,avery.singh@democorp.com,Success,Authentication Method,,Email OTP,,User registered Email OTP for MFA,baseline
+2026-06-08T12:36:43Z,jesse.bennett@democorp.com,Authentication method added,jesse.bennett@democorp.com,Success,Authentication Method,,Microsoft Authenticator,,User registered Microsoft Authenticator for MFA,baseline
+2026-06-08T16:41:21Z,reese.foster@democorp.com,Update user,reese.johnson@democorp.com,Success,Office Location,New York,Berlin,,Updated user profile: changed office location per HR request,baseline
+2026-06-08T17:50:02Z,kai.vasquez@democorp.com,Remove license,elliot.roberts@democorp.com,Success,License,Power BI Pro,,,Removed license 'Power BI Pro' from Elliot Roberts (license reclamation),baseline
+2026-06-09T06:30:01Z,jordan.vasquez@democorp.com,Remove license,lane.campbell@democorp.com,Success,License,Microsoft 365 Business Premium,,,Removed license 'Microsoft 365 Business Premium' from Lane Campbell (license reclamation),baseline
+2026-06-09T08:48:01Z,emery.irving@democorp.com,MFA enabled,emery.irving@democorp.com,Success,MFA Status,Disabled,Enabled,,User completed MFA registration,baseline
+2026-06-09T10:15:08Z,avery.bennett@democorp.com,Add member to group,alex.davis@democorp.com,Success,Security Group,,Conditional-Access-Exclusions,,Added user to 'Conditional-Access-Exclusions' security group,baseline
+2026-06-09T13:10:38Z,jamie.vasquez@democorp.com,Add member to role,frankie.johnson@democorp.com,Success,,,,User,Assigned role 'User' to Frankie Johnson (approved change request),baseline
+2026-06-10T09:41:27Z,drew.hughes@democorp.com,Remove member from group,reese.young@democorp.com,Success,Group Membership,VPN Users,,,Removed user from 'VPN Users' group (role change / offboarding step),baseline
+2026-06-10T13:13:29Z,avery.bennett@democorp.com,Reset user password,skyler.o'brien@democorp.com,Success,Password,(redacted),(reset),,Password reset initiated by IT helpdesk per user request (ticket #59692),baseline
+2026-06-10T14:21:42Z,reese.foster@democorp.com,Recovery email changed,reese.foster@democorp.com,Success,Recovery Email,reese.foster@democorp.com,recovery.reese.foster@democorp.com,,User updated account recovery email address,baseline
+2026-06-10T18:39:34Z,jesse.bennett@democorp.com,Authentication method removed,jesse.bennett@democorp.com,Success,Authentication Method,Email OTP,,,Removed Email OTP after device upgrade,baseline
+2026-06-11T12:52:05Z,jamie.vasquez@democorp.com,Add member to role,emery.upton@democorp.com,Success,,,,Security Administrator,Assigned role during planned security team expansion,baseline
+2026-06-11T16:51:38Z,lane.campbell@democorp.com,Add member to group,emery.upton@democorp.com,Success,Group Membership,,VPN Users,,Added user to 'VPN Users' group,baseline
+2026-06-11T20:30:00Z,drew.hughes@democorp.com,Remove member from group,elliot.roberts@democorp.com,Success,Security Group,Privileged-Access-Reviewers,,,Removed user from 'Privileged-Access-Reviewers' security group,baseline
+2026-06-12T10:45:13Z,kai.vasquez@democorp.com,Authentication method removed,kai.vasquez@democorp.com,Success,Authentication Method,Windows Hello,,,Removed Windows Hello after device upgrade,baseline
+2026-06-12T12:21:20Z,jordan.vasquez@democorp.com,Assign license,lane.campbell@democorp.com,Success,License,,Microsoft 365 E5,,Assigned license 'Microsoft 365 E5' to Lane Campbell,baseline
+2026-06-12T14:03:13Z,jesse.bennett@democorp.com,Recovery phone changed,jesse.bennett@democorp.com,Success,Recovery Phone,+1-555-0100,+44-7700-900123,,User updated account recovery phone number,baseline
+2026-06-12T15:28:16Z,alex.davis@democorp.com,Authentication method removed,alex.davis@democorp.com,Success,Authentication Method,FIDO2 Security Key,,,Removed FIDO2 Security Key after device upgrade,baseline
+2026-06-12T15:40:15Z,avery.young@democorp.com,Remove license,jesse.bennett@democorp.com,Success,License,Microsoft 365 E3,,,Removed license 'Microsoft 365 E3' from Jesse Bennett (license reclamation),baseline
+2026-06-13T16:42:33Z,lane.upton@democorp.com,Add member to role,lane.campbell@democorp.com,Success,,,,Helpdesk Administrator,Assigned role 'Helpdesk Administrator' to Lane Campbell (approved change request),baseline
+2026-06-13T21:29:03Z,avery.bennett@democorp.com,Authentication method removed,avery.bennett@democorp.com,Success,Authentication Method,SMS,,,Removed SMS after device upgrade,baseline
+2026-06-13T21:52:46Z,avery.young@democorp.com,Remove license,avery.singh@democorp.com,Success,License,Microsoft Defender for Office 365,,,Removed license 'Microsoft Defender for Office 365' from Avery Singh (license reclamation),baseline
+2026-06-14T16:39:54Z,avery.young@democorp.com,Reset user password,micah.hughes@democorp.com,Success,Password,(redacted),(reset),,Password reset initiated by IT helpdesk per user request (ticket #64321),baseline
+2026-06-14T20:31:25Z,finley.foster@democorp.com,Update user,emery.upton@democorp.com,Success,Department,HR,Sales,,Updated user profile: changed department per HR request,baseline
+2026-06-15T08:19:18Z,kai.vasquez@democorp.com,Recovery email changed,kai.vasquez@democorp.com,Success,Recovery Email,kai.vasquez@democorp.com,recovery.kai.vasquez@democorp.com,,User updated account recovery email address,baseline
+2026-06-15T09:52:48Z,lane.campbell@democorp.com,Update user,emery.upton@democorp.com,Success,Job Title,Manager,Manager,,Updated user profile: changed job title per HR request,baseline
+2026-06-15T10:42:05Z,reese.foster@democorp.com,Add member to group,kai.vasquez@democorp.com,Success,Group Membership,,HR-Confidential,,Added user to 'HR-Confidential' group,baseline
+2026-06-15T13:29:28Z,elliot.roberts@democorp.com,Remove license,jesse.foster@democorp.com,Success,License,Microsoft 365 E5,,,Removed license 'Microsoft 365 E5' from Jesse Foster (license reclamation),baseline
+2026-06-16T10:25:50Z,reese.johnson@democorp.com,Authentication method added,reese.johnson@democorp.com,Success,Authentication Method,,FIDO2 Security Key,,Added FIDO2 security key from new device,auth_change_attack
+2026-06-16T10:30:20Z,reese.johnson@democorp.com,Authentication method removed,reese.johnson@democorp.com,Success,Authentication Method,Microsoft Authenticator,,,Removed Microsoft Authenticator from previous phone,auth_change_attack
+2026-06-16T10:37:31Z,reese.johnson@democorp.com,MFA disabled,reese.johnson@democorp.com,Success,MFA Status,Enabled,Disabled,,Changed default MFA method to SMS (weaker factor),auth_change_attack
+2026-06-16T10:49:59Z,reese.johnson@democorp.com,Recovery email changed,reese.johnson@democorp.com,Success,Recovery Email,user@democorp.com,attacker@mail.ru,,Updated recovery email to external address attacker@mail.ru,auth_change_attack
+2026-06-16T13:39:20Z,reese.foster@democorp.com,Recovery phone changed,reese.foster@democorp.com,Success,Recovery Phone,+1-555-0100,+1-555-0234,,User updated account recovery phone number,baseline
+2026-06-16T14:20:25Z,reese.foster@democorp.com,Add member to group,kai.vasquez@democorp.com,Success,Group Membership,,VPN Users,,Added user to 'VPN Users' group,baseline
+2026-06-16T14:43:47Z,jesse.foster@democorp.com,MFA enabled,jesse.foster@democorp.com,Success,MFA Status,Disabled,Enabled,,User completed MFA registration,baseline
+2026-06-17T08:45:27Z,lane.upton@democorp.com,Remove member from group,reese.johnson@democorp.com,Success,Group Membership,Security-Operations,,,Removed user from 'Security-Operations' group (role change / offboarding step),baseline
+2026-06-17T13:27:38Z,avery.bennett@democorp.com,Remove member from group,avery.singh@democorp.com,Success,Group Membership,Sales-Team,,,Removed user from 'Sales-Team' group (role change / offboarding step),baseline
+2026-06-18T09:24:55Z,elliot.roberts@democorp.com,Authentication method removed,elliot.roberts@democorp.com,Success,Authentication Method,Microsoft Authenticator,,,Removed Microsoft Authenticator after device upgrade,baseline
+2026-06-18T14:21:17Z,avery.bennett@democorp.com,Reset user password,micah.hughes@democorp.com,Success,Password,(redacted),(reset),,Password reset initiated by IT helpdesk per user request (ticket #56025),baseline
+2026-06-18T15:22:19Z,avery.bennett@democorp.com,MFA enabled,avery.bennett@democorp.com,Success,MFA Status,Disabled,Enabled,,User completed MFA registration,baseline
+2026-06-18T16:21:01Z,lane.campbell@democorp.com,Update user,harper.upton@democorp.com,Success,Job Title,Engineer,Analyst,,Updated user profile: changed job title per HR request,baseline
+2026-06-19T14:01:11Z,avery.young@democorp.com,Remove license,skyler.o'brien@democorp.com,Success,License,Microsoft 365 E5,,,Removed license 'Microsoft 365 E5' from Skyler O'Brien (license reclamation),baseline
+2026-06-19T14:39:47Z,avery.bennett@democorp.com,Recovery phone changed,avery.bennett@democorp.com,Success,Recovery Phone,+1-555-0100,+1-555-0188,,User updated account recovery phone number,baseline
+2026-06-20T17:09:27Z,avery.bennett@democorp.com,Remove member from group,reese.young@democorp.com,Success,Security Group,Privileged-Access-Reviewers,,,Removed user from 'Privileged-Access-Reviewers' security group,baseline
+2026-06-20T17:57:22Z,elliot.roberts@democorp.com,Remove license,jamie.singh@democorp.com,Success,License,Microsoft 365 E5,,,Removed license 'Microsoft 365 E5' from Jamie Singh (license reclamation),baseline
+2026-06-20T21:20:14Z,elliot.roberts@democorp.com,Add member to role,skyler.o'brien@democorp.com,Success,,,,Privileged Role Administrator,User assigned to privileged directory role (Privileged Role Administrator),privileged_role_accomplice
+2026-06-21T11:40:16Z,elliot.roberts@democorp.com,Reset user password,emery.irving@democorp.com,Success,Password,(redacted),(reset),,Password reset initiated by IT helpdesk per user request (ticket #67912),baseline
+2026-06-21T19:32:31Z,jesse.bennett@democorp.com,Update user,jesse.bennett@democorp.com,Success,Department,Sales,IT,,Updated user profile: changed department per HR request,baseline
+2026-06-21T21:00:07Z,avery.young@democorp.com,Add member to group,micah.hughes@democorp.com,Success,Group Membership,,IT-Admins,,Added user to 'IT-Admins' group,baseline
+2026-06-22T12:59:42Z,finley.foster@democorp.com,Update user,harper.upton@democorp.com,Success,Manager,Previous Value,Updated Value,,Updated user profile: changed manager per HR request,baseline
+2026-06-22T18:17:18Z,emery.irving@democorp.com,Authentication method added,emery.irving@democorp.com,Success,Authentication Method,,FIDO2 Security Key,,User registered FIDO2 Security Key for MFA,baseline
+2026-06-23T10:42:41Z,skyler.o'brien@democorp.com,MFA enabled,skyler.o'brien@democorp.com,Success,MFA Status,Disabled,Enabled,,User completed MFA registration,baseline
+2026-06-23T15:53:34Z,jesse.foster@democorp.com,Recovery phone changed,jesse.foster@democorp.com,Success,Recovery Phone,+1-555-0100,+44-7700-900123,,User updated account recovery phone number,baseline
+2026-06-23T16:16:08Z,micah.hughes@democorp.com,Authentication method added,micah.hughes@democorp.com,Success,Authentication Method,,Microsoft Authenticator,,User registered Microsoft Authenticator for MFA,baseline
+2026-06-23T16:20:59Z,finley.foster@democorp.com,Update user,jesse.bennett@democorp.com,Success,Manager,Previous Value,Updated Value,,Updated user profile: changed manager per HR request,baseline
+2026-06-23T17:00:29Z,lane.upton@democorp.com,Recovery phone changed,lane.upton@democorp.com,Success,Recovery Phone,+1-555-0100,+1-555-0188,,User updated account recovery phone number,baseline
+2026-06-24T10:04:38Z,drew.hughes@democorp.com,Add member to group,micah.hughes@democorp.com,Success,Group Membership,,Sales-Team,,Added user to 'Sales-Team' group,baseline
+2026-06-24T16:58:54Z,micah.hughes@democorp.com,Reset user password,avery.singh@democorp.com,Success,Password,(redacted),(reset),,Password reset initiated by IT helpdesk per user request (ticket #17455),baseline
+2026-06-24T18:37:38Z,jesse.foster@democorp.com,Authentication method added,jesse.foster@democorp.com,Success,Authentication Method,,SMS,,User registered SMS for MFA,baseline
+2026-06-24T22:03:47Z,jordan.vasquez@democorp.com,MFA enabled,jordan.vasquez@democorp.com,Success,MFA Status,Disabled,Enabled,,User completed MFA registration,baseline
+2026-06-25T14:16:59Z,emery.upton@democorp.com,Authentication method removed,emery.upton@democorp.com,Success,Authentication Method,Windows Hello,,,Removed Windows Hello after device upgrade,baseline
+2026-06-25T22:42:45Z,micah.hughes@democorp.com,Assign license,alex.davis@democorp.com,Success,License,,Microsoft 365 E5,,Assigned license 'Microsoft 365 E5' to Alex Davis,baseline
+2026-06-26T16:06:03Z,jamie.vasquez@democorp.com,Add member to role,lane.campbell@democorp.com,Success,,,,User,Assigned role 'User' to Lane Campbell (approved change request),baseline
+2026-06-26T18:26:31Z,micah.hughes@democorp.com,Remove license,alex.davis@democorp.com,Success,License,Power BI Pro,,,Removed license 'Power BI Pro' from Alex Davis (license reclamation),baseline
+2026-06-27T15:11:17Z,drew.hughes@democorp.com,Add member to group,jesse.foster@democorp.com,Success,Group Membership,,Security-Operations,,Added user to 'Security-Operations' group,baseline
+2026-06-27T15:22:27Z,skyler.o'brien@democorp.com,Authentication method added,skyler.o'brien@democorp.com,Success,Authentication Method,,SMS,,User registered SMS for MFA,baseline
+2026-06-27T17:03:25Z,jesse.bennett@democorp.com,Update user,skyler.o'brien@democorp.com,Success,Job Title,Manager,Manager,,Updated user profile: changed job title per HR request,baseline
+2026-06-28T17:15:17Z,avery.young@democorp.com,Add member to group,alex.davis@democorp.com,Success,Security Group,,Conditional-Access-Exclusions,,Added user to 'Conditional-Access-Exclusions' security group,baseline
+2026-06-28T21:36:30Z,avery.young@democorp.com,Assign license,emery.upton@democorp.com,Success,License,,Power BI Pro,,Assigned license 'Power BI Pro' to Emery Upton,baseline
+2026-06-29T09:45:40Z,drew.hughes@democorp.com,Remove member from group,jordan.vasquez@democorp.com,Success,Group Membership,All Employees,,,Removed user from 'All Employees' group (role change / offboarding step),baseline
+2026-06-29T13:01:37Z,avery.bennett@democorp.com,MFA enabled,avery.bennett@democorp.com,Success,MFA Status,Disabled,Enabled,,User completed MFA registration,baseline
+2026-06-29T13:28:57Z,jordan.vasquez@democorp.com,MFA disabled,skyler.o'brien@democorp.com,Success,MFA Status,Enabled,Disabled,,MFA disabled per approved exception request,baseline
+2026-06-29T20:13:59Z,drew.hughes@democorp.com,Add member to group,lane.campbell@democorp.com,Success,Group Membership,,HR-Confidential,,Added user to 'HR-Confidential' group,baseline
+2026-06-30T10:08:42Z,kai.vasquez@democorp.com,Remove license,alex.davis@democorp.com,Success,License,Microsoft 365 E5,,,Removed license 'Microsoft 365 E5' from Alex Davis (license reclamation),baseline
+2026-06-30T17:05:46Z,micah.hughes@democorp.com,MFA enabled,micah.hughes@democorp.com,Success,MFA Status,Disabled,Enabled,,User completed MFA registration,baseline
+2026-07-01T08:07:59Z,lane.upton@democorp.com,Remove member from group,elliot.roberts@democorp.com,Success,Group Membership,VPN Users,,,Removed user from 'VPN Users' group (role change / offboarding step),baseline
+2026-07-01T09:18:27Z,avery.young@democorp.com,Remove license,emery.irving@democorp.com,Success,License,Microsoft 365 E3,,,Removed license 'Microsoft 365 E3' from Emery Irving (license reclamation),baseline
+2026-07-01T16:38:12Z,drew.hughes@democorp.com,Add member to group,reese.young@democorp.com,Success,Security Group,,Security-Operations,,Added user to 'Security-Operations' security group,baseline
+2026-07-01T19:32:48Z,kai.vasquez@democorp.com,Assign license,emery.irving@democorp.com,Success,License,,Microsoft 365 E3,,Assigned license 'Microsoft 365 E3' to Emery Irving,baseline
+2026-07-02T08:55:07Z,avery.bennett@democorp.com,Add member to role,reese.young@democorp.com,Success,,,,License Administrator,Assigned role 'License Administrator' to Reese Young (approved change request),baseline
+2026-07-02T11:47:35Z,jamie.singh@democorp.com,Authentication method removed,jamie.singh@democorp.com,Success,Authentication Method,Email OTP,,,Removed Email OTP after device upgrade,baseline
+2026-07-02T14:24:38Z,finley.foster@democorp.com,Recovery email changed,finley.foster@democorp.com,Success,Recovery Email,finley.foster@democorp.com,recovery.finley.foster@democorp.com,,User updated account recovery email address,baseline
+2026-07-02T20:23:14Z,finley.foster@democorp.com,Recovery email changed,finley.foster@democorp.com,Success,Recovery Email,finley.foster@democorp.com,recovery.finley.foster@democorp.com,,User updated account recovery email address,baseline
+2026-07-02T20:43:46Z,kai.vasquez@democorp.com,MFA disabled,avery.singh@democorp.com,Success,MFA Status,Enabled,Disabled,,MFA disabled per approved exception request,baseline
+2026-07-03T08:14:52Z,lane.campbell@democorp.com,Update user,jordan.vasquez@democorp.com,Success,Office Location,Toronto,New York,,Updated user profile: changed office location per HR request,baseline
+2026-07-03T09:38:40Z,elliot.roberts@democorp.com,MFA disabled,parker.zimmerman@democorp.com,Success,MFA Status,Enabled,Disabled,,MFA disabled per approved exception request,baseline
+2026-07-03T13:10:23Z,elliot.roberts@democorp.com,MFA disabled,emery.irving@democorp.com,Success,MFA Status,Enabled,Disabled,,MFA disabled per approved exception request,baseline
+2026-07-03T14:17:59Z,avery.bennett@democorp.com,MFA enabled,avery.bennett@democorp.com,Success,MFA Status,Disabled,Enabled,,User completed MFA registration,baseline
+2026-07-03T19:13:41Z,jesse.bennett@democorp.com,MFA enabled,jesse.bennett@democorp.com,Success,MFA Status,Disabled,Enabled,,User completed MFA registration,baseline
+2026-07-04T10:22:54Z,jesse.foster@democorp.com,Authentication method added,jesse.foster@democorp.com,Success,Authentication Method,,FIDO2 Security Key,,User registered FIDO2 Security Key for MFA,baseline
+2026-07-04T12:49:18Z,micah.hughes@democorp.com,Assign license,micah.hughes@democorp.com,Success,License,,Microsoft 365 E3,,Assigned license 'Microsoft 365 E3' to Micah Hughes,baseline
+2026-07-04T16:34:07Z,jordan.vasquez@democorp.com,Remove license,finley.foster@democorp.com,Success,License,Microsoft Defender for Office 365,,,Removed license 'Microsoft Defender for Office 365' from Finley Foster (license reclamation),baseline
+2026-07-04T21:56:55Z,micah.hughes@democorp.com,MFA disabled,lane.upton@democorp.com,Success,MFA Status,Enabled,Disabled,,MFA disabled per approved exception request,baseline
+2026-07-05T11:44:27Z,drew.hughes@democorp.com,Add member to group,skyler.o'brien@democorp.com,Success,Security Group,,Security-Operations,,Added user to 'Security-Operations' security group,baseline
+2026-07-05T17:26:14Z,lane.upton@democorp.com,Add member to group,jesse.foster@democorp.com,Success,Group Membership,,Security-Operations,,Added user to 'Security-Operations' group,baseline
+2026-07-06T08:01:05Z,avery.bennett@democorp.com,Authentication method added,avery.bennett@democorp.com,Success,Authentication Method,,Email OTP,,User registered Email OTP for MFA,baseline
+2026-07-06T11:14:08Z,elliot.roberts@democorp.com,Reset user password,harper.upton@democorp.com,Success,Password,(redacted),(reset),,Password reset initiated by IT helpdesk per user request (ticket #81482),baseline

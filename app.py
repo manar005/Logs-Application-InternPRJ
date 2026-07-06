@@ -112,7 +112,8 @@ def export_csv(log_type: str):
         }
         fieldnames = [
             "Timestamp", "Actor", "Activity", "TargetUser",
-            "Result", "Details", "ScenarioTag",
+            "Result", "ModifiedProperty", "OldValue", "NewValue", "RoleName",
+            "Details", "ScenarioTag",
         ]
     else:
         return jsonify({"error": "Invalid log type"}), 400

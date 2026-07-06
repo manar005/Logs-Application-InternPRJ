@@ -9,8 +9,8 @@ This is **not** a production application. It generates **realistic synthetic log
 | Component | Description |
 |-----------|-------------|
 | **User generator** | 25 employees across HR, Finance, IT, Sales, Security |
-| **Sign-in logs** | Successful/failed sign-ins + 4 attack techniques |
-| **Audit logs** | Normal admin activity + auth changes & role assignments |
+| **Sign-in logs** | Rich baseline sign-in activity + 4 attack techniques |
+| **Audit logs** | Frequent normal admin/identity activity + auth changes & role assignments |
 | **Dashboard** | Web UI to browse, filter, and export logs |
 | **Documentation** | Attack scenarios with example KQL queries |
 
@@ -86,9 +86,9 @@ Creates 25 DemoCorp employees with:
 Generates ~30 days of activity:
 
 **Baseline (normal):**
-- Daily successful sign-ins from office/remote IPs
-- Occasional failed sign-ins (typos)
-- Known countries and familiar devices
+- High-volume successful sign-ins across the 30-day window (office and remote work)
+- Occasional failed sign-ins from normal user mistakes
+- Activity spread across users, departments, devices, IPs, and known countries
 
 **Attack simulations:**
 
@@ -103,9 +103,14 @@ Generates ~30 days of activity:
 ### Audit Logs (`generate_audit_logs.py`)
 
 **Baseline:**
-- Onboarding role assignment
-- MFA enrollment
-- Helpdesk password reset
+- Frequent routine events across 30 days, tagged `baseline`, including:
+  - Helpdesk password resets
+  - MFA and authentication method enrollment or removal
+  - Approved role assignments
+  - Group and security group membership updates
+  - User profile updates
+  - License assignment and removal
+- Baseline audit volume is intentionally higher than attack events so threats blend into normal noise
 
 **Attack simulations:**
 
