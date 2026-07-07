@@ -12,8 +12,9 @@ import os
 import random
 from datetime import datetime
 
+from attack_scenarios import generate_benign_lookalike_audit
 from config import AUDIT_CSV, AUDIT_JSON, DAYS_OF_HISTORY, USERS_FILE
-from timestamps import format_ts, plan_attack_timeline, random_baseline_audit_timestamp
+from timestamps import random_baseline_audit_timestamp
 
 AUDIT_FIELDNAMES = [
     "Timestamp",
@@ -76,38 +77,6 @@ PRIVILEGED_ROLES = [
     "Privileged Role Administrator",
 ]
 
-# Attack auth changes — index order preserved for stable subset selection
-AUTH_ATTACK_OPTIONS = [
-    {
-        "activity": "Authentication method added",
-        "modified_property": "Authentication Method",
-        "old_value": "",
-        "new_value": "FIDO2 Security Key",
-        "details": "Added FIDO2 security key from new device",
-    },
-    {
-        "activity": "Authentication method removed",
-        "modified_property": "Authentication Method",
-        "old_value": "Microsoft Authenticator",
-        "new_value": "",
-        "details": "Removed Microsoft Authenticator from previous phone",
-    },
-    {
-        "activity": "MFA disabled",
-        "modified_property": "MFA Status",
-        "old_value": "Enabled",
-        "new_value": "Disabled",
-        "details": "Changed default MFA method to SMS (weaker factor)",
-    },
-    {
-        "activity": "Recovery email changed",
-        "modified_property": "Recovery Email",
-        "old_value": "user@democorp.com",
-        "new_value": "attacker@mail.ru",
-        "details": "Updated recovery email to external address attacker@mail.ru",
-    },
-]
-
 
 def _load_users(path: str = USERS_FILE) -> list[dict]:
     with open(path, encoding="utf-8") as f:
@@ -150,15 +119,21 @@ def _make_role_assignment(
     role_name: str,
     details: str,
     scenario_tag: str,
+    *,
+    result: str = "Success",
+    old_value: str = "User",
 ) -> dict:
     return _make_audit(
         timestamp,
         actor,
         "Add member to role",
         target,
-        "Success",
+        result,
         details,
         scenario_tag,
+        modified_property="Role Assignment",
+        old_value=old_value,
+        new_value=role_name if result == "Success" else old_value,
         role_name=role_name,
     )
 
@@ -436,107 +411,30 @@ def generate_baseline_audit(users: list[dict], base_date: datetime) -> list[dict
     return logs
 
 
-def generate_auth_change_attacks(
-    users: list[dict],
-    base_date: datetime,
-    timeline: dict,
+def generate_all_audit_logs(
+    users: list[dict] | None = None,
+    seed: int = 42,
+    *,
+    base_date: datetime | None = None,
+    scenario_audit: list[dict] | None = None,
 ) -> list[dict]:
-    """
-    Technique 3: Authentication Changes
-    Attacker modifies MFA and recovery info, shortly after a suspicious sign-in.
-    """
-    logs = []
-    victim = random.choice([u for u in users if u["role"] == "User"])
-    actor = victim["user_principal_name"]
-
-    change_count = random.randint(1, len(AUTH_ATTACK_OPTIONS))
-    selected_indices = sorted(random.sample(range(len(AUTH_ATTACK_OPTIONS)), change_count))
-
-    for slot, idx in enumerate(selected_indices):
-        option = AUTH_ATTACK_OPTIONS[idx]
-        ts = format_ts(timeline["auth_change_times"][slot])
-        logs.append(_make_audit(
-            ts,
-            actor,
-            option["activity"],
-            actor,
-            "Success",
-            option["details"],
-            "auth_change_attack",
-            modified_property=option["modified_property"],
-            old_value=option["old_value"],
-            new_value=option["new_value"],
-        ))
-
-    return logs
-
-
-def generate_privileged_role_attacks(
-    users: list[dict],
-    base_date: datetime,
-    timeline: dict,
-) -> list[dict]:
-    """
-    Technique 4: Privileged Role Assignment
-    Unusual actor grants privileged roles shortly after compromise.
-    """
-    logs = []
-    standard_users = [u for u in users if u["role"] == "User"]
-    victim = random.choice(standard_users)
-    mode = random.choice(["self", "accomplice", "both"])
-
-    if mode in ("self", "both"):
-        logs.append(_make_role_assignment(
-            format_ts(timeline["privileged_role_times"][0]),
-            victim["user_principal_name"],
-            victim["user_principal_name"],
-            "Global Administrator",
-            "User assigned to privileged directory role — initiated by non-admin account",
-            "privileged_role_self_elevation",
-        ))
-
-    if mode in ("accomplice", "both"):
-        accomplice = random.choice([u for u in standard_users if u != victim])
-        accomplice_role = random.choice([
-            "Security Administrator",
-            "Privileged Role Administrator",
-        ])
-        time_slot = 1 if mode == "both" else 0
-        logs.append(_make_role_assignment(
-            format_ts(timeline["privileged_role_times"][time_slot]),
-            victim["user_principal_name"],
-            accomplice["user_principal_name"],
-            accomplice_role,
-            f"User assigned to privileged directory role ({accomplice_role})",
-            "privileged_role_accomplice",
-        ))
-
-    real_admin = next(u for u in users if u["role"] == "Global Administrator")
-    logs.append(_make_role_assignment(
-        format_ts(timeline["privileged_baseline_time"]),
-        real_admin["user_principal_name"],
-        next(u for u in users if u["department"] == "Security")["user_principal_name"],
-        "Security Administrator",
-        "Assigned role during planned security team expansion",
-        "baseline",
-    ))
-
-    return logs
-
-
-def generate_all_audit_logs(users: list[dict] | None = None, seed: int = 42) -> list[dict]:
-    """Combine baseline and attack audit logs, sorted by timestamp."""
+    """Combine baseline, benign lookalikes, and scenario attack audit logs."""
     random.seed(seed)
     if users is None:
         users = _load_users()
 
-    base_date = datetime.utcnow().replace(microsecond=0)
-    timeline = plan_attack_timeline(base_date, seed)
+    if base_date is None:
+        base_date = datetime.utcnow().replace(microsecond=0)
+    if scenario_audit is None:
+        from attack_scenarios import generate_scenario_events, plan_attack_scenarios
+
+        scenarios = plan_attack_scenarios(users, base_date, seed)
+        _, scenario_audit = generate_scenario_events(scenarios, users, seed)
 
     logs = []
     logs.extend(generate_baseline_audit(users, base_date))
-    logs.extend(generate_auth_change_attacks(users, base_date, timeline))
-    logs.extend(generate_privileged_role_attacks(users, base_date, timeline))
+    logs.extend(generate_benign_lookalike_audit(users, base_date, seed))
+    logs.extend(scenario_audit)
 
     logs.sort(key=lambda x: x["Timestamp"])
     return logs
