@@ -1,6 +1,6 @@
 [
   {
-    "Timestamp": "2026-06-08T13:54:15Z",
+    "Timestamp": "2026-06-16 4:54:15 pm",
     "Actor": "avery.bennett@democorp.com",
     "Activity": "Assign license",
     "TargetUser": "micah.hughes@democorp.com",
@@ -13,7 +13,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-08T16:49:30Z",
+    "Timestamp": "2026-06-16 7:49:30 pm",
     "Actor": "avery.young@democorp.com",
     "Activity": "Remove member from group",
     "TargetUser": "jesse.foster@democorp.com",
@@ -26,7 +26,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-08T17:39:42Z",
+    "Timestamp": "2026-06-16 8:39:42 pm",
     "Actor": "avery.young@democorp.com",
     "Activity": "MFA enabled",
     "TargetUser": "avery.young@democorp.com",
@@ -35,11 +35,11 @@
     "OldValue": "Disabled",
     "NewValue": "Enabled",
     "RoleName": "",
-    "Details": "User completed MFA registration",
+    "Details": "MFA enabled for the account.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-08T20:45:09Z",
+    "Timestamp": "2026-06-16 11:45:09 pm",
     "Actor": "finley.foster@democorp.com",
     "Activity": "Update user",
     "TargetUser": "parker.zimmerman@democorp.com",
@@ -52,7 +52,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-09T04:20:18Z",
+    "Timestamp": "2026-06-17 7:20:18 am",
     "Actor": "alex.davis@democorp.com",
     "Activity": "Authentication method added",
     "TargetUser": "alex.davis@democorp.com",
@@ -61,24 +61,11 @@
     "OldValue": "",
     "NewValue": "FIDO2 Security Key",
     "RoleName": "",
-    "Details": "Added FIDO2 security key from new device",
+    "Details": "Registered a new FIDO2 Security Key.",
     "ScenarioTag": "auth_change_attack"
   },
   {
-    "Timestamp": "2026-06-09T04:31:51Z",
-    "Actor": "alex.davis@democorp.com",
-    "Activity": "Authentication method removed",
-    "TargetUser": "alex.davis@democorp.com",
-    "Result": "Success",
-    "ModifiedProperty": "Authentication Method",
-    "OldValue": "Microsoft Authenticator",
-    "NewValue": "",
-    "RoleName": "",
-    "Details": "Removed Microsoft Authenticator from previous phone",
-    "ScenarioTag": "auth_change_attack"
-  },
-  {
-    "Timestamp": "2026-06-09T04:43:59Z",
+    "Timestamp": "2026-06-17 7:31:51 am",
     "Actor": "alex.davis@democorp.com",
     "Activity": "MFA disabled",
     "TargetUser": "alex.davis@democorp.com",
@@ -87,11 +74,11 @@
     "OldValue": "Enabled",
     "NewValue": "Disabled",
     "RoleName": "",
-    "Details": "Changed default MFA method to SMS (weaker factor)",
+    "Details": "MFA disabled for the account.",
     "ScenarioTag": "auth_change_attack"
   },
   {
-    "Timestamp": "2026-06-09T04:48:10Z",
+    "Timestamp": "2026-06-17 7:43:59 am",
     "Actor": "alex.davis@democorp.com",
     "Activity": "Recovery email changed",
     "TargetUser": "alex.davis@democorp.com",
@@ -100,11 +87,24 @@
     "OldValue": "alex.davis@democorp.com",
     "NewValue": "attacker@mail.ru",
     "RoleName": "",
-    "Details": "Updated recovery email to external address attacker@mail.ru",
+    "Details": "Updated recovery email address to attacker@mail.ru.",
     "ScenarioTag": "auth_change_attack"
   },
   {
-    "Timestamp": "2026-06-09T11:06:44Z",
+    "Timestamp": "2026-06-17 7:48:10 am",
+    "Actor": "alex.davis@democorp.com",
+    "Activity": "Recovery phone changed",
+    "TargetUser": "alex.davis@democorp.com",
+    "Result": "Success",
+    "ModifiedProperty": "Recovery Phone",
+    "OldValue": "+97336001000",
+    "NewValue": "+79991234567",
+    "RoleName": "",
+    "Details": "Updated recovery phone number to +79991234567.",
+    "ScenarioTag": "auth_change_attack"
+  },
+  {
+    "Timestamp": "2026-06-17 2:06:44 pm",
     "Actor": "avery.singh@democorp.com",
     "Activity": "Authentication method added",
     "TargetUser": "avery.singh@democorp.com",
@@ -113,11 +113,11 @@
     "OldValue": "",
     "NewValue": "Email OTP",
     "RoleName": "",
-    "Details": "User registered Email OTP for MFA",
+    "Details": "Registered a new Email OTP.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-09T12:36:43Z",
+    "Timestamp": "2026-06-17 3:36:43 pm",
     "Actor": "jesse.bennett@democorp.com",
     "Activity": "Authentication method added",
     "TargetUser": "jesse.bennett@democorp.com",
@@ -126,11 +126,11 @@
     "OldValue": "",
     "NewValue": "Microsoft Authenticator",
     "RoleName": "",
-    "Details": "User registered Microsoft Authenticator for MFA",
+    "Details": "Registered a new Microsoft Authenticator.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-09T16:41:21Z",
+    "Timestamp": "2026-06-17 7:41:21 pm",
     "Actor": "reese.foster@democorp.com",
     "Activity": "Update user",
     "TargetUser": "reese.johnson@democorp.com",
@@ -143,7 +143,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-09T17:50:02Z",
+    "Timestamp": "2026-06-17 8:50:02 pm",
     "Actor": "kai.vasquez@democorp.com",
     "Activity": "Remove license",
     "TargetUser": "elliot.roberts@democorp.com",
@@ -156,7 +156,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-10T06:30:01Z",
+    "Timestamp": "2026-06-18 9:30:01 am",
     "Actor": "jordan.vasquez@democorp.com",
     "Activity": "Remove license",
     "TargetUser": "lane.campbell@democorp.com",
@@ -169,7 +169,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-10T08:48:01Z",
+    "Timestamp": "2026-06-18 11:48:01 am",
     "Actor": "emery.irving@democorp.com",
     "Activity": "MFA enabled",
     "TargetUser": "emery.irving@democorp.com",
@@ -178,11 +178,11 @@
     "OldValue": "Disabled",
     "NewValue": "Enabled",
     "RoleName": "",
-    "Details": "User completed MFA registration",
+    "Details": "MFA enabled for the account.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-10T10:15:08Z",
+    "Timestamp": "2026-06-18 1:15:08 pm",
     "Actor": "avery.bennett@democorp.com",
     "Activity": "Add member to group",
     "TargetUser": "alex.davis@democorp.com",
@@ -195,7 +195,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-10T13:10:38Z",
+    "Timestamp": "2026-06-18 4:10:38 pm",
     "Actor": "jamie.vasquez@democorp.com",
     "Activity": "Add member to role",
     "TargetUser": "frankie.johnson@democorp.com",
@@ -208,7 +208,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-11T09:41:27Z",
+    "Timestamp": "2026-06-19 12:41:27 pm",
     "Actor": "drew.hughes@democorp.com",
     "Activity": "Remove member from group",
     "TargetUser": "reese.young@democorp.com",
@@ -221,7 +221,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-11T13:13:29Z",
+    "Timestamp": "2026-06-19 4:13:29 pm",
     "Actor": "avery.bennett@democorp.com",
     "Activity": "Reset user password",
     "TargetUser": "skyler.o'brien@democorp.com",
@@ -234,7 +234,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-11T14:21:42Z",
+    "Timestamp": "2026-06-19 5:21:42 pm",
     "Actor": "reese.foster@democorp.com",
     "Activity": "Recovery email changed",
     "TargetUser": "reese.foster@democorp.com",
@@ -243,11 +243,11 @@
     "OldValue": "reese.foster@democorp.com",
     "NewValue": "recovery.reese.foster@democorp.com",
     "RoleName": "",
-    "Details": "User updated account recovery email address",
+    "Details": "Updated recovery email address for the account.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-11T18:39:34Z",
+    "Timestamp": "2026-06-19 9:39:34 pm",
     "Actor": "jesse.bennett@democorp.com",
     "Activity": "Authentication method removed",
     "TargetUser": "jesse.bennett@democorp.com",
@@ -256,27 +256,27 @@
     "OldValue": "Email OTP",
     "NewValue": "",
     "RoleName": "",
-    "Details": "Removed Email OTP after device upgrade",
+    "Details": "Removed Email OTP after device replacement.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-12T16:51:38Z",
-    "Actor": "lane.campbell@democorp.com",
+    "Timestamp": "2026-06-20 11:34:47 pm",
+    "Actor": "avery.young@democorp.com",
     "Activity": "Add member to group",
-    "TargetUser": "emery.upton@democorp.com",
+    "TargetUser": "lane.campbell@democorp.com",
     "Result": "Success",
-    "ModifiedProperty": "Group Membership",
+    "ModifiedProperty": "Security Group",
     "OldValue": "",
-    "NewValue": "VPN Users",
+    "NewValue": "Privileged-Access-Reviewers",
     "RoleName": "",
-    "Details": "Added user to 'VPN Users' group",
+    "Details": "Added user to 'Privileged-Access-Reviewers' security group",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-12T20:30:00Z",
+    "Timestamp": "2026-06-21 12:24:30 am",
     "Actor": "drew.hughes@democorp.com",
     "Activity": "Remove member from group",
-    "TargetUser": "elliot.roberts@democorp.com",
+    "TargetUser": "reese.johnson@democorp.com",
     "Result": "Success",
     "ModifiedProperty": "Security Group",
     "OldValue": "Privileged-Access-Reviewers",
@@ -286,72 +286,98 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-13T11:45:13Z",
-    "Actor": "kai.vasquez@democorp.com",
-    "Activity": "Authentication method removed",
-    "TargetUser": "kai.vasquez@democorp.com",
-    "Result": "Success",
-    "ModifiedProperty": "Authentication Method",
-    "OldValue": "Windows Hello",
-    "NewValue": "",
-    "RoleName": "",
-    "Details": "Removed Windows Hello after device upgrade",
-    "ScenarioTag": "baseline"
+    "Timestamp": "2026-06-21 1:55:54 am",
+    "Actor": "avery.singh@democorp.com",
+    "Activity": "Add member to role",
+    "TargetUser": "alex.davis@democorp.com",
+    "Result": "Failure",
+    "ModifiedProperty": "Role Assignment",
+    "OldValue": "User",
+    "NewValue": "User",
+    "RoleName": "Security Administrator",
+    "Details": "Role assignment denied: insufficient privileges.",
+    "ScenarioTag": "privileged_role_accomplice"
   },
   {
-    "Timestamp": "2026-06-13T13:21:20Z",
-    "Actor": "jordan.vasquez@democorp.com",
+    "Timestamp": "2026-06-21 2:12:26 am",
+    "Actor": "avery.young@democorp.com",
+    "Activity": "Add member to role",
+    "TargetUser": "alex.davis@democorp.com",
+    "Result": "Success",
+    "ModifiedProperty": "Role Assignment",
+    "OldValue": "User",
+    "NewValue": "Privileged Role Administrator",
+    "RoleName": "Privileged Role Administrator",
+    "Details": "Assigned Privileged Role Administrator to Alex Davis.",
+    "ScenarioTag": "privileged_role_accomplice"
+  },
+  {
+    "Timestamp": "2026-06-21 3:04:26 pm",
+    "Actor": "avery.bennett@democorp.com",
     "Activity": "Assign license",
-    "TargetUser": "lane.campbell@democorp.com",
+    "TargetUser": "parker.zimmerman@democorp.com",
     "Result": "Success",
     "ModifiedProperty": "License",
     "OldValue": "",
-    "NewValue": "Microsoft 365 E5",
+    "NewValue": "Microsoft Defender for Office 365",
     "RoleName": "",
-    "Details": "Assigned license 'Microsoft 365 E5' to Lane Campbell",
+    "Details": "Assigned license 'Microsoft Defender for Office 365' to Parker Zimmerman",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-13T20:03:13Z",
-    "Actor": "jesse.bennett@democorp.com",
-    "Activity": "Recovery phone changed",
+    "Timestamp": "2026-06-21 3:53:26 pm",
+    "Actor": "lane.upton@democorp.com",
+    "Activity": "Add member to role",
+    "TargetUser": "finley.foster@democorp.com",
+    "Result": "Success",
+    "ModifiedProperty": "Role Assignment",
+    "OldValue": "User",
+    "NewValue": "License Administrator",
+    "RoleName": "License Administrator",
+    "Details": "Assigned role 'License Administrator' to Finley Foster (approved change request)",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-21 3:53:40 pm",
+    "Actor": "lane.upton@democorp.com",
+    "Activity": "Add member to role",
     "TargetUser": "jesse.bennett@democorp.com",
+    "Result": "Success",
+    "ModifiedProperty": "Role Assignment",
+    "OldValue": "User",
+    "NewValue": "Helpdesk Administrator",
+    "RoleName": "Helpdesk Administrator",
+    "Details": "Assigned role 'Helpdesk Administrator' to Jesse Bennett (approved change request)",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-21 7:04:45 pm",
+    "Actor": "finley.foster@democorp.com",
+    "Activity": "Update user",
+    "TargetUser": "kai.vasquez@democorp.com",
+    "Result": "Success",
+    "ModifiedProperty": "Manager",
+    "OldValue": "Previous Value",
+    "NewValue": "Updated Value",
+    "RoleName": "",
+    "Details": "Updated user profile: changed manager per HR request",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-21 8:05:08 pm",
+    "Actor": "avery.bennett@democorp.com",
+    "Activity": "Recovery phone changed",
+    "TargetUser": "avery.bennett@democorp.com",
     "Result": "Success",
     "ModifiedProperty": "Recovery Phone",
     "OldValue": "+1-555-0100",
-    "NewValue": "+44-7700-900123",
+    "NewValue": "+1-555-0234",
     "RoleName": "",
-    "Details": "User updated account recovery phone number",
+    "Details": "Updated recovery phone number for the account.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-13T20:28:16Z",
-    "Actor": "alex.davis@democorp.com",
-    "Activity": "Authentication method removed",
-    "TargetUser": "alex.davis@democorp.com",
-    "Result": "Success",
-    "ModifiedProperty": "Authentication Method",
-    "OldValue": "FIDO2 Security Key",
-    "NewValue": "",
-    "RoleName": "",
-    "Details": "Removed FIDO2 Security Key after device upgrade",
-    "ScenarioTag": "baseline"
-  },
-  {
-    "Timestamp": "2026-06-13T20:40:15Z",
-    "Actor": "avery.young@democorp.com",
-    "Activity": "Remove license",
-    "TargetUser": "jesse.bennett@democorp.com",
-    "Result": "Success",
-    "ModifiedProperty": "License",
-    "OldValue": "Microsoft 365 E3",
-    "NewValue": "",
-    "RoleName": "",
-    "Details": "Removed license 'Microsoft 365 E3' from Jesse Bennett (license reclamation)",
-    "ScenarioTag": "baseline"
-  },
-  {
-    "Timestamp": "2026-06-14T16:42:33Z",
+    "Timestamp": "2026-06-22 6:42:33 pm",
     "Actor": "lane.upton@democorp.com",
     "Activity": "Add member to role",
     "TargetUser": "lane.campbell@democorp.com",
@@ -364,7 +390,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-14T21:29:03Z",
+    "Timestamp": "2026-06-22 7:29:03 pm",
     "Actor": "avery.bennett@democorp.com",
     "Activity": "Authentication method removed",
     "TargetUser": "avery.bennett@democorp.com",
@@ -373,24 +399,50 @@
     "OldValue": "SMS",
     "NewValue": "",
     "RoleName": "",
-    "Details": "Removed SMS after device upgrade",
+    "Details": "Removed SMS after device replacement.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-14T21:52:46Z",
+    "Timestamp": "2026-06-22 11:53:58 pm",
     "Actor": "avery.young@democorp.com",
     "Activity": "Remove license",
-    "TargetUser": "avery.singh@democorp.com",
+    "TargetUser": "lane.campbell@democorp.com",
     "Result": "Success",
     "ModifiedProperty": "License",
-    "OldValue": "Microsoft Defender for Office 365",
+    "OldValue": "Microsoft 365 E5",
     "NewValue": "",
     "RoleName": "",
-    "Details": "Removed license 'Microsoft Defender for Office 365' from Avery Singh (license reclamation)",
+    "Details": "Removed license 'Microsoft 365 E5' from Lane Campbell (license reclamation)",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-15T14:31:25Z",
+    "Timestamp": "2026-06-23 5:19:42 am",
+    "Actor": "jamie.singh@democorp.com",
+    "Activity": "Add member to role",
+    "TargetUser": "frankie.johnson@democorp.com",
+    "Result": "Failure",
+    "ModifiedProperty": "Role Assignment",
+    "OldValue": "User",
+    "NewValue": "User",
+    "RoleName": "Privileged Role Administrator",
+    "Details": "Operation blocked by authorization policy.",
+    "ScenarioTag": "privileged_role_accomplice"
+  },
+  {
+    "Timestamp": "2026-06-23 5:37:15 am",
+    "Actor": "avery.bennett@democorp.com",
+    "Activity": "Add member to role",
+    "TargetUser": "frankie.johnson@democorp.com",
+    "Result": "Success",
+    "ModifiedProperty": "Role Assignment",
+    "OldValue": "User",
+    "NewValue": "Privileged Role Administrator",
+    "RoleName": "Privileged Role Administrator",
+    "Details": "Assigned Privileged Role Administrator to Frankie Johnson.",
+    "ScenarioTag": "privileged_role_accomplice"
+  },
+  {
+    "Timestamp": "2026-06-23 5:31:25 pm",
     "Actor": "finley.foster@democorp.com",
     "Activity": "Update user",
     "TargetUser": "emery.upton@democorp.com",
@@ -403,7 +455,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-15T15:39:54Z",
+    "Timestamp": "2026-06-23 6:39:54 pm",
     "Actor": "avery.young@democorp.com",
     "Activity": "Reset user password",
     "TargetUser": "micah.hughes@democorp.com",
@@ -416,7 +468,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-15T22:00:06Z",
+    "Timestamp": "2026-06-23 11:37:56 pm",
     "Actor": "jordan.vasquez@democorp.com",
     "Activity": "Authentication method removed",
     "TargetUser": "jordan.vasquez@democorp.com",
@@ -425,11 +477,11 @@
     "OldValue": "Microsoft Authenticator",
     "NewValue": "",
     "RoleName": "",
-    "Details": "Removed Microsoft Authenticator from previous phone",
+    "Details": "Removed Microsoft Authenticator after device replacement.",
     "ScenarioTag": "auth_change_attack"
   },
   {
-    "Timestamp": "2026-06-15T22:11:47Z",
+    "Timestamp": "2026-06-23 11:49:37 pm",
     "Actor": "jordan.vasquez@democorp.com",
     "Activity": "MFA disabled",
     "TargetUser": "jordan.vasquez@democorp.com",
@@ -438,24 +490,11 @@
     "OldValue": "Enabled",
     "NewValue": "Disabled",
     "RoleName": "",
-    "Details": "Changed default MFA method to SMS (weaker factor)",
+    "Details": "MFA disabled for the account.",
     "ScenarioTag": "auth_change_attack"
   },
   {
-    "Timestamp": "2026-06-16T02:44:51Z",
-    "Actor": "micah.hughes@democorp.com",
-    "Activity": "MFA disabled",
-    "TargetUser": "micah.hughes@democorp.com",
-    "Result": "Success",
-    "ModifiedProperty": "MFA Status",
-    "OldValue": "Enabled",
-    "NewValue": "Disabled",
-    "RoleName": "",
-    "Details": "Changed default MFA method to SMS (weaker factor)",
-    "ScenarioTag": "auth_change_attack"
-  },
-  {
-    "Timestamp": "2026-06-16T02:56:43Z",
+    "Timestamp": "2026-06-24 5:44:51 am",
     "Actor": "micah.hughes@democorp.com",
     "Activity": "Recovery email changed",
     "TargetUser": "micah.hughes@democorp.com",
@@ -464,11 +503,24 @@
     "OldValue": "micah.hughes@democorp.com",
     "NewValue": "attacker@mail.ru",
     "RoleName": "",
-    "Details": "Updated recovery email to external address attacker@mail.ru",
+    "Details": "Updated recovery email address to attacker@mail.ru.",
     "ScenarioTag": "auth_change_attack"
   },
   {
-    "Timestamp": "2026-06-16T08:19:18Z",
+    "Timestamp": "2026-06-24 5:56:43 am",
+    "Actor": "micah.hughes@democorp.com",
+    "Activity": "Recovery phone changed",
+    "TargetUser": "micah.hughes@democorp.com",
+    "Result": "Success",
+    "ModifiedProperty": "Recovery Phone",
+    "OldValue": "+97336001000",
+    "NewValue": "+79991234567",
+    "RoleName": "",
+    "Details": "Updated recovery phone number to +79991234567.",
+    "ScenarioTag": "auth_change_attack"
+  },
+  {
+    "Timestamp": "2026-06-24 11:19:18 am",
     "Actor": "kai.vasquez@democorp.com",
     "Activity": "Recovery email changed",
     "TargetUser": "kai.vasquez@democorp.com",
@@ -477,11 +529,11 @@
     "OldValue": "kai.vasquez@democorp.com",
     "NewValue": "recovery.kai.vasquez@democorp.com",
     "RoleName": "",
-    "Details": "User updated account recovery email address",
+    "Details": "Updated recovery email address for the account.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-16T09:52:48Z",
+    "Timestamp": "2026-06-24 12:52:48 pm",
     "Actor": "lane.campbell@democorp.com",
     "Activity": "Update user",
     "TargetUser": "emery.upton@democorp.com",
@@ -494,7 +546,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-16T10:42:05Z",
+    "Timestamp": "2026-06-24 1:42:05 pm",
     "Actor": "reese.foster@democorp.com",
     "Activity": "Add member to group",
     "TargetUser": "kai.vasquez@democorp.com",
@@ -507,7 +559,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-16T13:29:28Z",
+    "Timestamp": "2026-06-24 4:29:28 pm",
     "Actor": "elliot.roberts@democorp.com",
     "Activity": "Remove license",
     "TargetUser": "jesse.foster@democorp.com",
@@ -520,7 +572,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-17T13:39:20Z",
+    "Timestamp": "2026-06-25 4:39:20 pm",
     "Actor": "reese.foster@democorp.com",
     "Activity": "Recovery phone changed",
     "TargetUser": "reese.foster@democorp.com",
@@ -529,11 +581,11 @@
     "OldValue": "+1-555-0100",
     "NewValue": "+1-555-0234",
     "RoleName": "",
-    "Details": "User updated account recovery phone number",
+    "Details": "Updated recovery phone number for the account.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-17T14:20:25Z",
+    "Timestamp": "2026-06-25 5:20:25 pm",
     "Actor": "reese.foster@democorp.com",
     "Activity": "Add member to group",
     "TargetUser": "kai.vasquez@democorp.com",
@@ -546,7 +598,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-17T14:43:47Z",
+    "Timestamp": "2026-06-25 5:43:47 pm",
     "Actor": "jesse.foster@democorp.com",
     "Activity": "MFA enabled",
     "TargetUser": "jesse.foster@democorp.com",
@@ -555,24 +607,11 @@
     "OldValue": "Disabled",
     "NewValue": "Enabled",
     "RoleName": "",
-    "Details": "User completed MFA registration",
+    "Details": "MFA enabled for the account.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-18T02:38:58Z",
-    "Actor": "jamie.singh@democorp.com",
-    "Activity": "Add member to role",
-    "TargetUser": "finley.foster@democorp.com",
-    "Result": "Failure",
-    "ModifiedProperty": "Role Assignment",
-    "OldValue": "User",
-    "NewValue": "User",
-    "RoleName": "Privileged Role Administrator",
-    "Details": "Role assignment denied: actor lacks permission to assign Privileged Role Administrator",
-    "ScenarioTag": "privileged_role_accomplice"
-  },
-  {
-    "Timestamp": "2026-06-18T08:45:27Z",
+    "Timestamp": "2026-06-26 11:45:27 am",
     "Actor": "lane.upton@democorp.com",
     "Activity": "Remove member from group",
     "TargetUser": "reese.johnson@democorp.com",
@@ -585,7 +624,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-18T13:27:38Z",
+    "Timestamp": "2026-06-26 4:27:38 pm",
     "Actor": "avery.bennett@democorp.com",
     "Activity": "Remove member from group",
     "TargetUser": "avery.singh@democorp.com",
@@ -598,33 +637,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-18T22:55:54Z",
-    "Actor": "avery.singh@democorp.com",
-    "Activity": "Add member to role",
-    "TargetUser": "reese.johnson@democorp.com",
-    "Result": "Success",
-    "ModifiedProperty": "Role Assignment",
-    "OldValue": "User",
-    "NewValue": "Security Administrator",
-    "RoleName": "Security Administrator",
-    "Details": "Add member to role: assigned Security Administrator to Reese Johnson (actor is non-admin account)",
-    "ScenarioTag": "privileged_role_accomplice"
-  },
-  {
-    "Timestamp": "2026-06-19T09:24:55Z",
-    "Actor": "elliot.roberts@democorp.com",
-    "Activity": "Authentication method removed",
-    "TargetUser": "elliot.roberts@democorp.com",
-    "Result": "Success",
-    "ModifiedProperty": "Authentication Method",
-    "OldValue": "Microsoft Authenticator",
-    "NewValue": "",
-    "RoleName": "",
-    "Details": "Removed Microsoft Authenticator after device upgrade",
-    "ScenarioTag": "baseline"
-  },
-  {
-    "Timestamp": "2026-06-19T11:58:17Z",
+    "Timestamp": "2026-06-27 2:58:17 pm",
     "Actor": "jamie.vasquez@democorp.com",
     "Activity": "Add member to role",
     "TargetUser": "jamie.singh@democorp.com",
@@ -637,33 +650,20 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-19T14:21:17Z",
-    "Actor": "avery.bennett@democorp.com",
-    "Activity": "Reset user password",
+    "Timestamp": "2026-06-27 5:17:55 pm",
+    "Actor": "lane.campbell@democorp.com",
+    "Activity": "Update user",
     "TargetUser": "micah.hughes@democorp.com",
     "Result": "Success",
-    "ModifiedProperty": "Password",
-    "OldValue": "(redacted)",
-    "NewValue": "(reset)",
+    "ModifiedProperty": "Manager",
+    "OldValue": "Previous Value",
+    "NewValue": "Updated Value",
     "RoleName": "",
-    "Details": "Password reset initiated by IT helpdesk per user request (ticket #56025)",
+    "Details": "Updated user profile: changed manager per HR request",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-19T15:22:19Z",
-    "Actor": "avery.bennett@democorp.com",
-    "Activity": "MFA enabled",
-    "TargetUser": "avery.bennett@democorp.com",
-    "Result": "Success",
-    "ModifiedProperty": "MFA Status",
-    "OldValue": "Disabled",
-    "NewValue": "Enabled",
-    "RoleName": "",
-    "Details": "User completed MFA registration",
-    "ScenarioTag": "baseline"
-  },
-  {
-    "Timestamp": "2026-06-19T16:21:01Z",
+    "Timestamp": "2026-06-28 12:21:01 am",
     "Actor": "lane.campbell@democorp.com",
     "Activity": "Update user",
     "TargetUser": "harper.upton@democorp.com",
@@ -676,7 +676,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-20T00:28:07Z",
+    "Timestamp": "2026-06-28 1:08:01 am",
     "Actor": "kai.vasquez@democorp.com",
     "Activity": "Authentication method added",
     "TargetUser": "kai.vasquez@democorp.com",
@@ -685,11 +685,11 @@
     "OldValue": "",
     "NewValue": "FIDO2 Security Key",
     "RoleName": "",
-    "Details": "Added FIDO2 security key from new device",
+    "Details": "Registered a new FIDO2 Security Key.",
     "ScenarioTag": "auth_change_attack"
   },
   {
-    "Timestamp": "2026-06-20T00:33:51Z",
+    "Timestamp": "2026-06-28 1:13:45 am",
     "Actor": "kai.vasquez@democorp.com",
     "Activity": "Authentication method removed",
     "TargetUser": "kai.vasquez@democorp.com",
@@ -698,11 +698,11 @@
     "OldValue": "Microsoft Authenticator",
     "NewValue": "",
     "RoleName": "",
-    "Details": "Removed Microsoft Authenticator from previous phone",
+    "Details": "Removed Microsoft Authenticator after device replacement.",
     "ScenarioTag": "auth_change_attack"
   },
   {
-    "Timestamp": "2026-06-20T00:46:29Z",
+    "Timestamp": "2026-06-28 1:26:23 am",
     "Actor": "kai.vasquez@democorp.com",
     "Activity": "MFA disabled",
     "TargetUser": "kai.vasquez@democorp.com",
@@ -711,11 +711,11 @@
     "OldValue": "Enabled",
     "NewValue": "Disabled",
     "RoleName": "",
-    "Details": "Changed default MFA method to SMS (weaker factor)",
+    "Details": "MFA disabled for the account.",
     "ScenarioTag": "auth_change_attack"
   },
   {
-    "Timestamp": "2026-06-20T00:56:01Z",
+    "Timestamp": "2026-06-28 1:35:55 am",
     "Actor": "kai.vasquez@democorp.com",
     "Activity": "Recovery email changed",
     "TargetUser": "kai.vasquez@democorp.com",
@@ -724,11 +724,24 @@
     "OldValue": "kai.vasquez@democorp.com",
     "NewValue": "attacker@mail.ru",
     "RoleName": "",
-    "Details": "Updated recovery email to external address attacker@mail.ru",
+    "Details": "Updated recovery email address to attacker@mail.ru.",
     "ScenarioTag": "auth_change_attack"
   },
   {
-    "Timestamp": "2026-06-20T20:01:11Z",
+    "Timestamp": "2026-06-28 1:24:55 pm",
+    "Actor": "micah.hughes@democorp.com",
+    "Activity": "MFA disabled",
+    "TargetUser": "elliot.roberts@democorp.com",
+    "Result": "Success",
+    "ModifiedProperty": "MFA Status",
+    "OldValue": "Enabled",
+    "NewValue": "Disabled",
+    "RoleName": "",
+    "Details": "MFA disabled for the account.",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-28 11:01:11 pm",
     "Actor": "avery.young@democorp.com",
     "Activity": "Remove license",
     "TargetUser": "skyler.o'brien@democorp.com",
@@ -741,20 +754,46 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-20T20:39:47Z",
+    "Timestamp": "2026-06-28 11:22:19 pm",
     "Actor": "avery.bennett@democorp.com",
-    "Activity": "Recovery phone changed",
+    "Activity": "MFA enabled",
     "TargetUser": "avery.bennett@democorp.com",
     "Result": "Success",
-    "ModifiedProperty": "Recovery Phone",
-    "OldValue": "+1-555-0100",
-    "NewValue": "+1-555-0188",
+    "ModifiedProperty": "MFA Status",
+    "OldValue": "Disabled",
+    "NewValue": "Enabled",
     "RoleName": "",
-    "Details": "User updated account recovery phone number",
+    "Details": "MFA enabled for the account.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-21T17:09:27Z",
+    "Timestamp": "2026-06-28 11:39:47 pm",
+    "Actor": "micah.hughes@democorp.com",
+    "Activity": "Remove license",
+    "TargetUser": "reese.young@democorp.com",
+    "Result": "Success",
+    "ModifiedProperty": "License",
+    "OldValue": "Microsoft 365 E5",
+    "NewValue": "",
+    "RoleName": "",
+    "Details": "Removed license 'Microsoft 365 E5' from Reese Young (license reclamation)",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-29 10:13:43 am",
+    "Actor": "elliot.roberts@democorp.com",
+    "Activity": "Remove license",
+    "TargetUser": "emery.upton@democorp.com",
+    "Result": "Success",
+    "ModifiedProperty": "License",
+    "OldValue": "Microsoft 365 E3",
+    "NewValue": "",
+    "RoleName": "",
+    "Details": "Removed license 'Microsoft 365 E3' from Emery Upton (license reclamation)",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-06-29 7:09:27 pm",
     "Actor": "avery.bennett@democorp.com",
     "Activity": "Remove member from group",
     "TargetUser": "reese.young@democorp.com",
@@ -767,20 +806,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-21T17:57:22Z",
-    "Actor": "elliot.roberts@democorp.com",
-    "Activity": "Remove license",
-    "TargetUser": "jamie.singh@democorp.com",
-    "Result": "Success",
-    "ModifiedProperty": "License",
-    "OldValue": "Microsoft 365 E5",
-    "NewValue": "",
-    "RoleName": "",
-    "Details": "Removed license 'Microsoft 365 E5' from Jamie Singh (license reclamation)",
-    "ScenarioTag": "baseline"
-  },
-  {
-    "Timestamp": "2026-06-22T10:40:16Z",
+    "Timestamp": "2026-06-30 1:40:16 pm",
     "Actor": "elliot.roberts@democorp.com",
     "Activity": "Reset user password",
     "TargetUser": "emery.irving@democorp.com",
@@ -793,7 +819,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-22T12:32:31Z",
+    "Timestamp": "2026-06-30 3:32:31 pm",
     "Actor": "jesse.bennett@democorp.com",
     "Activity": "Update user",
     "TargetUser": "jesse.bennett@democorp.com",
@@ -806,7 +832,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-22T16:00:07Z",
+    "Timestamp": "2026-06-30 7:00:07 pm",
     "Actor": "avery.young@democorp.com",
     "Activity": "Add member to group",
     "TargetUser": "micah.hughes@democorp.com",
@@ -819,7 +845,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-23T12:59:42Z",
+    "Timestamp": "2026-07-01 3:59:42 pm",
     "Actor": "finley.foster@democorp.com",
     "Activity": "Update user",
     "TargetUser": "harper.upton@democorp.com",
@@ -832,7 +858,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-23T13:58:17Z",
+    "Timestamp": "2026-07-01 4:58:17 pm",
     "Actor": "jesse.bennett@democorp.com",
     "Activity": "Authentication method added",
     "TargetUser": "jesse.bennett@democorp.com",
@@ -841,11 +867,11 @@
     "OldValue": "",
     "NewValue": "Microsoft Authenticator",
     "RoleName": "",
-    "Details": "User registered new phone for Microsoft Authenticator after device replacement",
+    "Details": "Registered a new Microsoft Authenticator.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-23T18:17:18Z",
+    "Timestamp": "2026-07-01 9:17:18 pm",
     "Actor": "emery.irving@democorp.com",
     "Activity": "Authentication method added",
     "TargetUser": "emery.irving@democorp.com",
@@ -854,11 +880,11 @@
     "OldValue": "",
     "NewValue": "FIDO2 Security Key",
     "RoleName": "",
-    "Details": "User registered FIDO2 Security Key for MFA",
+    "Details": "Registered a new FIDO2 Security Key.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-24T12:29:20Z",
+    "Timestamp": "2026-07-02 3:29:20 pm",
     "Actor": "reese.johnson@democorp.com",
     "Activity": "Recovery email changed",
     "TargetUser": "reese.johnson@democorp.com",
@@ -867,11 +893,11 @@
     "OldValue": "reese.johnson@democorp.com",
     "NewValue": "recovery.reese.johnson@democorp.com",
     "RoleName": "",
-    "Details": "User updated account recovery email address",
+    "Details": "Updated recovery email address for the account.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-24T13:56:04Z",
+    "Timestamp": "2026-07-02 4:56:04 pm",
     "Actor": "avery.bennett@democorp.com",
     "Activity": "MFA disabled",
     "TargetUser": "drew.hughes@democorp.com",
@@ -880,11 +906,11 @@
     "OldValue": "Enabled",
     "NewValue": "Disabled",
     "RoleName": "",
-    "Details": "MFA disabled per approved exception request",
+    "Details": "MFA disabled for the account.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-24T16:45:19Z",
+    "Timestamp": "2026-07-02 7:45:19 pm",
     "Actor": "alex.davis@democorp.com",
     "Activity": "Authentication method removed",
     "TargetUser": "alex.davis@democorp.com",
@@ -893,11 +919,11 @@
     "OldValue": "Email OTP",
     "NewValue": "",
     "RoleName": "",
-    "Details": "Removed Email OTP after device upgrade",
+    "Details": "Removed Email OTP after device replacement.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-24T17:06:04Z",
+    "Timestamp": "2026-07-02 8:06:04 pm",
     "Actor": "avery.bennett@democorp.com",
     "Activity": "Add member to role",
     "TargetUser": "lane.campbell@democorp.com",
@@ -910,7 +936,20 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-25T13:59:16Z",
+    "Timestamp": "2026-07-03 5:34:03 am",
+    "Actor": "reese.foster@democorp.com",
+    "Activity": "Add member to role",
+    "TargetUser": "reese.johnson@democorp.com",
+    "Result": "Failure",
+    "ModifiedProperty": "Role Assignment",
+    "OldValue": "User",
+    "NewValue": "User",
+    "RoleName": "Privileged Role Administrator",
+    "Details": "Role assignment denied: insufficient privileges.",
+    "ScenarioTag": "privileged_role_accomplice"
+  },
+  {
+    "Timestamp": "2026-07-03 4:59:16 pm",
     "Actor": "avery.bennett@democorp.com",
     "Activity": "Remove member from group",
     "TargetUser": "jamie.singh@democorp.com",
@@ -923,7 +962,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-25T17:02:39Z",
+    "Timestamp": "2026-07-03 8:02:39 pm",
     "Actor": "avery.young@democorp.com",
     "Activity": "Remove member from group",
     "TargetUser": "micah.hughes@democorp.com",
@@ -936,20 +975,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-26T05:41:52Z",
-    "Actor": "reese.foster@democorp.com",
-    "Activity": "Add member to role",
-    "TargetUser": "emery.upton@democorp.com",
-    "Result": "Success",
-    "ModifiedProperty": "Role Assignment",
-    "OldValue": "User",
-    "NewValue": "Privileged Role Administrator",
-    "RoleName": "Privileged Role Administrator",
-    "Details": "Add member to role: assigned Privileged Role Administrator to Emery Upton (actor is non-admin account)",
-    "ScenarioTag": "privileged_role_accomplice"
-  },
-  {
-    "Timestamp": "2026-06-26T08:37:47Z",
+    "Timestamp": "2026-07-04 12:37:47 pm",
     "Actor": "elliot.roberts@democorp.com",
     "Activity": "MFA disabled",
     "TargetUser": "jordan.vasquez@democorp.com",
@@ -958,11 +984,11 @@
     "OldValue": "Enabled",
     "NewValue": "Disabled",
     "RoleName": "",
-    "Details": "MFA disabled per approved exception request",
+    "Details": "MFA disabled for the account.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-26T10:04:38Z",
+    "Timestamp": "2026-07-04 2:04:38 pm",
     "Actor": "drew.hughes@democorp.com",
     "Activity": "Add member to group",
     "TargetUser": "micah.hughes@democorp.com",
@@ -975,7 +1001,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-26T17:30:32Z",
+    "Timestamp": "2026-07-04 7:32:58 pm",
     "Actor": "reese.young@democorp.com",
     "Activity": "Recovery phone changed",
     "TargetUser": "reese.young@democorp.com",
@@ -984,11 +1010,11 @@
     "OldValue": "+1-555-0100",
     "NewValue": "+1-555-0188",
     "RoleName": "",
-    "Details": "User updated account recovery phone number",
+    "Details": "Updated recovery phone number for the account.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-27T13:29:15Z",
+    "Timestamp": "2026-07-05 4:29:15 pm",
     "Actor": "skyler.o'brien@democorp.com",
     "Activity": "Authentication method removed",
     "TargetUser": "skyler.o'brien@democorp.com",
@@ -997,11 +1023,11 @@
     "OldValue": "Email OTP",
     "NewValue": "",
     "RoleName": "",
-    "Details": "Removed Email OTP after device upgrade",
+    "Details": "Removed Email OTP after device replacement.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-27T15:16:59Z",
+    "Timestamp": "2026-07-05 6:16:59 pm",
     "Actor": "emery.upton@democorp.com",
     "Activity": "Recovery email changed",
     "TargetUser": "emery.upton@democorp.com",
@@ -1010,11 +1036,11 @@
     "OldValue": "emery.upton@democorp.com",
     "NewValue": "recovery.emery.upton@democorp.com",
     "RoleName": "",
-    "Details": "User updated account recovery email address",
+    "Details": "Updated recovery email address for the account.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-27T16:13:55Z",
+    "Timestamp": "2026-07-05 7:13:55 pm",
     "Actor": "jordan.vasquez@democorp.com",
     "Activity": "Authentication method removed",
     "TargetUser": "jordan.vasquez@democorp.com",
@@ -1023,11 +1049,11 @@
     "OldValue": "Microsoft Authenticator",
     "NewValue": "",
     "RoleName": "",
-    "Details": "Removed Microsoft Authenticator after device upgrade",
+    "Details": "Removed Microsoft Authenticator after device replacement.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-27T17:53:00Z",
+    "Timestamp": "2026-07-05 8:53:00 pm",
     "Actor": "frankie.johnson@democorp.com",
     "Activity": "Authentication method added",
     "TargetUser": "frankie.johnson@democorp.com",
@@ -1036,11 +1062,11 @@
     "OldValue": "",
     "NewValue": "Microsoft Authenticator",
     "RoleName": "",
-    "Details": "User registered Microsoft Authenticator for MFA",
+    "Details": "Registered a new Microsoft Authenticator.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-27T17:58:17Z",
+    "Timestamp": "2026-07-05 8:58:17 pm",
     "Actor": "jordan.vasquez@democorp.com",
     "Activity": "MFA disabled",
     "TargetUser": "avery.singh@democorp.com",
@@ -1049,11 +1075,11 @@
     "OldValue": "Enabled",
     "NewValue": "Disabled",
     "RoleName": "",
-    "Details": "MFA reset performed by helpdesk per approved ticket #10406",
+    "Details": "MFA disabled for the account per helpdesk ticket #10406.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-27T19:27:17Z",
+    "Timestamp": "2026-07-05 10:27:17 pm",
     "Actor": "avery.singh@democorp.com",
     "Activity": "MFA enabled",
     "TargetUser": "avery.singh@democorp.com",
@@ -1066,7 +1092,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-27T21:42:45Z",
+    "Timestamp": "2026-07-06 12:42:45 am",
     "Actor": "jamie.vasquez@democorp.com",
     "Activity": "Recovery email changed",
     "TargetUser": "jamie.vasquez@democorp.com",
@@ -1075,11 +1101,11 @@
     "OldValue": "jamie.vasquez@democorp.com",
     "NewValue": "recovery.jamie.vasquez@democorp.com",
     "RoleName": "",
-    "Details": "User updated account recovery email address",
+    "Details": "Updated recovery email address for the account.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-28T17:03:25Z",
+    "Timestamp": "2026-07-06 12:03:25 pm",
     "Actor": "jesse.bennett@democorp.com",
     "Activity": "Update user",
     "TargetUser": "skyler.o'brien@democorp.com",
@@ -1092,7 +1118,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-28T19:27:26Z",
+    "Timestamp": "2026-07-06 4:27:26 pm",
     "Actor": "reese.foster@democorp.com",
     "Activity": "Authentication method added",
     "TargetUser": "reese.foster@democorp.com",
@@ -1101,11 +1127,11 @@
     "OldValue": "",
     "NewValue": "SMS",
     "RoleName": "",
-    "Details": "User registered SMS for MFA",
+    "Details": "Registered a new SMS.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-28T20:58:17Z",
+    "Timestamp": "2026-07-06 11:58:17 pm",
     "Actor": "jordan.vasquez@democorp.com",
     "Activity": "Recovery email changed",
     "TargetUser": "jordan.vasquez@democorp.com",
@@ -1114,11 +1140,11 @@
     "OldValue": "jordan.vasquez@democorp.com",
     "NewValue": "recovery.jordan.vasquez@democorp.com",
     "RoleName": "",
-    "Details": "User updated account recovery email address",
+    "Details": "Updated recovery email address for the account.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-29T16:15:17Z",
+    "Timestamp": "2026-07-07 7:15:17 pm",
     "Actor": "avery.young@democorp.com",
     "Activity": "Add member to group",
     "TargetUser": "alex.davis@democorp.com",
@@ -1131,7 +1157,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-29T20:15:50Z",
+    "Timestamp": "2026-07-07 11:15:50 pm",
     "Actor": "avery.young@democorp.com",
     "Activity": "Assign license",
     "TargetUser": "alex.davis@democorp.com",
@@ -1144,7 +1170,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-30T09:45:40Z",
+    "Timestamp": "2026-07-08 12:45:40 pm",
     "Actor": "drew.hughes@democorp.com",
     "Activity": "Remove member from group",
     "TargetUser": "jordan.vasquez@democorp.com",
@@ -1157,7 +1183,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-30T13:01:37Z",
+    "Timestamp": "2026-07-08 4:01:37 pm",
     "Actor": "avery.bennett@democorp.com",
     "Activity": "MFA enabled",
     "TargetUser": "avery.bennett@democorp.com",
@@ -1166,11 +1192,11 @@
     "OldValue": "Disabled",
     "NewValue": "Enabled",
     "RoleName": "",
-    "Details": "User completed MFA registration",
+    "Details": "MFA enabled for the account.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-30T13:28:57Z",
+    "Timestamp": "2026-07-08 4:28:57 pm",
     "Actor": "jordan.vasquez@democorp.com",
     "Activity": "MFA disabled",
     "TargetUser": "skyler.o'brien@democorp.com",
@@ -1179,11 +1205,11 @@
     "OldValue": "Enabled",
     "NewValue": "Disabled",
     "RoleName": "",
-    "Details": "MFA disabled per approved exception request",
+    "Details": "MFA disabled for the account.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-06-30T20:13:59Z",
+    "Timestamp": "2026-07-08 11:13:59 pm",
     "Actor": "drew.hughes@democorp.com",
     "Activity": "Add member to group",
     "TargetUser": "lane.campbell@democorp.com",
@@ -1196,7 +1222,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-07-01T10:08:42Z",
+    "Timestamp": "2026-07-09 1:08:42 pm",
     "Actor": "kai.vasquez@democorp.com",
     "Activity": "Remove license",
     "TargetUser": "alex.davis@democorp.com",
@@ -1209,7 +1235,33 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-07-01T17:05:46Z",
+    "Timestamp": "2026-07-09 4:56:53 pm",
+    "Actor": "micah.hughes@democorp.com",
+    "Activity": "Reset user password",
+    "TargetUser": "kai.vasquez@democorp.com",
+    "Result": "Success",
+    "ModifiedProperty": "Password",
+    "OldValue": "(redacted)",
+    "NewValue": "(reset)",
+    "RoleName": "",
+    "Details": "Password reset initiated by IT helpdesk per user request (ticket #17592)",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-09 7:58:00 pm",
+    "Actor": "avery.bennett@democorp.com",
+    "Activity": "Remove license",
+    "TargetUser": "frankie.johnson@democorp.com",
+    "Result": "Success",
+    "ModifiedProperty": "License",
+    "OldValue": "Power BI Pro",
+    "NewValue": "",
+    "RoleName": "",
+    "Details": "Removed license 'Power BI Pro' from Frankie Johnson (license reclamation)",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-09 8:05:46 pm",
     "Actor": "micah.hughes@democorp.com",
     "Activity": "MFA enabled",
     "TargetUser": "micah.hughes@democorp.com",
@@ -1218,11 +1270,11 @@
     "OldValue": "Disabled",
     "NewValue": "Enabled",
     "RoleName": "",
-    "Details": "User completed MFA registration",
+    "Details": "MFA enabled for the account.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-07-01T22:14:34Z",
+    "Timestamp": "2026-07-10 1:07:28 am",
     "Actor": "jesse.bennett@democorp.com",
     "Activity": "MFA disabled",
     "TargetUser": "jesse.bennett@democorp.com",
@@ -1231,11 +1283,11 @@
     "OldValue": "Enabled",
     "NewValue": "Disabled",
     "RoleName": "",
-    "Details": "Changed default MFA method to SMS (weaker factor)",
+    "Details": "MFA disabled for the account.",
     "ScenarioTag": "auth_change_attack"
   },
   {
-    "Timestamp": "2026-07-01T22:25:49Z",
+    "Timestamp": "2026-07-10 1:17:20 am",
     "Actor": "jesse.bennett@democorp.com",
     "Activity": "Recovery email changed",
     "TargetUser": "jesse.bennett@democorp.com",
@@ -1244,12 +1296,38 @@
     "OldValue": "jesse.bennett@democorp.com",
     "NewValue": "attacker@mail.ru",
     "RoleName": "",
-    "Details": "Updated recovery email to external address attacker@mail.ru",
+    "Details": "Updated recovery email address to attacker@mail.ru.",
     "ScenarioTag": "auth_change_attack"
   },
   {
-    "Timestamp": "2026-07-01T23:04:32Z",
+    "Timestamp": "2026-07-10 2:05:13 am",
     "Actor": "jesse.bennett@democorp.com",
+    "Activity": "Add member to role",
+    "TargetUser": "jesse.bennett@democorp.com",
+    "Result": "Failure",
+    "ModifiedProperty": "Role Assignment",
+    "OldValue": "User",
+    "NewValue": "User",
+    "RoleName": "Global Administrator",
+    "Details": "Operation blocked by authorization policy.",
+    "ScenarioTag": "privileged_role_self_elevation"
+  },
+  {
+    "Timestamp": "2026-07-10 2:17:24 am",
+    "Actor": "jesse.bennett@democorp.com",
+    "Activity": "Add member to role",
+    "TargetUser": "reese.foster@democorp.com",
+    "Result": "Failure",
+    "ModifiedProperty": "Role Assignment",
+    "OldValue": "User",
+    "NewValue": "User",
+    "RoleName": "Security Administrator",
+    "Details": "Operation blocked by authorization policy.",
+    "ScenarioTag": "privileged_role_accomplice"
+  },
+  {
+    "Timestamp": "2026-07-10 2:32:00 am",
+    "Actor": "jamie.vasquez@democorp.com",
     "Activity": "Add member to role",
     "TargetUser": "jesse.bennett@democorp.com",
     "Result": "Success",
@@ -1257,141 +1335,115 @@
     "OldValue": "User",
     "NewValue": "Global Administrator",
     "RoleName": "Global Administrator",
-    "Details": "Add member to role: assigned Global Administrator to Jesse Bennett (actor is non-admin account)",
-    "ScenarioTag": "privileged_role_self_elevation"
+    "Details": "Assigned Global Administrator to Jesse Bennett.",
+    "ScenarioTag": "privileged_role_accomplice"
   },
   {
-    "Timestamp": "2026-07-01T23:21:53Z",
-    "Actor": "jesse.bennett@democorp.com",
+    "Timestamp": "2026-07-10 12:09:40 pm",
+    "Actor": "avery.singh@democorp.com",
+    "Activity": "Authentication method added",
+    "TargetUser": "avery.singh@democorp.com",
+    "Result": "Success",
+    "ModifiedProperty": "Authentication Method",
+    "OldValue": "",
+    "NewValue": "Windows Hello",
+    "RoleName": "",
+    "Details": "Registered a new Windows Hello.",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-10 1:29:00 pm",
+    "Actor": "finley.foster@democorp.com",
+    "Activity": "Authentication method added",
+    "TargetUser": "finley.foster@democorp.com",
+    "Result": "Success",
+    "ModifiedProperty": "Authentication Method",
+    "OldValue": "",
+    "NewValue": "Microsoft Authenticator",
+    "RoleName": "",
+    "Details": "Registered a new Microsoft Authenticator.",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-10 5:38:29 pm",
+    "Actor": "lane.upton@democorp.com",
+    "Activity": "Remove member from group",
+    "TargetUser": "avery.singh@democorp.com",
+    "Result": "Success",
+    "ModifiedProperty": "Group Membership",
+    "OldValue": "IT-Admins",
+    "NewValue": "",
+    "RoleName": "",
+    "Details": "Removed user from 'IT-Admins' group (role change / offboarding step)",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-10 8:43:56 pm",
+    "Actor": "drew.hughes@democorp.com",
+    "Activity": "Remove member from group",
+    "TargetUser": "lane.campbell@democorp.com",
+    "Result": "Success",
+    "ModifiedProperty": "Security Group",
+    "OldValue": "Conditional-Access-Exclusions",
+    "NewValue": "",
+    "RoleName": "",
+    "Details": "Removed user from 'Conditional-Access-Exclusions' security group",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-10 10:53:40 pm",
+    "Actor": "drew.hughes@democorp.com",
+    "Activity": "Add member to group",
+    "TargetUser": "avery.singh@democorp.com",
+    "Result": "Success",
+    "ModifiedProperty": "Group Membership",
+    "OldValue": "",
+    "NewValue": "VPN Users",
+    "RoleName": "",
+    "Details": "Added user to 'VPN Users' group",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-11 2:15:47 pm",
+    "Actor": "lane.upton@democorp.com",
     "Activity": "Add member to role",
     "TargetUser": "lane.campbell@democorp.com",
     "Result": "Success",
     "ModifiedProperty": "Role Assignment",
     "OldValue": "User",
-    "NewValue": "Privileged Role Administrator",
-    "RoleName": "Privileged Role Administrator",
-    "Details": "Add member to role: assigned Privileged Role Administrator to Lane Campbell (actor is non-admin account)",
-    "ScenarioTag": "privileged_role_accomplice"
-  },
-  {
-    "Timestamp": "2026-07-02T08:07:59Z",
-    "Actor": "lane.upton@democorp.com",
-    "Activity": "Remove member from group",
-    "TargetUser": "elliot.roberts@democorp.com",
-    "Result": "Success",
-    "ModifiedProperty": "Group Membership",
-    "OldValue": "VPN Users",
-    "NewValue": "",
-    "RoleName": "",
-    "Details": "Removed user from 'VPN Users' group (role change / offboarding step)",
+    "NewValue": "Helpdesk Administrator",
+    "RoleName": "Helpdesk Administrator",
+    "Details": "Assigned role 'Helpdesk Administrator' to Lane Campbell (approved change request)",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-07-02T09:18:27Z",
+    "Timestamp": "2026-07-11 10:13:41 pm",
     "Actor": "avery.young@democorp.com",
-    "Activity": "Remove license",
-    "TargetUser": "emery.irving@democorp.com",
-    "Result": "Success",
-    "ModifiedProperty": "License",
-    "OldValue": "Microsoft 365 E3",
-    "NewValue": "",
-    "RoleName": "",
-    "Details": "Removed license 'Microsoft 365 E3' from Emery Irving (license reclamation)",
-    "ScenarioTag": "baseline"
-  },
-  {
-    "Timestamp": "2026-07-02T16:38:12Z",
-    "Actor": "drew.hughes@democorp.com",
-    "Activity": "Add member to group",
-    "TargetUser": "reese.young@democorp.com",
-    "Result": "Success",
-    "ModifiedProperty": "Security Group",
-    "OldValue": "",
-    "NewValue": "Security-Operations",
-    "RoleName": "",
-    "Details": "Added user to 'Security-Operations' security group",
-    "ScenarioTag": "baseline"
-  },
-  {
-    "Timestamp": "2026-07-02T19:32:48Z",
-    "Actor": "kai.vasquez@democorp.com",
-    "Activity": "Assign license",
-    "TargetUser": "emery.irving@democorp.com",
-    "Result": "Success",
-    "ModifiedProperty": "License",
-    "OldValue": "",
-    "NewValue": "Microsoft 365 E3",
-    "RoleName": "",
-    "Details": "Assigned license 'Microsoft 365 E3' to Emery Irving",
-    "ScenarioTag": "baseline"
-  },
-  {
-    "Timestamp": "2026-07-03T10:32:31Z",
-    "Actor": "frankie.johnson@democorp.com",
-    "Activity": "Recovery phone changed",
-    "TargetUser": "frankie.johnson@democorp.com",
-    "Result": "Success",
-    "ModifiedProperty": "Recovery Phone",
-    "OldValue": "+1-555-0100",
-    "NewValue": "+1-555-0188",
-    "RoleName": "",
-    "Details": "User updated account recovery phone number",
-    "ScenarioTag": "baseline"
-  },
-  {
-    "Timestamp": "2026-07-03T10:50:43Z",
-    "Actor": "avery.bennett@democorp.com",
     "Activity": "Remove member from group",
-    "TargetUser": "parker.zimmerman@democorp.com",
-    "Result": "Success",
-    "ModifiedProperty": "Security Group",
-    "OldValue": "Privileged-Access-Reviewers",
-    "NewValue": "",
-    "RoleName": "",
-    "Details": "Removed user from 'Privileged-Access-Reviewers' security group",
-    "ScenarioTag": "baseline"
-  },
-  {
-    "Timestamp": "2026-07-03T12:47:37Z",
-    "Actor": "kai.vasquez@democorp.com",
-    "Activity": "Assign license",
-    "TargetUser": "parker.zimmerman@democorp.com",
-    "Result": "Success",
-    "ModifiedProperty": "License",
-    "OldValue": "",
-    "NewValue": "Power BI Pro",
-    "RoleName": "",
-    "Details": "Assigned license 'Power BI Pro' to Parker Zimmerman",
-    "ScenarioTag": "baseline"
-  },
-  {
-    "Timestamp": "2026-07-03T20:09:16Z",
-    "Actor": "avery.bennett@democorp.com",
-    "Activity": "Recovery email changed",
-    "TargetUser": "avery.bennett@democorp.com",
-    "Result": "Success",
-    "ModifiedProperty": "Recovery Email",
-    "OldValue": "avery.bennett@democorp.com",
-    "NewValue": "recovery.avery.bennett@democorp.com",
-    "RoleName": "",
-    "Details": "User updated account recovery email address",
-    "ScenarioTag": "baseline"
-  },
-  {
-    "Timestamp": "2026-07-03T22:55:00Z",
-    "Actor": "lane.upton@democorp.com",
-    "Activity": "Remove member from group",
-    "TargetUser": "harper.upton@democorp.com",
+    "TargetUser": "alex.davis@democorp.com",
     "Result": "Success",
     "ModifiedProperty": "Group Membership",
-    "OldValue": "Security-Operations",
+    "OldValue": "HR-Confidential",
     "NewValue": "",
     "RoleName": "",
-    "Details": "Removed user from 'Security-Operations' group (role change / offboarding step)",
+    "Details": "Removed user from 'HR-Confidential' group (role change / offboarding step)",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-07-04T09:14:52Z",
+    "Timestamp": "2026-07-12 12:25:23 am",
+    "Actor": "micah.hughes@democorp.com",
+    "Activity": "Assign license",
+    "TargetUser": "emery.upton@democorp.com",
+    "Result": "Success",
+    "ModifiedProperty": "License",
+    "OldValue": "",
+    "NewValue": "Microsoft Defender for Office 365",
+    "RoleName": "",
+    "Details": "Assigned license 'Microsoft Defender for Office 365' to Emery Upton",
+    "ScenarioTag": "baseline"
+  },
+  {
+    "Timestamp": "2026-07-12 12:14:52 pm",
     "Actor": "lane.campbell@democorp.com",
     "Activity": "Update user",
     "TargetUser": "jordan.vasquez@democorp.com",
@@ -1404,20 +1456,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-07-04T14:10:23Z",
-    "Actor": "elliot.roberts@democorp.com",
-    "Activity": "MFA disabled",
-    "TargetUser": "emery.irving@democorp.com",
-    "Result": "Success",
-    "ModifiedProperty": "MFA Status",
-    "OldValue": "Enabled",
-    "NewValue": "Disabled",
-    "RoleName": "",
-    "Details": "MFA disabled per approved exception request",
-    "ScenarioTag": "baseline"
-  },
-  {
-    "Timestamp": "2026-07-04T15:17:59Z",
+    "Timestamp": "2026-07-12 6:17:59 pm",
     "Actor": "avery.bennett@democorp.com",
     "Activity": "MFA enabled",
     "TargetUser": "avery.bennett@democorp.com",
@@ -1426,11 +1465,11 @@
     "OldValue": "Disabled",
     "NewValue": "Enabled",
     "RoleName": "",
-    "Details": "User completed MFA registration",
+    "Details": "MFA enabled for the account.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-07-04T17:38:40Z",
+    "Timestamp": "2026-07-12 8:38:40 pm",
     "Actor": "elliot.roberts@democorp.com",
     "Activity": "MFA disabled",
     "TargetUser": "parker.zimmerman@democorp.com",
@@ -1439,24 +1478,24 @@
     "OldValue": "Enabled",
     "NewValue": "Disabled",
     "RoleName": "",
-    "Details": "MFA disabled per approved exception request",
+    "Details": "MFA disabled for the account.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-07-04T21:56:45Z",
-    "Actor": "emery.irving@democorp.com",
-    "Activity": "MFA enabled",
-    "TargetUser": "emery.irving@democorp.com",
+    "Timestamp": "2026-07-12 10:10:23 pm",
+    "Actor": "avery.bennett@democorp.com",
+    "Activity": "Add member to role",
+    "TargetUser": "elliot.roberts@democorp.com",
     "Result": "Success",
-    "ModifiedProperty": "MFA Status",
-    "OldValue": "Disabled",
-    "NewValue": "Enabled",
-    "RoleName": "",
-    "Details": "User completed MFA registration",
+    "ModifiedProperty": "Role Assignment",
+    "OldValue": "User",
+    "NewValue": "License Administrator",
+    "RoleName": "License Administrator",
+    "Details": "Assigned role 'License Administrator' to Elliot Roberts (approved change request)",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-07-05T10:22:54Z",
+    "Timestamp": "2026-07-13 12:22:54 pm",
     "Actor": "jesse.foster@democorp.com",
     "Activity": "Authentication method added",
     "TargetUser": "jesse.foster@democorp.com",
@@ -1465,24 +1504,24 @@
     "OldValue": "",
     "NewValue": "FIDO2 Security Key",
     "RoleName": "",
-    "Details": "User registered FIDO2 Security Key for MFA",
+    "Details": "Registered a new FIDO2 Security Key.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-07-05T12:49:18Z",
-    "Actor": "micah.hughes@democorp.com",
-    "Activity": "Assign license",
-    "TargetUser": "micah.hughes@democorp.com",
+    "Timestamp": "2026-07-13 12:54:14 pm",
+    "Actor": "jesse.bennett@democorp.com",
+    "Activity": "MFA enabled",
+    "TargetUser": "jesse.bennett@democorp.com",
     "Result": "Success",
-    "ModifiedProperty": "License",
-    "OldValue": "",
-    "NewValue": "Microsoft 365 E3",
+    "ModifiedProperty": "MFA Status",
+    "OldValue": "Disabled",
+    "NewValue": "Enabled",
     "RoleName": "",
-    "Details": "Assigned license 'Microsoft 365 E3' to Micah Hughes",
+    "Details": "MFA enabled for the account.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-07-05T16:34:07Z",
+    "Timestamp": "2026-07-13 6:34:07 pm",
     "Actor": "jordan.vasquez@democorp.com",
     "Activity": "Remove license",
     "TargetUser": "finley.foster@democorp.com",
@@ -1495,20 +1534,20 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-07-05T21:56:55Z",
-    "Actor": "micah.hughes@democorp.com",
+    "Timestamp": "2026-07-13 10:36:12 pm",
+    "Actor": "elliot.roberts@democorp.com",
     "Activity": "MFA disabled",
-    "TargetUser": "lane.upton@democorp.com",
+    "TargetUser": "jordan.vasquez@democorp.com",
     "Result": "Success",
     "ModifiedProperty": "MFA Status",
     "OldValue": "Enabled",
     "NewValue": "Disabled",
     "RoleName": "",
-    "Details": "MFA disabled per approved exception request",
+    "Details": "MFA disabled for the account.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-07-06T10:44:27Z",
+    "Timestamp": "2026-07-14 1:44:27 pm",
     "Actor": "drew.hughes@democorp.com",
     "Activity": "Add member to group",
     "TargetUser": "skyler.o'brien@democorp.com",
@@ -1521,7 +1560,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-07-06T16:26:14Z",
+    "Timestamp": "2026-07-14 7:26:14 pm",
     "Actor": "lane.upton@democorp.com",
     "Activity": "Add member to group",
     "TargetUser": "jesse.foster@democorp.com",
@@ -1534,7 +1573,7 @@
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-07-07T08:01:05Z",
+    "Timestamp": "2026-07-15 11:01:05 am",
     "Actor": "avery.bennett@democorp.com",
     "Activity": "Authentication method added",
     "TargetUser": "avery.bennett@democorp.com",
@@ -1543,11 +1582,11 @@
     "OldValue": "",
     "NewValue": "Email OTP",
     "RoleName": "",
-    "Details": "User registered Email OTP for MFA",
+    "Details": "Registered a new Email OTP.",
     "ScenarioTag": "baseline"
   },
   {
-    "Timestamp": "2026-07-07T11:14:08Z",
+    "Timestamp": "2026-07-15 2:14:08 pm",
     "Actor": "elliot.roberts@democorp.com",
     "Activity": "Reset user password",
     "TargetUser": "harper.upton@democorp.com",

@@ -145,7 +145,7 @@ Generates ~30 days of activity:
 
 | Field | Description |
 |-------|-------------|
-| Timestamp | ISO 8601 UTC |
+| Timestamp | Bahrain time (`YYYY-MM-DD h:mm:ss am/pm`) |
 | UserPrincipalName | user@democorp.com |
 | IPAddress | Source IP |
 | Country | Sign-in country |
@@ -158,7 +158,7 @@ Generates ~30 days of activity:
 
 | Field | Description |
 |-------|-------------|
-| Timestamp | ISO 8601 UTC |
+| Timestamp | Bahrain time (`YYYY-MM-DD h:mm:ss am/pm`) |
 | Actor | Who performed the action |
 | Activity | Action type |
 | TargetUser | Affected account |

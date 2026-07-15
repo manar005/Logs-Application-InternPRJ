@@ -10,11 +10,10 @@ import csv
 import json
 import os
 import random
-from datetime import datetime
+from datetime import datetime, timedelta
 
 from attack_scenarios import generate_benign_lookalike_audit
-from config import AUDIT_CSV, AUDIT_JSON, DAYS_OF_HISTORY, USERS_FILE
-from timestamps import random_baseline_audit_timestamp
+from config import AUDIT_CSV, AUDIT_JSON, DAYS_OF_HISTORY, USERS_FILE, format_ts, parse_ts
 
 AUDIT_FIELDNAMES = [
     "Timestamp",
@@ -71,11 +70,27 @@ BASELINE_APPROVED_ROLES = [
     "License Administrator",
 ]
 
-PRIVILEGED_ROLES = [
-    "Global Administrator",
-    "Security Administrator",
-    "Privileged Role Administrator",
-]
+
+def _random_baseline_audit_timestamp(base_date: datetime, day_offset: int) -> str:
+    """Pick a believable admin/audit time spread across the day."""
+    day_date = base_date - timedelta(days=day_offset)
+    is_weekend = day_date.weekday() >= 5
+    roll = random.random()
+
+    if is_weekend:
+        hour_range = (9, 17) if roll < 0.5 else (17, 21)
+    elif roll < 0.82:
+        hour_range = (8, 17)
+    elif roll < 0.95:
+        hour_range = (17, 20)
+    else:
+        hour_range = (6, 8) if random.random() < 0.5 else (20, 22)
+
+    hour = random.randint(hour_range[0], hour_range[1])
+    minute = random.randint(0, 59)
+    second = random.randint(0, 59)
+    dt = day_date.replace(hour=hour, minute=minute, second=second, microsecond=0)
+    return format_ts(dt)
 
 
 def _load_users(path: str = USERS_FILE) -> list[dict]:
@@ -179,7 +194,7 @@ def generate_baseline_audit(users: list[dict], base_date: datetime) -> list[dict
                 "license_remove",
                 "security_group",
             ])
-            ts = random_baseline_audit_timestamp(base_date, day)
+            ts = _random_baseline_audit_timestamp(base_date, day)
             target = random.choice(standard_users)
 
             if event_type == "password_reset":
@@ -207,7 +222,7 @@ def generate_baseline_audit(users: list[dict], base_date: datetime) -> list[dict
                     "Authentication method added",
                     enroll_user["user_principal_name"],
                     "Success",
-                    f"User registered {new_method} for MFA",
+                    f"Registered a new {new_method}.",
                     "baseline",
                     modified_property="Authentication Method",
                     old_value="",
@@ -223,7 +238,7 @@ def generate_baseline_audit(users: list[dict], base_date: datetime) -> list[dict
                     "Authentication method removed",
                     user["user_principal_name"],
                     "Success",
-                    f"Removed {removed_method} after device upgrade",
+                    f"Removed {removed_method} after device replacement.",
                     "baseline",
                     modified_property="Authentication Method",
                     old_value=removed_method,
@@ -238,7 +253,7 @@ def generate_baseline_audit(users: list[dict], base_date: datetime) -> list[dict
                     "MFA enabled",
                     user["user_principal_name"],
                     "Success",
-                    "User completed MFA registration",
+                    "MFA enabled for the account.",
                     "baseline",
                     modified_property="MFA Status",
                     old_value="Disabled",
@@ -253,7 +268,7 @@ def generate_baseline_audit(users: list[dict], base_date: datetime) -> list[dict
                     "MFA disabled",
                     user["user_principal_name"],
                     "Success",
-                    "MFA disabled per approved exception request",
+                    "MFA disabled for the account.",
                     "baseline",
                     modified_property="MFA Status",
                     old_value="Enabled",
@@ -269,7 +284,7 @@ def generate_baseline_audit(users: list[dict], base_date: datetime) -> list[dict
                     "Recovery phone changed",
                     user["user_principal_name"],
                     "Success",
-                    "User updated account recovery phone number",
+                    "Updated recovery phone number for the account.",
                     "baseline",
                     modified_property="Recovery Phone",
                     old_value="+1-555-0100",
@@ -284,7 +299,7 @@ def generate_baseline_audit(users: list[dict], base_date: datetime) -> list[dict
                     "Recovery email changed",
                     user["user_principal_name"],
                     "Success",
-                    "User updated account recovery email address",
+                    "Updated recovery email address for the account.",
                     "baseline",
                     modified_property="Recovery Email",
                     old_value=user["user_principal_name"],
@@ -436,7 +451,7 @@ def generate_all_audit_logs(
     logs.extend(generate_benign_lookalike_audit(users, base_date, seed))
     logs.extend(scenario_audit)
 
-    logs.sort(key=lambda x: x["Timestamp"])
+    logs.sort(key=lambda row: parse_ts(row["Timestamp"]))
     return logs
 
 

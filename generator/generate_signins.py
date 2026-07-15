@@ -14,7 +14,7 @@ import random
 from datetime import datetime, timedelta
 
 from attack_scenarios import generate_benign_lookalike_signins
-from config import DAYS_OF_HISTORY, SIGNINS_CSV, SIGNINS_JSON, USERS_FILE
+from config import DAYS_OF_HISTORY, SIGNINS_CSV, SIGNINS_JSON, USERS_FILE, parse_ts
 from user_baseline import assign_baseline_profiles, get_baseline, random_baseline_signin_timestamp
 
 
@@ -126,7 +126,7 @@ def generate_all_signins(
     logs.extend(generate_benign_lookalike_signins(users, base_date, seed))
     logs.extend(scenario_signins)
 
-    logs.sort(key=lambda x: x["Timestamp"])
+    logs.sort(key=lambda row: parse_ts(row["Timestamp"]))
     return logs
 
 

@@ -4,6 +4,7 @@ Adjust these values to change the size and shape of generated data.
 """
 
 import os
+from datetime import datetime, timedelta, timezone
 
 # Fictional company name used across all generated logs
 COMPANY_NAME = "DemoCorp"
@@ -58,3 +59,31 @@ SIGNINS_CSV = os.path.join(DATA_DIR, "signins.csv")
 SIGNINS_JSON = os.path.join(DATA_DIR, "signins.json")
 AUDIT_CSV = os.path.join(DATA_DIR, "auditlogs.csv")
 AUDIT_JSON = os.path.join(DATA_DIR, "auditlogs.json")
+
+# Bahrain (UTC+3) — timestamps are stored in local time with am/pm suffix.
+BAHRAIN_TZ = timezone(timedelta(hours=3))
+
+
+def format_ts(dt: datetime) -> str:
+    """Format a datetime as Bahrain local time, e.g. 2026-07-09 3:38:50 pm."""
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    local = dt.astimezone(BAHRAIN_TZ)
+    hour_12 = local.hour % 12 or 12
+    am_pm = "am" if local.hour < 12 else "pm"
+    return (
+        f"{local.year:04d}-{local.month:02d}-{local.day:02d} "
+        f"{hour_12}:{local.minute:02d}:{local.second:02d} {am_pm}"
+    )
+
+
+def parse_ts(value: str) -> datetime:
+    """Parse a Bahrain timestamp string for sorting."""
+    date_part, time_part, am_pm = value.split()
+    year, month, day = map(int, date_part.split("-"))
+    hour, minute, second = map(int, time_part.split(":"))
+    if am_pm.lower() == "pm" and hour != 12:
+        hour += 12
+    elif am_pm.lower() == "am" and hour == 12:
+        hour = 0
+    return datetime(year, month, day, hour, minute, second, tzinfo=BAHRAIN_TZ)

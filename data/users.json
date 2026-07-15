@@ -9,7 +9,12 @@
       "Canada"
     ],
     "primary_device": "DESKTOP-FIN-02",
-    "employee_id": "EMP-1000"
+    "employee_id": "EMP-1000",
+    "common_ips": [
+      "24.6.88.55",
+      "142.250.80.10",
+      "73.45.120.10"
+    ]
   },
   {
     "display_name": "Jordan Vasquez",
@@ -20,7 +25,11 @@
       "Canada"
     ],
     "primary_device": "DESKTOP-FIN-02",
-    "employee_id": "EMP-1001"
+    "employee_id": "EMP-1001",
+    "common_ips": [
+      "172.16.0.6",
+      "24.6.88.55"
+    ]
   },
   {
     "display_name": "Micah Hughes",
@@ -31,7 +40,10 @@
       "Germany"
     ],
     "primary_device": "WORKSTATION-SEC-05",
-    "employee_id": "EMP-1002"
+    "employee_id": "EMP-1002",
+    "common_ips": [
+      "172.16.0.5"
+    ]
   },
   {
     "display_name": "Harper Upton",
@@ -43,7 +55,12 @@
       "Germany"
     ],
     "primary_device": "IPHONE-14-PRO",
-    "employee_id": "EMP-1003"
+    "employee_id": "EMP-1003",
+    "common_ips": [
+      "10.0.2.20",
+      "81.2.69.100",
+      "98.118.45.22"
+    ]
   },
   {
     "display_name": "Jamie Vasquez",
@@ -55,7 +72,10 @@
       "Canada"
     ],
     "primary_device": "LAPTOP-IT-03",
-    "employee_id": "EMP-1004"
+    "employee_id": "EMP-1004",
+    "common_ips": [
+      "10.0.1.11"
+    ]
   },
   {
     "display_name": "Reese Young",
@@ -66,7 +86,12 @@
       "United Kingdom"
     ],
     "primary_device": "SURFACE-PRO-9",
-    "employee_id": "EMP-1005"
+    "employee_id": "EMP-1005",
+    "common_ips": [
+      "172.16.0.6",
+      "10.0.1.11",
+      "142.250.80.10"
+    ]
   },
   {
     "display_name": "Emery Irving",
@@ -77,7 +102,10 @@
       "Canada"
     ],
     "primary_device": "DESKTOP-HR-01",
-    "employee_id": "EMP-1006"
+    "employee_id": "EMP-1006",
+    "common_ips": [
+      "172.16.0.5"
+    ]
   },
   {
     "display_name": "Avery Bennett",
@@ -89,7 +117,10 @@
       "United Kingdom"
     ],
     "primary_device": "DESKTOP-FIN-02",
-    "employee_id": "EMP-1007"
+    "employee_id": "EMP-1007",
+    "common_ips": [
+      "73.45.120.10"
+    ]
   },
   {
     "display_name": "Jamie Singh",
@@ -101,7 +132,12 @@
       "Canada"
     ],
     "primary_device": "SURFACE-PRO-9",
-    "employee_id": "EMP-1008"
+    "employee_id": "EMP-1008",
+    "common_ips": [
+      "172.16.0.6",
+      "192.168.1.100",
+      "10.0.1.11"
+    ]
   },
   {
     "display_name": "Emery Upton",
@@ -113,7 +149,11 @@
       "Germany"
     ],
     "primary_device": "LAPTOP-IT-03",
-    "employee_id": "EMP-1009"
+    "employee_id": "EMP-1009",
+    "common_ips": [
+      "24.6.88.55",
+      "172.16.0.6"
+    ]
   },
   {
     "display_name": "Avery Young",
@@ -125,7 +165,12 @@
       "Canada"
     ],
     "primary_device": "MACBOOK-PRO-M2",
-    "employee_id": "EMP-1010"
+    "employee_id": "EMP-1010",
+    "common_ips": [
+      "10.0.2.20",
+      "98.118.45.22",
+      "10.0.1.12"
+    ]
   },
   {
     "display_name": "Drew Hughes",
@@ -136,7 +181,10 @@
       "Germany"
     ],
     "primary_device": "DESKTOP-FIN-02",
-    "employee_id": "EMP-1011"
+    "employee_id": "EMP-1011",
+    "common_ips": [
+      "172.16.0.6"
+    ]
   },
   {
     "display_name": "Jesse Bennett",
@@ -147,7 +195,11 @@
       "United Kingdom"
     ],
     "primary_device": "LAPTOP-IT-03",
-    "employee_id": "EMP-1012"
+    "employee_id": "EMP-1012",
+    "common_ips": [
+      "172.16.0.5",
+      "10.0.1.12"
+    ]
   },
   {
     "display_name": "Kai Vasquez",
@@ -159,7 +211,12 @@
       "United Kingdom"
     ],
     "primary_device": "MACBOOK-PRO-M2",
-    "employee_id": "EMP-1013"
+    "employee_id": "EMP-1013",
+    "common_ips": [
+      "10.0.2.20",
+      "24.6.88.55",
+      "172.16.0.5"
+    ]
   },
   {
     "display_name": "Skyler O'Brien",
@@ -171,7 +228,12 @@
       "Canada"
     ],
     "primary_device": "DESKTOP-FIN-02",
-    "employee_id": "EMP-1014"
+    "employee_id": "EMP-1014",
+    "common_ips": [
+      "10.0.1.10",
+      "10.0.2.20",
+      "142.250.80.10"
+    ]
   },
   {
     "display_name": "Elliot Roberts",
@@ -183,7 +245,10 @@
       "United States"
     ],
     "primary_device": "WORKSTATION-SEC-05",
-    "employee_id": "EMP-1015"
+    "employee_id": "EMP-1015",
+    "common_ips": [
+      "10.0.1.12"
+    ]
   },
   {
     "display_name": "Finley Foster",
@@ -195,7 +260,11 @@
       "Canada"
     ],
     "primary_device": "WORKSTATION-SEC-05",
-    "employee_id": "EMP-1016"
+    "employee_id": "EMP-1016",
+    "common_ips": [
+      "10.0.2.20",
+      "172.16.0.6"
+    ]
   },
   {
     "display_name": "Parker Zimmerman",
@@ -206,7 +275,10 @@
       "United States"
     ],
     "primary_device": "WORKSTATION-SEC-05",
-    "employee_id": "EMP-1017"
+    "employee_id": "EMP-1017",
+    "common_ips": [
+      "10.0.1.11"
+    ]
   },
   {
     "display_name": "Lane Upton",
@@ -217,7 +289,12 @@
       "United Kingdom"
     ],
     "primary_device": "IPHONE-14-PRO",
-    "employee_id": "EMP-1018"
+    "employee_id": "EMP-1018",
+    "common_ips": [
+      "98.118.45.22",
+      "192.168.1.100",
+      "142.250.80.10"
+    ]
   },
   {
     "display_name": "Jesse Foster",
@@ -228,7 +305,12 @@
       "Canada"
     ],
     "primary_device": "SURFACE-PRO-9",
-    "employee_id": "EMP-1019"
+    "employee_id": "EMP-1019",
+    "common_ips": [
+      "192.168.1.100",
+      "172.16.0.5",
+      "73.45.120.10"
+    ]
   },
   {
     "display_name": "Alex Davis",
@@ -240,7 +322,11 @@
       "United States"
     ],
     "primary_device": "DESKTOP-HR-01",
-    "employee_id": "EMP-1020"
+    "employee_id": "EMP-1020",
+    "common_ips": [
+      "81.2.69.100",
+      "10.0.1.11"
+    ]
   },
   {
     "display_name": "Avery Singh",
@@ -251,7 +337,10 @@
       "United States"
     ],
     "primary_device": "SURFACE-PRO-9",
-    "employee_id": "EMP-1021"
+    "employee_id": "EMP-1021",
+    "common_ips": [
+      "24.6.88.55"
+    ]
   },
   {
     "display_name": "Lane Campbell",
@@ -262,7 +351,10 @@
       "United Kingdom"
     ],
     "primary_device": "SURFACE-PRO-9",
-    "employee_id": "EMP-1022"
+    "employee_id": "EMP-1022",
+    "common_ips": [
+      "81.2.69.100"
+    ]
   },
   {
     "display_name": "Reese Foster",
@@ -274,7 +366,12 @@
       "United States"
     ],
     "primary_device": "LAPTOP-SALES-04",
-    "employee_id": "EMP-1023"
+    "employee_id": "EMP-1023",
+    "common_ips": [
+      "98.118.45.22",
+      "10.0.2.20",
+      "10.0.1.12"
+    ]
   },
   {
     "display_name": "Frankie Johnson",
@@ -286,6 +383,11 @@
       "United Kingdom"
     ],
     "primary_device": "SURFACE-PRO-9",
-    "employee_id": "EMP-1024"
+    "employee_id": "EMP-1024",
+    "common_ips": [
+      "73.45.120.10",
+      "24.6.88.55",
+      "192.168.1.100"
+    ]
   }
 ]

@@ -9,7 +9,7 @@ exported sign-in or audit logs.
 import random
 from datetime import datetime, timedelta
 
-from config import KNOWN_COUNTRIES, SUSPICIOUS_COUNTRIES
+from config import KNOWN_COUNTRIES, SUSPICIOUS_COUNTRIES, format_ts
 
 # IP pools used to build per-user common sign-in addresses
 OFFICE_IPS = [
@@ -34,30 +34,42 @@ UNFAMILIAR_DEVICE_PREFIXES = [
 
 
 def assign_baseline_profiles(users: list[dict], seed: int = 42) -> list[dict]:
-    """Attach a simple sign-in baseline to each user (in-memory only)."""
+    """Attach a sign-in baseline to each user and export common_ips in the profile."""
     rng = random.Random(seed + 100)
     enriched = []
 
     for user in users:
+        if "common_ips" in user:
+            common_ips = list(user["common_ips"])
+        else:
+            common_ips = rng.sample(ALL_USER_IPS, k=rng.randint(1, 3))
+
         baseline = {
             "known_countries": list(user["known_countries"]),
             "primary_device": user["primary_device"],
             "typical_hours": (rng.randint(7, 9), rng.randint(16, 18)),
-            "common_ips": rng.sample(ALL_USER_IPS, k=rng.randint(1, 2)),
+            "common_ips": common_ips,
         }
-        enriched.append({**user, "_baseline": baseline})
+        enriched.append({**user, "common_ips": common_ips, "_baseline": baseline})
 
     return enriched
 
 
 def strip_baseline_for_export(user: dict) -> dict:
-    """Remove internal baseline metadata before writing users.json."""
-    return {key: value for key, value in user.items() if key != "_baseline"}
+    """Remove internal baseline metadata while keeping exported profile fields."""
+    return {
+        key: value
+        for key, value in user.items()
+        if key != "_baseline"
+    }
 
 
 def get_baseline(user: dict) -> dict:
     """Return the in-memory baseline profile for a user."""
-    return user["_baseline"]
+    baseline = user["_baseline"]
+    if "common_ips" in user:
+        return {**baseline, "common_ips": list(user["common_ips"])}
+    return baseline
 
 
 def random_baseline_signin_timestamp(
@@ -89,7 +101,7 @@ def random_baseline_signin_timestamp(
     minute = random.randint(0, 59)
     second = random.randint(0, 59)
     dt = day_date.replace(hour=hour, minute=minute, second=second, microsecond=0)
-    return dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+    return format_ts(dt)
 
 
 def pick_unfamiliar_country(known_countries: list[str]) -> str:

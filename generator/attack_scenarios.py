@@ -9,8 +9,7 @@ import random
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
 
-from config import ATTACKER_IPS, DAYS_OF_HISTORY
-from timestamps import format_ts
+from config import ATTACKER_IPS, DAYS_OF_HISTORY, format_ts
 from user_baseline import (
     generate_unfamiliar_device,
     get_baseline,
@@ -48,34 +47,49 @@ AUTH_ATTACK_OPTIONS = [
         "modified_property": "Authentication Method",
         "old_value": "",
         "new_value": "FIDO2 Security Key",
-        "details": "Added FIDO2 security key from new device",
-        "failure_details": "Authentication method change blocked by Conditional Access policy",
+        "details": "Registered a new FIDO2 Security Key.",
+        "failure_details": "Authentication method change blocked by Conditional Access policy.",
     },
     {
         "activity": "Authentication method removed",
         "modified_property": "Authentication Method",
         "old_value": "Microsoft Authenticator",
         "new_value": "",
-        "details": "Removed Microsoft Authenticator from previous phone",
-        "failure_details": "Authentication method removal denied: MFA registration lock active",
+        "details": "Removed Microsoft Authenticator after device replacement.",
+        "failure_details": "Authentication method removal denied: MFA registration lock active.",
     },
     {
         "activity": "MFA disabled",
         "modified_property": "MFA Status",
         "old_value": "Enabled",
         "new_value": "Disabled",
-        "details": "Changed default MFA method to SMS (weaker factor)",
-        "failure_details": "MFA disable request rejected: security policy requires MFA",
+        "details": "MFA disabled for the account.",
+        "failure_details": "MFA disable request rejected: security policy requires MFA.",
     },
     {
         "activity": "Recovery email changed",
         "modified_property": "Recovery Email",
         "old_value": "user@democorp.com",
         "new_value": "attacker@mail.ru",
-        "details": "Updated recovery email to external address attacker@mail.ru",
-        "failure_details": "Recovery email change blocked: external domain not permitted",
+        "details": "Updated recovery email address to attacker@mail.ru.",
+        "failure_details": "Recovery email change blocked: external domain not permitted.",
+    },
+    {
+        "activity": "Recovery phone changed",
+        "modified_property": "Recovery Phone",
+        "old_value": "+97336001000",
+        "new_value": "+79991234567",
+        "details": "Updated recovery phone number to +79991234567.",
+        "failure_details": "Recovery phone change blocked: external number not permitted.",
     },
 ]
+
+ROLE_DENIED_DETAILS = [
+    "Role assignment denied: insufficient privileges.",
+    "Operation blocked by authorization policy.",
+]
+
+PRIVILEGED_ACTOR_ROLES = ("Global Administrator", "Security Administrator")
 
 SCENARIO_TEMPLATES = {
     "credential_attack": {
@@ -151,8 +165,8 @@ class AttackScenario:
     auth_option_indices: list[int] = field(default_factory=list)
     auth_results: list[str] = field(default_factory=list)
     role_mode: str = "self"
-    role_self_result: str = "Success"
-    role_accomplice_result: str = "Success"
+    role_compromised_success: bool = False
+    role_compromised_actor: dict | None = None
     accomplice: dict | None = None
     attacker_ip: str = ATTACKER_IPS["password_spray"]
     spray_targets: list[dict] = field(default_factory=list)
@@ -217,7 +231,7 @@ def plan_attack_scenarios(
 
         auth_count = rng.randint(2, 4) if "auth_change" in techniques else 0
         auth_indices = (
-            sorted(rng.sample(range(len(AUTH_ATTACK_OPTIONS)), auth_count))
+            sorted(rng.sample(range(4), min(auth_count, 4)))
             if auth_count
             else []
         )
@@ -232,6 +246,17 @@ def plan_attack_scenarios(
             else:
                 auth_results = ["Success"] * len(auth_indices)
 
+        if "auth_change" in techniques and auth_indices:
+            phone_rng = random.Random(seed + 8800 + len(scenarios))
+            if phone_rng.random() < 0.4:
+                slot = phone_rng.randrange(len(auth_indices))
+                auth_indices[slot] = 4
+                if slot < len(auth_results):
+                    auth_results[slot] = "Success"
+            paired = sorted(zip(auth_indices, auth_results), key=lambda item: item[0])
+            auth_indices = [index for index, _ in paired]
+            auth_results = [result for _, result in paired]
+
         if template_name == "role_only":
             role_mode = rng.choice(["self", "accomplice", "both"])
         elif template_name in ("privilege_escalation", "signin_to_role", "full_takeover"):
@@ -241,14 +266,19 @@ def plan_attack_scenarios(
         else:
             role_mode = "self"
 
-        role_self_result = "Success"
-        role_accomplice_result = "Success"
-        if "privileged_role" in techniques and template_name in ("full_takeover", "privilege_escalation"):
-            if rng.random() < 0.25:
-                if role_mode in ("self", "both"):
-                    role_self_result = "Failure"
-                if role_mode in ("accomplice", "both"):
-                    role_accomplice_result = "Failure"
+        role_compromised_success = False
+        role_compromised_actor = None
+        if "privileged_role" in techniques:
+            privileged_actors = [
+                user for user in users
+                if user["role"] in PRIVILEGED_ACTOR_ROLES
+            ]
+            if privileged_actors and template_name in (
+                "full_takeover", "privilege_escalation", "signin_to_role", "role_only"
+            ):
+                if rng.random() < 0.65:
+                    role_compromised_success = True
+                    role_compromised_actor = rng.choice(privileged_actors)
 
         accomplice = None
         if role_mode in ("accomplice", "both"):
@@ -278,8 +308,8 @@ def plan_attack_scenarios(
             auth_option_indices=auth_indices,
             auth_results=auth_results,
             role_mode=role_mode,
-            role_self_result=role_self_result,
-            role_accomplice_result=role_accomplice_result,
+            role_compromised_success=role_compromised_success,
+            role_compromised_actor=role_compromised_actor,
             accomplice=accomplice,
             spray_targets=spray_targets,
         ))
@@ -473,7 +503,7 @@ def generate_scenario_events(
             actor = scenario.victim["user_principal_name"]
             cursor = _advance(rng, cursor, 12, 35)
             indices = scenario.auth_option_indices or sorted(
-                rng.sample(range(len(AUTH_ATTACK_OPTIONS)), rng.randint(2, 3))
+                rng.sample(range(4), rng.randint(2, 3))
             )
             results = scenario.auth_results or ["Success"] * len(indices)
 
@@ -503,20 +533,14 @@ def generate_scenario_events(
             cursor = _advance(rng, cursor, 15, 40)
 
             if scenario.role_mode in ("self", "both"):
-                succeeded = scenario.role_self_result == "Success"
                 audits.append(_make_role_assignment(
                     format_ts(cursor),
                     victim_upn,
                     victim_upn,
                     "Global Administrator",
-                    (
-                        f"Add member to role: assigned Global Administrator to "
-                        f"{scenario.victim['display_name']} (actor is non-admin account)"
-                        if succeeded
-                        else "Role assignment denied: insufficient privileges to assign Global Administrator"
-                    ),
+                    rng.choice(ROLE_DENIED_DETAILS),
                     "privileged_role_self_elevation",
-                    result=scenario.role_self_result,
+                    result="Failure",
                 ))
                 cursor = _advance(rng, cursor, 10, 22)
 
@@ -526,20 +550,43 @@ def generate_scenario_events(
                     "Security Administrator",
                     "Privileged Role Administrator",
                 ])
-                succeeded = scenario.role_accomplice_result == "Success"
                 audits.append(_make_role_assignment(
                     format_ts(cursor),
                     victim_upn,
                     accomplice["user_principal_name"],
                     role_name,
-                    (
-                        f"Add member to role: assigned {role_name} to "
-                        f"{accomplice['display_name']} (actor is non-admin account)"
-                        if succeeded
-                        else f"Role assignment denied: actor lacks permission to assign {role_name}"
-                    ),
+                    rng.choice(ROLE_DENIED_DETAILS),
                     "privileged_role_accomplice",
-                    result=scenario.role_accomplice_result,
+                    result="Failure",
+                ))
+                cursor = _advance(rng, cursor, 10, 22)
+
+            if scenario.role_compromised_success and scenario.role_compromised_actor:
+                actor = scenario.role_compromised_actor
+                actor_upn = actor["user_principal_name"]
+                if scenario.role_mode in ("self", "both"):
+                    target = scenario.victim
+                    role_name = "Global Administrator"
+                elif scenario.accomplice:
+                    target = scenario.accomplice
+                    role_name = (
+                        "Security Administrator"
+                        if actor["role"] == "Global Administrator"
+                        else "Privileged Role Administrator"
+                    )
+                else:
+                    target = scenario.victim
+                    role_name = "Security Administrator"
+
+                audits.append(_make_role_assignment(
+                    format_ts(cursor),
+                    actor_upn,
+                    target["user_principal_name"],
+                    role_name,
+                    f"Assigned {role_name} to {target['display_name']}.",
+                    "privileged_role_accomplice",
+                    result="Success",
+                    old_value=target.get("role", "User"),
                 ))
 
     return signins, audits
@@ -698,7 +745,7 @@ def generate_benign_lookalike_audit(
         "Authentication method added",
         user["user_principal_name"],
         "Success",
-        "User registered new phone for Microsoft Authenticator after device replacement",
+        "Registered a new Microsoft Authenticator.",
         "baseline",
         modified_property="Authentication Method",
         old_value="",
@@ -713,7 +760,7 @@ def generate_benign_lookalike_audit(
         "MFA disabled",
         reset_target["user_principal_name"],
         "Success",
-        f"MFA reset performed by helpdesk per approved ticket #{rng.randint(10000, 99999)}",
+        f"MFA disabled for the account per helpdesk ticket #{rng.randint(10000, 99999)}.",
         "baseline",
         modified_property="MFA Status",
         old_value="Enabled",
@@ -740,7 +787,7 @@ def generate_benign_lookalike_audit(
         "Recovery email changed",
         recovery_user["user_principal_name"],
         "Success",
-        "User updated account recovery email address",
+        "Updated recovery email address for the account.",
         "baseline",
         modified_property="Recovery Email",
         old_value=recovery_user["user_principal_name"],

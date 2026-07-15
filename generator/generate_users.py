@@ -1,7 +1,7 @@
 """
 Generate fictional DemoCorp employee accounts.
 
-Each user has a department, role, known sign-in countries, and a primary device.
+Each user has a department, role, known sign-in countries, a primary device, and common IPs.
 This file is run first; sign-in and audit log generators read users.json.
 """
 
